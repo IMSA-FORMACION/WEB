@@ -231,43 +231,6 @@
   box-shadow: 0 6px 12px rgba(122, 98, 251, 0.6);
 }
 
-/* =========================================
-   🟢 BOTÓN FLOTANTE (FAB) NEUTRAL
-   ========================================= */
-
-.fabConsulta {
-  position: fixed; 
-  bottom: 25px;    
-  right: 25px;     
-  z-index: 1000;   
-  
-  width: 60px;
-  height: 60px;
-  border-radius: 50%; 
-  
-  background-color: #7a62fb; /* Usamos tu color de marca */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.fabConsulta:hover {
-  background-color: #5d42e3;
-  transform: scale(1.05);
-}
-
-.fabConsulta span {
-  font-size: 2rem; 
-  line-height: 1;
-  color: white; /* Icono blanco */
-  font-weight: bold;
-}
 
 @media (max-width: 768px) {
     .botonesFinales {
@@ -280,13 +243,5 @@
         box-sizing: border-box;
     }
     
-  .fabConsulta {
-    width: 50px;
-    height: 50px;
-    bottom: 20px;
-    right: 20px;
-  }
-  .fabConsulta span {
-    font-size: 1.5rem; 
-  }
+
 }

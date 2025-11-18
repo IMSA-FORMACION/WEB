@@ -143,17 +143,7 @@ export default function CursoDetalle() {
         </div>
       </div>
       
-      {/* 🟢 BOTÓN FLOTANTE (FAB) NEUTRAL */}
-      <a 
-        href={generateWhatsAppLink(curso.titulo)}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.fabConsulta}
-        title="Consultar por este curso"
-      >
-        <span>?</span>
-      </a>
-      {/* ------------------------------------- */}
+
       
       <Footer />
     </div>
