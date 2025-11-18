@@ -89,7 +89,7 @@
   margin: 6px 0;
 }
 
-/* Botón volver */
+/* Botón volver (secundario) */
 .volverBtn {
   display: inline-block;
   background-color: transparent;
@@ -136,22 +136,21 @@
 
 /* =========================================
    NUEVO CÓDIGO AGREGADO PARA LAS LISTAS
-   (Sin tocar lo anterior)
    ========================================= */
 
 .contenedorListas {
   width: 100%;
-  max-width: 700px; /* Para que no se estire demasiado en pantallas anchas */
+  max-width: 700px;
   margin-bottom: 30px;
-  text-align: left; /* Importante: las listas se leen mejor alineadas a la izquierda */
+  text-align: left;
 }
 
 .cajaLista {
   margin-bottom: 25px;
-  background-color: #fbfaff; /* Fondo muy sutil para separar visualmente */
+  background-color: #fbfaff;
   padding: 20px;
   border-radius: 10px;
-  border-left: 4px solid #7a62fb; /* Detalle con tu color principal */
+  border-left: 4px solid #7a62fb;
 }
 
 .subtituloLista {
@@ -187,4 +186,42 @@
   position: absolute;
   left: 5px;
   top: -2px;
+}
+
+/* =========================================
+   🟢 BOTÓN WHATSAPP (ACCIÓN PRINCIPAL)
+   ========================================= */
+
+.whatsappBtn {
+  /* Estilo de botón principal llamativo */
+  display: inline-block;
+  background-color: #33a82e; /* Color verde WhatsApp/Éxito */
+  color: white !important;
+  border: 1px solid #33a82e;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 30px; /* Separación del contenido siguiente */
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(51, 168, 46, 0.4); /* Sombra para destacarlo */
+}
+
+.whatsappBtn:hover {
+  background-color: #2e8b29; /* Verde un poco más oscuro al pasar el ratón */
+  border-color: #2e8b29;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(51, 168, 46, 0.6);
+}
+
+/* Ajuste Responsivo */
+@media (max-width: 768px) {
+  .whatsappBtn {
+    padding: 10px 25px;
+    font-size: 0.95rem;
+  }
 }
