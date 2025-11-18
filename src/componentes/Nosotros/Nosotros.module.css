@@ -1,0 +1,99 @@
+.nosotros {
+  padding: 80px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenido {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.texto {
+  flex: 1 1 600px;
+}
+
+/* Asegurarse de que el contenedor del título + logo esté centrado */
+.tituloContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* <-- centrar horizontalmente */
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.titulo {
+  font-size: 50px;
+ font-weight:400;
+  color: #7a62fb;
+}
+
+.logo {
+  width: 140px;
+  height: auto;
+}
+
+.bloque {
+  margin-bottom: 30px;
+}
+
+.bloque h3 {
+  font-size: 22px;
+ font-weight:400;
+  margin-bottom: 10px;
+  color: #7a62fb;
+}
+
+.bloque p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+
+
+.imagen img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.botonContainer {
+  margin-top: 40px;
+  text-align: center; /* CENTRA el botón */
+}
+
+.botonContacto {
+  display: inline-block;
+  background-color: #7a62fb;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.botonContacto:hover {
+  background-color: #614de4;
+}
+
+
+.iconoTitulo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.iconoTitulo h3 {
+  margin: 0; /* eliminar margen predeterminado */
+}
+
+

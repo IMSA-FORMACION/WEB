@@ -1,0 +1,185 @@
+.contactoContainer {
+  background-color: #f9f8ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.contactoContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  padding: 40px 30px;
+}
+
+/* Imagen grande */
+.contactoImg {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ilustracion {
+  width: 100%;
+  max-width: 500px; /* grande */
+  height: auto;
+}
+
+/* Formulario */
+.contactoFormWrapper {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  color: #7a62fb;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.contactoForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: 500;
+  text-align: left;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.req {
+  color: #ff6b6b;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Fredoka", sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #7a62fb;
+  box-shadow: 0 0 5px rgba(122, 98, 251, 0.3);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Botón */
+.btnEnviar {
+  margin-top: 10px;
+  background-color: #7a62fb;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnEnviar:hover {
+  background-color: #5c46e8;
+}
+
+/* Mensaje de éxito */
+.mensajeEnviado {
+  text-align: center;
+  padding: 40px 10px;
+}
+
+.mensajeEnviado h3 {
+  color: #7a62fb;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contactoContent {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .contactoImg {
+    flex: initial;      /* ya no fuerza 400px */
+    height: auto;       /* se ajusta al contenido */
+    margin-bottom: 20px; /* separa del form */
+  }
+
+  .ilustracion {
+    max-width: 200px; /* o el tamaño que quieras */
+    width: 80%;       /* proporcional */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Formulario ocupa todo el ancho */
+  .contactoFormWrapper {
+    flex: 1 1 100%; /* ahora ocupa todo el ancho */
+    width: 100%;
+  }
+
+  /* Inputs y textarea ocupan todo el ancho */
+  .contactoForm input,
+  .contactoForm textarea {
+    width: 100%;
+    box-sizing: border-box; /* incluye padding y borde */
+  }
+}
+
+/* === Botón de WhatsApp === */
+
+.wafloat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 999;
+  border-radius: 50%;
+  background-color: #25D366; /* color verde WhatsApp */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.wafloat img {
+  width: 100%;
+  height: auto;
+}
+
+.wafloat:hover {
+  transform: scale(1.1);
+}

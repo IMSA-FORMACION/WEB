@@ -1,0 +1,178 @@
+.cursosContainer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f8ff;
+}
+
+.cursosTitle {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin-top: 50px;
+  text-align: center;
+  color: #7a62fb;
+}
+
+/* GRID RESPONSIVE */
+.cursosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* CARD */
+.cursoCard {
+  background-color: #fff;
+  border: 1px solid #e0dbfa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cursoCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.cursoCard h3 {
+  font-weight: 500;
+  margin: 10px 0 8px 0;
+}
+
+.cursoCard p {
+  font-size: 0.95rem;
+  color: #444;
+  flex-grow: 1;
+}
+
+/* IMAGENES IGUALES */
+.cursoImgWrapper {
+  width: 100%;
+  height: 200px; /* ✅ fija altura para uniformidad */
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  position: relative; /* 💡 IMPORTANTE: Este es el contenedor de referencia */
+}
+
+.cursoImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ✅ recorta y mantiene proporción */
+  border-radius: 10px;
+}
+
+/*  ESTILOS PARA EL LOGO SUPERPUESTO (¡CORRECCIONES APLICADAS!) */
+.cursoLogoOverlay {
+  position: absolute;
+  top: 5px; 
+  left: 5px; 
+  z-index: 20; 
+  width: 100px; 
+  height: auto;
+  pointer-events: none;
+}
+
+/*  BOTÓN 'VER MÁS' (GHOST BUTTON / ACCIÓN SECUNDARIA) */
+.ingresar {
+  background-color: transparent;
+  color: #7a62fb !important;
+  border: 1px solid #7a62fb; 
+  padding: 8px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  align-self: center;
+}
+
+.ingresar:hover {
+  background-color: #7a62fb;
+  color: white !important;
+  border: 1px solid #7a62fb;
+}
+
+
+/* BOTÓN FINAL (VER TODOS LOS CURSOS DE FORMACIÓN) */
+.verTodos {
+  margin-top: 40px;
+}
+
+.verTodosBtn {
+  background-color: #7a62fb;
+  color: white !important;
+  border: 1px solid #7a62fb;
+  font-size: 1rem;
+  padding: 10px 30px;
+  align-self: center;
+}
+
+.verTodosBtn:hover {
+  background-color: #f4f0f9;
+  color: #b45dfc !important;
+  border: 1px solid #b45dfc;
+}
+
+/* 💡 ESTILOS PARA LA ETIQUETA ASINCRÓNICO */
+.cursoAsincronicoTag {
+  position: absolute;
+  bottom: 10px; 
+  right: 10px; 
+  z-index: 15; 
+  background-color: #7a62fb; 
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  pointer-events: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cursoImgWrapper {
+    height: 180px;
+  }
+  .cursosTitle {
+    font-size: 1.6rem;
+  }
+  .cursoCard {
+    padding: 15px;
+  }
+  
+  /* Ajuste de tamaño, posición y Z-INDEX en móvil */
+  .cursoLogoOverlay {
+    width: 70px;
+    top: 5px; 
+    left: 5px; 
+    z-index: 20; 
+  }
+}
+
+/*  Nueva capa de superposición para oscurecer la imagen */
+.cursoImgWrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Color negro con 30% de opacidad */
+  z-index: 5; 
+  border-radius: 10px; 
+}

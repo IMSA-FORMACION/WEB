@@ -1,0 +1,190 @@
+.detalleContainer {
+  background-color: #f9f8ff;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Fredoka", sans-serif;
+}
+
+.detalleCard {
+  background-color: #fff;
+  border: 1px solid #e0dbfa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Imagen principal */
+.imagenWrapper {
+  width: 100%;
+  max-width: 600px;
+  height: 340px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.imagenCurso {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.cursoLogoOverlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 20;
+  width: 120px;
+  pointer-events: none;
+}
+
+.cursoModalidadTag {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  z-index: 15;
+  background-color: #7a62fb;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.detalleContenido h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #7a62fb;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.descripcion {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  padding: 0 10px;
+}
+
+.infoExtra {
+  margin-bottom: 30px;
+}
+
+.infoExtra p {
+  font-size: 1rem;
+  color: #444;
+  margin: 6px 0;
+}
+
+/* Botón volver */
+.volverBtn {
+  display: inline-block;
+  background-color: transparent;
+  color: #7a62fb;
+  border: 1px solid #7a62fb;
+  padding: 8px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.volverBtn:hover {
+  background-color: #7a62fb;
+  color: white;
+}
+
+/* Curso no encontrado */
+.noEncontrado {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.noEncontrado h2 {
+  color: #7a62fb;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .detalleCard {
+    padding: 20px;
+  }
+
+  .imagenWrapper {
+    height: 220px;
+  }
+
+  .detalleContenido h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* =========================================
+   NUEVO CÓDIGO AGREGADO PARA LAS LISTAS
+   (Sin tocar lo anterior)
+   ========================================= */
+
+.contenedorListas {
+  width: 100%;
+  max-width: 700px; /* Para que no se estire demasiado en pantallas anchas */
+  margin-bottom: 30px;
+  text-align: left; /* Importante: las listas se leen mejor alineadas a la izquierda */
+}
+
+.cajaLista {
+  margin-bottom: 25px;
+  background-color: #fbfaff; /* Fondo muy sutil para separar visualmente */
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #7a62fb; /* Detalle con tu color principal */
+}
+
+.subtituloLista {
+  font-family: "Montserrat", sans-serif;
+  color: #7a62fb;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.listaItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listaItems li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: #444;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+/* Checkmark minimalista usando tu color */
+.listaItems li::before {
+  content: "•"; 
+  color: #7a62fb;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 5px;
+  top: -2px;
+}

@@ -1,0 +1,86 @@
+.footer {
+  background-color: transparent;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #000000;
+  font-family: "Fredoka", sans-serif;
+}
+
+.footer h4 {
+  margin-bottom: 0.5rem;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.section {
+  margin: 1rem;
+
+}
+
+
+
+/* Contacto */
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin: 0.3rem 0;
+  gap: 0.5rem; /* espacio entre icono y texto */
+}
+
+.contactItem a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contactItem a:hover {
+   color:#7a62fb;
+}
+
+.contactItem svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+/* Redes Sociales */
+.socialIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  margin: 0.3rem 0;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.socialLink:hover {
+  color:#7a62fb;
+}
+
+.socialText {
+  margin-left: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* Copyright */
+.copyright {
+  font-size: 0.85rem;
+  color: #666;
+  border-top: 1px solid #ccc; /* separador */
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+}

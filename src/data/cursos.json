@@ -1,0 +1,627 @@
+[
+  {
+    "id": 1,
+    "titulo": "Asistente Terapéutico",
+    "descripcion": "Formate para brindar acompañamiento y apoyo terapéutico a personas en situación de vulnerabilidad o con discapacidad.",
+    "imagen": "/img/cursos/asistente-terapeutico.jpg",
+    "area": "SALUD",
+    "modalidad": "Asincrónico",
+    "duracion": "6 meses",
+    "destacado": true,
+    "detalle": {
+      "temario": [
+        "Teorías psicológicas (Psicoanálisis, Conductismo, etc.)",
+        "Habilidades de escucha activa y empatía",
+        "Diagnóstico, evaluación y planes de tratamiento",
+        "Intervenciones terapéuticas (individual, grupal, familiar)",
+        "Ética profesional y confidencialidad"
+      ],
+      "salida_laboral": [
+        "Consultorios privados",
+        "Centros de salud mental y hospitales",
+        "Instituciones educativas",
+        "Acompañamiento domiciliario"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "Cuidador Domiciliario",
+    "descripcion": "Aprendé técnicas de cuidado, asistencia y acompañamiento a personas mayores o con necesidades especiales, en el ámbito domiciliario.",
+    "imagen": "/img/cursos/cuidador1.jpg",
+    "area": "SALUD",
+    "modalidad": "Asincrónico",
+    "duracion": "4 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Higiene y confort del paciente",
+        "Administración básica de alimentos y medicamentos",
+        "Prevención de accidentes en el hogar",
+        "Movilización y transferencia de pacientes",
+        "Contención emocional básica"
+      ],
+      "salida_laboral": [
+        "Casas particulares (atención domiciliaria)",
+        "Agencias de cuidadores",
+        "Centros de día"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Cuidador Domiciliario Internacional",
+    "descripcion": "Capacitate para desempeñarte como cuidador domiciliario en el exterior, con conocimientos interculturales y buenas prácticas internacionales.",
+    "imagen": "/img/cursos/cuidador2.jpg",
+    "area": "INTERNACIONAL",
+    "modalidad": "Asincrónico",
+    "duracion": "5 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Estándares internacionales de cuidado",
+        "Adaptación cultural y comunicación intercultural",
+        "Protocolos de salud en el extranjero",
+        "Terminología médica básica en inglés",
+        "Aspectos legales del trabajo en el exterior"
+      ],
+      "salida_laboral": [
+        "Agencias de reclutamiento internacional",
+        "Cuidado de pacientes en Europa/EEUU",
+        "Acompañamiento de pacientes en viajes"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "titulo": "Auxiliar de Enfermería Domiciliaria",
+    "descripcion": "Desarrollá habilidades para asistir en tareas básicas de enfermería dentro del ámbito domiciliario, con enfoque en la atención humanizada.",
+    "imagen": "/img/cursos/enfermeria.jpg",
+    "area": "SALUD",
+    "modalidad": "Asincrónico",
+    "duracion": "6 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Evaluación del paciente en el hogar",
+        "Planificación de cuidados domiciliarios",
+        "Manejo de medicamentos y equipos en casa",
+        "Educación al paciente y a la familia",
+        "Coordinación con médicos y enfermeros"
+      ],
+      "salida_laboral": [
+        "Servicios de internación domiciliaria",
+        "Agencias de enfermería",
+        "Cuidado particular especializado"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "titulo": "Inglés Nivel Inicial (A1 - A2)",
+    "descripcion": "Adquirí las bases para la supervivencia lingüística. Ideal para quienes nunca estudiaron o buscan 'Primeros Pasos' para viajar o trabajar.",
+    "imagen": "/img/cursos/ingles-inicial.jpg",
+    "area": "IDIOMAS",
+    "modalidad": "Híbrido (En vivo + Asincrónico)",
+    "duracion": "4 meses",
+    "destacado": true,
+    "detalle": {
+      "metodologia": "Blended Learning: Clases en vivo por Zoom + Plataforma interactiva.",
+      "temario": [
+        "Vocabulario esencial para la vida diaria",
+        "Uso de la gramática básica",
+        "Frases clave para viajes y trabajo",
+        "Comprensión auditiva inicial",
+        "Introducción a la pronunciación"
+      ],
+      "salida_laboral": [
+        "Atención al cliente básica",
+        "Turismo receptivo",
+        "Base para futuros estudios profesionales"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "titulo": "Electricidad Domiciliaria Inicial",
+    "descripcion": "Aprendé los fundamentos, uso de herramientas y cableado básico con videos HD paso a paso en nuestro Banco de Trabajo Virtual.",
+    "imagen": "/img/cursos/electricidad-inicial.jpg",
+    "area": "TÉCNICOS",
+    "modalidad": "Online + Práctica Presencial",
+    "duracion": "3 meses",
+    "destacado": true,
+    "detalle": {
+      "metodologia": "50 videos HD paso a paso + Clase evaluativa presencial.",
+      "temario": [
+        "Fundamentos de electricidad (Ley de Ohm)",
+        "Uso correcto de herramientas y multímetro",
+        "Conexión de tomacorrientes y luminarias",
+        "Cableado básico y circuitos simples",
+        "Seguridad eléctrica esencial"
+      ],
+      "salida_laboral": [
+        "Reparaciones menores en hogares",
+        "Ayudante de electricista",
+        "Mantenimiento básico edilicio"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "titulo": "Cosmetología",
+    "descripcion": "Formate en técnicas de cuidado facial, corporal y estética integral, con conocimientos actualizados en cosmetología profesional.",
+    "imagen": "/img/cursos/cosmetologia.jpg",
+    "area": "BELLEZA",
+    "modalidad": "Asincrónico",
+    "duracion": "5 meses",
+    "destacado": true,
+    "detalle": {
+      "temario": [
+        "Anatomía y fisiología de la piel (biotipos)",
+        "Limpieza facial profunda y rutinas de cuidado",
+        "Uso de aparatología estética básica",
+        "Tratamientos para acné, manchas y envejecimiento",
+        "Nociones de maquillaje y perfilado"
+      ],
+      "salida_laboral": [
+        "Centros de estética y spas",
+        "Gabinetes privados",
+        "Asesoramiento en perfumerías",
+        "Venta de productos cosméticos"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "titulo": "Extraccionista y Manejo de Muestras",
+    "descripcion": "Capacitate para realizar extracciones sanguíneas seguras, dominando anatomía, venopunción y protocolos de bioseguridad.",
+    "imagen": "/img/cursos/extraccionista.jpg",
+    "area": "SALUD",
+    "modalidad": "Asincrónico",
+    "duracion": "4 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Anatomía del sistema circulatorio",
+        "Técnicas de venopunción y punción capilar",
+        "Selección del sitio y preparación del paciente",
+        "Identificación, etiquetado y manejo de muestras",
+        "Bioseguridad y manejo de complicaciones"
+      ],
+      "salida_laboral": [
+        "Laboratorios de análisis clínicos",
+        "Hospitales y clínicas",
+        "Centros de donación de sangre",
+        "Servicios de salud ocupacional"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "titulo": "Auxiliar de Farmacia",
+    "descripcion": "Aprendé a asistir en la dispensación de medicamentos, gestión de stock, facturación y atención al cliente en farmacias.",
+    "imagen": "/img/cursos/farmacia.jpg",
+    "area": "SALUD",
+    "modalidad": "Asincrónico",
+    "duracion": "6 meses",
+    "destacado": true,
+    "detalle": {
+      "temario": [
+        "Farmacología básica y clasificación de medicamentos",
+        "Vías de administración y dosis",
+        "Atención al cliente y manejo de recetas",
+        "Control de inventario, pedidos y facturación",
+        "Marco legal y regulatorio de farmacias"
+      ],
+      "salida_laboral": [
+        "Farmacias comunitarias y de barrio",
+        "Farmacias hospitalarias",
+        "Droguerías y distribuidoras",
+        "Laboratorios farmacéuticos"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "titulo": "Nutrición y Alimentación Saludable",
+    "descripcion": "Comprendé los principios de los nutrientes y aprendé a elaborar planes de alimentación equilibrados para diferentes etapas de la vida.",
+    "imagen": "/img/cursos/nutricion.jpg",
+    "area": "SALUD",
+    "modalidad": "Asincrónico",
+    "duracion": "5 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Macro y micronutrientes (proteínas, vitaminas, etc.)",
+        "Grupos de alimentos y equilibrio nutricional",
+        "Necesidades nutricionales por etapas",
+        "Dietoterapia básica para patologías comunes",
+        "Elaboración de planes de alimentación"
+      ],
+      "salida_laboral": [
+        "Asistente en consultorios de nutrición",
+        "Gimnasios y centros deportivos",
+        "Comedores escolares o empresariales",
+        "Residencias de adultos mayores"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "titulo": "Gerontología",
+    "descripcion": "Especializate en el proceso de envejecimiento desde perspectivas biológicas y sociales para trabajar integralmente con adultos mayores.",
+    "imagen": "/img/cursos/gerontologia.jpg",
+    "area": "SALUD",
+    "modalidad": "Asincrónico",
+    "duracion": "6 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Cambios biológicos y psicológicos en la vejez",
+        "Enfermedades comunes y promoción de la salud",
+        "Políticas públicas y aspectos sociales",
+        "Intervención para el envejecimiento activo",
+        "Cuidado de personas dependientes"
+      ],
+      "salida_laboral": [
+        "Residencias de larga estadía (geriátricos)",
+        "Centros de día para adultos mayores",
+        "Programas municipales de tercera edad",
+        "Atención domiciliaria especializada"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "titulo": "Asistencia Médica y RCP",
+    "descripcion": "Adquirí herramientas vitales de primeros auxilios, manejo de heridas y técnicas de reanimación cardiopulmonar para emergencias.",
+    "imagen": "/img/cursos/rcp.jpg",
+    "area": "SALUD",
+    "modalidad": "Asincrónico",
+    "duracion": "3 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Evaluación de la escena y del paciente",
+        "Manejo de heridas, quemaduras, fracturas y hemorragias",
+        "Técnica de RCP (compresiones y ventilación)",
+        "Uso del Desfibrilador Externo Automático (DEA)",
+        "Emergencias: ACV, infartos, asfixias, convulsiones"
+      ],
+      "salida_laboral": [
+        "Personal de seguridad y brigadistas",
+        "Gimnasios y clubes deportivos",
+        "Instituciones educativas",
+        "Cuidadores de personas"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "titulo": "Instalación y Reparación de Aires Acondicionados",
+    "descripcion": "Aprendé a instalar, mantener y reparar equipos de aire acondicionado split y ventana, incluyendo carga de gas y detección de fallas.",
+    "imagen": "/img/cursos/aire-acondicionado.jpg",
+    "area": "TÉCNICOS",
+    "modalidad": "Asincrónico",
+    "duracion": "5 meses",
+    "destacado": true,
+    "detalle": {
+      "temario": [
+        "Fundamentos de termodinámica y ciclo de refrigeración",
+        "Instalación de equipos split y ventana",
+        "Conexiones eléctricas y tuberías",
+        "Detección de fugas y carga de refrigerante",
+        "Diagnóstico y reparación de fallas"
+      ],
+      "salida_laboral": [
+        "Servicio técnico independiente",
+        "Empresas de climatización",
+        "Mantenimiento en empresas y comercios",
+        "Obras de construcción"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "titulo": "Técnico en Refrigeración",
+    "descripcion": "Formate para reparar heladeras, cámaras frigoríficas y sistemas comerciales, dominando la termodinámica y soldadura.",
+    "imagen": "/img/cursos/refrigeracion.jpg",
+    "area": "TÉCNICOS",
+    "modalidad": "Asincrónico",
+    "duracion": "6 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Ciclos termodinámicos y tipos de refrigerantes",
+        "Manejo de compresores, condensadores y evaporadores",
+        "Cálculo de cargas térmicas",
+        "Soldadura de tuberías y circuitos",
+        "Reparación de heladeras familiares y comerciales"
+      ],
+      "salida_laboral": [
+        "Talleres de refrigeración",
+        "Mantenimiento de cadenas de supermercados",
+        "Servicio técnico de electrodomésticos",
+        "Industria alimentaria (cadena de frío)"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "titulo": "Electromecánica",
+    "descripcion": "Combiná conocimientos de electricidad y mecánica para el mantenimiento de motores, automatización y maquinaria industrial.",
+    "imagen": "/img/cursos/electromecanica.jpg",
+    "area": "TÉCNICOS",
+    "modalidad": "Asincrónico",
+    "duracion": "7 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Circuitos eléctricos y componentes de potencia",
+        "Principios de mecánica (engranajes, poleas)",
+        "Motores y generadores eléctricos",
+        "Introducción a la automatización y control",
+        "Interpretación de planos técnicos"
+      ],
+      "salida_laboral": [
+        "Industrias (automotriz, metalúrgica, alimentaria)",
+        "Talleres mecánicos",
+        "Empresas de mantenimiento industrial",
+        "Plantas de energía"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "titulo": "Reparación de PC y Redes",
+    "descripcion": "Diagnósticá y solucioná fallas de hardware y software, formateo, eliminación de virus y configuración básica de redes.",
+    "imagen": "/img/cursos/reparacion-pc.jpg",
+    "area": "TECNOLOGÍA",
+    "modalidad": "Asincrónico",
+    "duracion": "4 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Arquitectura de PC: Motherboard, CPU, RAM, Discos",
+        "Armado, desarmado y limpieza de equipos",
+        "Instalación de sistemas operativos (Windows/Linux)",
+        "Diagnóstico de fallas, virus y recuperación de datos",
+        "Configuración básica de redes y routers"
+      ],
+      "salida_laboral": [
+        "Servicio técnico propio",
+        "Departamentos de IT en empresas",
+        "Locales de venta de computación",
+        "Soporte técnico remoto"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "titulo": "Excel: Básico a Avanzado",
+    "descripcion": "Dominá la hoja de cálculo más usada, desde fórmulas básicas hasta tablas dinámicas, macros y análisis de datos complejos.",
+    "imagen": "/img/cursos/excel.jpg",
+    "area": "TECNOLOGÍA",
+    "modalidad": "Asincrónico",
+    "duracion": "3 meses",
+    "destacado": true,
+    "detalle": {
+      "temario": [
+        "Entorno, celdas y formatos básicos",
+        "Fórmulas matemáticas y lógicas (SI, Y, O)",
+        "Funciones de búsqueda (BUSCARV, INDICE)",
+        "Tablas dinámicas y gráficos avanzados",
+        "Introducción a Macros y automatización"
+      ],
+      "salida_laboral": [
+        "Áreas administrativas y contables",
+        "Recursos Humanos y liquidación de sueldos",
+        "Control de stock y logística",
+        "Análisis de datos y finanzas"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "titulo": "Diseño de Páginas Web",
+    "descripcion": "Creá sitios web funcionales y atractivos aprendiendo HTML, CSS, diseño UX/UI y adaptación a dispositivos móviles.",
+    "imagen": "/img/cursos/diseno-web.jpg",
+    "area": "DISEÑO",
+    "modalidad": "Asincrónico",
+    "duracion": "5 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Lenguajes fundamentales: HTML5 y CSS3",
+        "Diseño visual: Teoría del color y tipografía",
+        "Diseño Responsivo (adaptable a celulares)",
+        "Introducción a Gestores de Contenido (WordPress)",
+        "Nociones de SEO y posicionamiento web"
+      ],
+      "salida_laboral": [
+        "Agencias de marketing y publicidad",
+        "Diseñador web freelance",
+        "Empresas de desarrollo de software",
+        "Gestión de sitios web corporativos"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "titulo": "Fotografía y Edición Digital",
+    "descripcion": "Aprendé a capturar imágenes profesionales y a editarlas con software especializado como Photoshop y Lightroom.",
+    "imagen": "/img/cursos/fotografia.jpg",
+    "area": "DISEÑO",
+    "modalidad": "Asincrónico",
+    "duracion": "4 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Manejo de cámara (ISO, apertura, velocidad)",
+        "Reglas de composición e iluminación",
+        "Fotografía de producto, retrato y paisaje",
+        "Edición digital en Adobe Photoshop y Lightroom",
+        "Revelado de archivos RAW y flujo de trabajo"
+      ],
+      "salida_laboral": [
+        "Fotógrafo de eventos sociales",
+        "Fotografía de producto para E-commerce",
+        "Estudios de fotografía y moda",
+        "Retocador digital freelance"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "titulo": "Belleza de Manos y Pies",
+    "descripcion": "Especializate en manicuría y pedicuría integral, esmaltado semipermanente, uñas esculpidas y tratamientos de spa.",
+    "imagen": "/img/cursos/manos-pies.jpg",
+    "area": "BELLEZA",
+    "modalidad": "Asincrónico",
+    "duracion": "3 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Anatomía de uñas, manos y pies",
+        "Manicuría y pedicuría básica y spa",
+        "Esmaltado tradicional y semipermanente",
+        "Uñas esculpidas (gel, acrílico) y decoración",
+        "Masajes relajantes de manos y pies"
+      ],
+      "salida_laboral": [
+        "Salones de belleza y peluquerías",
+        "Nail bars (bares de uñas)",
+        "Atención a domicilio",
+        "Emprendimiento propio"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "titulo": "Diseño de Pestañas (Lashista)",
+    "descripcion": "Capacitate en la aplicación de extensiones de pestañas pelo a pelo y volumen, visagismo y bioseguridad ocular.",
+    "imagen": "/img/cursos/pestanas.jpg",
+    "area": "BELLEZA",
+    "modalidad": "Asincrónico",
+    "duracion": "2 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Anatomía del ojo y ciclo de la pestaña",
+        "Tipos de extensiones, curvas y grosores",
+        "Técnicas de aplicación (Clásica, Volumen, Híbrida)",
+        "Diseño y visagismo (Mapping)",
+        "Service, retiro y cuidados posteriores"
+      ],
+      "salida_laboral": [
+        "Estudios especializados en pestañas y cejas",
+        "Centros de estética",
+        "Profesional independiente",
+        "Complemento para maquilladoras"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "titulo": "Auxiliar de Enfermería Clínica",
+    "descripcion": "Formate para asistir en higiene, confort, signos vitales y administración de medicamentos en hospitales y clínicas.",
+    "imagen": "/img/cursos/enfermeria-clinica.jpg",
+    "area": "SALUD",
+    "modalidad": "Asincrónico",
+    "duracion": "6 meses",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Técnicas de enfermería hospitalaria (vendajes, aseo)",
+        "Control estricto de signos vitales y monitoreo",
+        "Administración de medicamentos y control de infecciones",
+        "Manejo de historias clínicas y documentación",
+        "Primeros auxilios y código de emergencias"
+      ],
+      "salida_laboral": [
+        "Hospitales públicos y privados",
+        "Clínicas y sanatorios",
+        "Centros de diagnóstico",
+        "Residencias médicas"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "titulo": "Electricista Instalador Profesional",
+    "descripcion": "Módulo completo. Aprendé diseño de cargas, armado de tableros, normativa AEA y gestioná tu propio negocio de servicios eléctricos.",
+    "imagen": "/img/cursos/electricidad-profesional.jpg",
+    "area": "TÉCNICOS",
+    "modalidad": "Online + Práctica Presencial",
+    "duracion": "6 meses",
+    "destacado": true,
+    "detalle": {
+      "metodologia": "Clases en vivo de resolución de problemas + Guía de cálculo + Aval certificado.",
+      "temario": [
+        "Diseño y cálculo de cargas eléctricas",
+        "Armado de tableros y puesta a tierra",
+        "Lectura e interpretación de planos",
+        "Normativa AEA (Reglamentación vigente)",
+        "Gestión del negocio y presupuestos"
+      ],
+      "salida_laboral": [
+        "Electricista instalador matriculado (según zona)",
+        "Obras de construcción y reformas integrales",
+        "Emprendimiento propio de servicios eléctricos",
+        "Mantenimiento industrial"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "titulo": "Inglés Nivel Intermedio (B1 - B2)",
+    "descripcion": "Lográ fluidez y autonomía. Clases de conversación semanales 'Fluidez Total' para quienes ya tienen base y buscan confianza.",
+    "imagen": "/img/cursos/ingles-intermedio.jpg",
+    "area": "IDIOMAS",
+    "modalidad": "Híbrido (En vivo + Asincrónico)",
+    "duracion": "4 meses",
+    "destacado": false,
+    "detalle": {
+      "metodologia": "Blended Learning + Clases de conversación semanales.",
+      "temario": [
+        "Expresión de opiniones complejas y argumentación",
+        "Mejora de la fluidez y pronunciación",
+        "Redacción de textos formales e informales",
+        "Comprensión de medios (noticias, series) en inglés",
+        "Interacción espontánea con nativos"
+      ],
+      "salida_laboral": [
+        "Puestos administrativos bilingües",
+        "Turismo internacional",
+        "Atención al cliente avanzada",
+        "Soporte técnico IT"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "titulo": "Inglés Nivel Avanzado (C1 - C2)",
+    "descripcion": "Dominio total y especialización 'Maestría'. Preparación para exámenes internacionales y módulos de Inglés de Negocios.",
+    "imagen": "/img/cursos/ingles-avanzado.jpg",
+    "area": "IDIOMAS",
+    "modalidad": "Híbrido (En vivo + Asincrónico)",
+    "duracion": "4 meses",
+    "destacado": false,
+    "detalle": {
+      "metodologia": "Blended Learning + Preparación de exámenes internacionales.",
+      "temario": [
+        "Inglés para Negocios (Business English)",
+        "Inglés Académico y redacción profesional",
+        "Perfeccionamiento de la pronunciación y acento",
+        "Simulacros de exámenes internacionales",
+        "Debate y oratoria avanzada"
+      ],
+      "salida_laboral": [
+        "Cargos ejecutivos y gerenciales",
+        "Comercio exterior y relaciones internacionales",
+        "Docencia y traducción",
+        "Trabajo remoto para empresas extranjeras"
+      ]
+    }
+  }
+]

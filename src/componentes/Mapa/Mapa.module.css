@@ -1,0 +1,11 @@
+.mapa {
+  width: 100%;          /* ocupa todo el ancho del contenedor padre */
+  height: 300px;        /* altura deseada */
+  max-width: 1200px;    /* opcional: limita el ancho máximo */
+ 
+}
+
+.mapa iframe {
+  width: 100vw;
+  height: 100%;
+}

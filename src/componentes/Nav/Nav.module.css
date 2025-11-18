@@ -1,0 +1,166 @@
+.nav {
+    height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  height: 80px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: "Fredoka", sans-serif;
+  
+}
+
+.logo img {
+    
+  height: 50px; /* Ajusta según necesidad */
+  width: auto;
+  margin-left: 100px;
+}
+
+.enlaces {
+  display: flex;
+  gap: 25px;
+}
+
+.enlaces a {
+  display: inline-flex;       /* Para que el texto y el icono estén en línea y flexibles */
+  align-items: center;        /* Centra verticalmente el contenido */
+  gap: 5px;                 
+  cursor: pointer;  
+  color:#7a62fb ;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1rem;
+  transition: text-shadow 0.3s ease, transform 0.3s ease;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.enlaces a:hover {
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px); /* ← pequeño movimiento hacia arriba */
+}
+
+
+.redes {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  margin-right: 100px;
+}
+
+.redes svg {
+  font-size: 18px;           /* Tamaño de los íconos */
+    color:#7a62fb ;          /* Color base */
+  transition: transform 0.2s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.redes svg:hover {
+  transform: scale(1.2);     /* Aumenta un poco al pasar el mouse */
+   color: #b45dfc;            /* Un tono un poco más fuerte */
+}
+
+.ingresar {
+  background-color: #7a62fb;
+  color: white !important;   /* Asegura que se vea blanco */
+  border: 1px solid #7a62fb;
+  padding: 5px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  transition: none !important;
+}
+
+.ingresar:hover {
+ background-color: #f4f0f9;
+  color: #b45dfc !important;
+  border: 1px solid  #b45dfc;
+  transform: none !important;
+  
+}
+
+/* Menu Hamburguesa*/
+/* Menú desplegable para mobile */
+.menuMobile {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 20px;
+  z-index: 1000;
+  
+}
+
+.menuLinks a {
+  margin: 5px;
+  display: flex;       /* Para que el texto y el icono estén en línea y flexibles */
+  align-items: center;        /* Centra verticalmente el contenido */
+  gap: 5px;                 
+  cursor: pointer;  
+  color:#7a62fb ;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  transition: text-shadow 0.3s ease, transform 0.3s ease;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.menuLinks a:hover {
+ background-color: #f4f0f9;
+  color: #b45dfc !important;
+   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px); /* ← pequeño movimiento hacia arriba */
+  
+}
+.menuRedes{
+  display: flex;
+    gap: 15px;
+}
+.menuRedes svg {
+  
+
+  margin-top: 10px;
+    font-size: 18px;           /* Tamaño de los íconos */  
+    color:#7a62fb ;          /* Color base */
+  transition: transform 0.2s ease, color 0.3s ease;
+  cursor: pointer;
+  
+}
+.menuRedes svg:hover{
+   transform: scale(1.2);     /* Aumenta un poco al pasar el mouse */
+   color: #b45dfc;   
+}
+
+.hamburguesa {
+  display: none;
+}
+
+
+@media(max-width:1100px){
+  .logo img {
+  margin-left: 0;
+}
+.redes{
+  margin-right: 0;
+}
+}
+@media(max-width:800px){
+  .enlaces{
+    display: none;
+  }
+  .redes{
+    display: none;
+  }
+    .hamburguesa {
+    display: block;
+  }
+}
+

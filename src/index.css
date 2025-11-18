@@ -1,0 +1,61 @@
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Asegura que el body y html ocupen toda la altura */
+html, body {
+  height: 100%;
+  font-family: sans-serif; /* Puedes personalizar la fuente */
+  background-color: #fff;  /* Fondo blanco por defecto */
+  color: #000;             /* Color de texto por defecto */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mejora para imágenes y media */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Quitar estilos predeterminados en formularios */
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Enlaces sin subrayado */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Listas sin estilos */
+ul, ol {
+  list-style: none;
+}
+
+/* Quitar quotes de blockquotes y q */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+}
+
+/* Tablas sin espacio */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
