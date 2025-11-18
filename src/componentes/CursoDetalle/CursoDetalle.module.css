@@ -89,17 +89,32 @@
   margin: 6px 0;
 }
 
-/* Botón volver (secundario) */
+/* =========================================
+   CONTENEDOR DE BOTONES AL FINAL
+   ========================================= */
+
+.botonesFinales {
+    display: flex;
+    justify-content: center; /* Centra los botones en la tarjeta */
+    flex-wrap: wrap; /* Permite que los botones salten de línea en móvil */
+    gap: 15px; /* Espacio entre los botones */
+    margin-top: 30px;
+    margin-bottom: 10px; /* Pequeño margen inferior */
+}
+
+
+/* Botón de Volver (secundario) */
 .volverBtn {
   display: inline-block;
   background-color: transparent;
   color: #7a62fb;
   border: 1px solid #7a62fb;
-  padding: 8px 20px;
+  padding: 12px 30px; /* Igualamos padding al botón principal */
   border-radius: 30px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   transition: all 0.3s ease;
+  font-size: 1rem;
 }
 
 .volverBtn:hover {
@@ -135,7 +150,7 @@
 }
 
 /* =========================================
-   NUEVO CÓDIGO AGREGADO PARA LAS LISTAS
+   CÓDIGO AGREGADO PARA LAS LISTAS
    ========================================= */
 
 .contenedorListas {
@@ -189,15 +204,14 @@
 }
 
 /* =========================================
-   🟢 BOTÓN WHATSAPP (ACCIÓN PRINCIPAL)
+   🟢 BOTÓN PRINCIPAL (CTA de marca - Opción 1)
    ========================================= */
 
-.whatsappBtn {
-  /* Estilo de botón principal llamativo */
+.consultarBtn {
   display: inline-block;
-  background-color: #33a82e; /* Color verde WhatsApp/Éxito */
+  background-color: #7a62fb; 
   color: white !important;
-  border: 1px solid #33a82e;
+  border: 1px solid #7a62fb;
   padding: 12px 30px;
   border-radius: 30px;
   text-decoration: none;
@@ -206,22 +220,73 @@
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-bottom: 30px; /* Separación del contenido siguiente */
   text-align: center;
-  box-shadow: 0 4px 10px rgba(51, 168, 46, 0.4); /* Sombra para destacarlo */
+  box-shadow: 0 4px 10px rgba(122, 98, 251, 0.4);
 }
 
-.whatsappBtn:hover {
-  background-color: #2e8b29; /* Verde un poco más oscuro al pasar el ratón */
-  border-color: #2e8b29;
+.consultarBtn:hover {
+  background-color: #5d42e3; 
+  border-color: #5d42e3;
   transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(51, 168, 46, 0.6);
+  box-shadow: 0 6px 12px rgba(122, 98, 251, 0.6);
 }
 
-/* Ajuste Responsivo */
+/* =========================================
+   🟢 BOTÓN FLOTANTE (FAB) NEUTRAL
+   ========================================= */
+
+.fabConsulta {
+  position: fixed; 
+  bottom: 25px;    
+  right: 25px;     
+  z-index: 1000;   
+  
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; 
+  
+  background-color: #7a62fb; /* Usamos tu color de marca */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.fabConsulta:hover {
+  background-color: #5d42e3;
+  transform: scale(1.05);
+}
+
+.fabConsulta span {
+  font-size: 2rem; 
+  line-height: 1;
+  color: white; /* Icono blanco */
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
-  .whatsappBtn {
-    padding: 10px 25px;
-    font-size: 0.95rem;
+    .botonesFinales {
+        flex-direction: column; /* Apila los botones en móvil */
+        gap: 10px;
+    }
+    
+    .consultarBtn, .volverBtn {
+        width: 100%; /* Ocupan todo el ancho en móvil */
+        box-sizing: border-box;
+    }
+    
+  .fabConsulta {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+  }
+  .fabConsulta span {
+    font-size: 1.5rem; 
   }
 }
