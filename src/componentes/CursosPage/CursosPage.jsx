@@ -39,26 +39,47 @@ export default function CursosPage() {
       <div className={styles.cursosContainer}>
         <h2 className={styles.cursosTitle}>CURSOS DISPONIBLES</h2>
 
-        {/* FILTROS */}
+        {/* FILTROS CON ETIQUETAS Y NUEVO ESTILO */}
         <div className={styles.filtros}>
-          <select value={filtroArea} onChange={(e) => setFiltroArea(e.target.value)}>
-            {areas.map((area) => (
-              <option key={area} value={area}>
-                {area}
-              </option>
-            ))}
-          </select>
+          {/* Filtro por Área */}
+          <div className={styles.filtroGroup}>
+            <label htmlFor="filtroArea" className={styles.filtroLabel}>
+              Área
+            </label>
+            <div className={styles.selectWrapper}>
+              <select
+                id="filtroArea" 
+                value={filtroArea}
+                onChange={(e) => setFiltroArea(e.target.value)}
+              >
+                {areas.map((area) => (
+                  <option key={area} value={area}>
+                    {area}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
 
-          <select
-            value={filtroModalidad}
-            onChange={(e) => setFiltroModalidad(e.target.value)}
-          >
-            {modalidades.map((mod) => (
-              <option key={mod} value={mod}>
-                {mod}
-              </option>
-            ))}
-          </select>
+          {/* Filtro por Modalidad */}
+          <div className={styles.filtroGroup}>
+            <label htmlFor="filtroModalidad" className={styles.filtroLabel}>
+              Modalidad
+            </label>
+            <div className={styles.selectWrapper}>
+              <select
+                id="filtroModalidad" 
+                value={filtroModalidad}
+                onChange={(e) => setFiltroModalidad(e.target.value)}
+              >
+                {modalidades.map((mod) => (
+                  <option key={mod} value={mod}>
+                    {mod}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
         </div>
 
         {/* GRID DE CURSOS */}
@@ -89,7 +110,7 @@ export default function CursosPage() {
         href="https://wa.me/5491137729571"
         className={styles.wafloat}
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"

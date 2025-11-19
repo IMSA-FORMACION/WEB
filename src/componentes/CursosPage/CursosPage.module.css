@@ -17,28 +17,76 @@
   color: #7a62fb;
 }
 
-/* FILTROS */
+/* FILTROS NUEVO ESTILO */
 .filtros {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 25px; /* Aumento el espacio entre cada filtro */
   margin-bottom: 30px;
 }
 
+/* Contenedor individual para label + select */
+.filtroGroup {
+  display: flex;
+  flex-direction: column; /* Coloca el label sobre el select */
+  align-items: flex-start;
+  gap: 5px; /* Espacio entre label y select */
+}
+
+.filtroLabel {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #7a62fb; /* Color principal */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  
+}
+
+/* Wrapper para el icono personalizado del select */
+.selectWrapper {
+  position: relative;
+}
+
+.selectWrapper::after {
+  content: '▼'; /* Flecha hacia abajo o un ícono */
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #7a62fb;
+  font-size: 0.7rem;
+  pointer-events: none; /* Asegura que el clic pase al select */
+  transition: transform 0.3s ease;
+}
+
 .filtros select {
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
+  -webkit-appearance: none; /* Oculta la flecha por defecto en WebKit */
+  -moz-appearance: none; /* Oculta la flecha por defecto en Mozilla */
+  appearance: none; /* Oculta la flecha por defecto */
+  padding: 10px 35px 10px 15px; /* Más padding para el texto y espacio para la flecha custom */
+  border-radius: 10px; /* Borde más redondeado */
+  border: 2px solid #e0dbfa; /* Borde más sutil y visible */
+  background-color: #fff;
   font-size: 0.95rem;
   cursor: pointer;
-  transition: border 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+  transition: all 0.3s ease;
+  min-width: 180px; /* Asegura un ancho mínimo */
+  color: #333;
 }
 
 .filtros select:hover {
   border-color: #7a62fb;
-  box-shadow: 0 0 5px rgba(122, 98, 251, 0.3);
+  box-shadow: 0 4px 12px rgba(122, 98, 251, 0.1);
 }
+
+.filtros select:focus {
+  border-color: #7a62fb;
+  box-shadow: 0 0 0 3px rgba(122, 98, 251, 0.2); /* Anillo de foco */
+}
+/* FIN FILTROS NUEVO ESTILO */
+
 
 /* GRID RESPONSIVE */
 .cursosGrid {
@@ -166,6 +214,20 @@
     min-height: 420px; /* más compacto en móvil */
     max-height: 480px; /* límite móvil */
   }
+}
+
+@media (max-width: 545px) {
+  .filtros {
+    justify-content: flex-start; /* <--- CAMBIO CLAVE: Alinea los ítems al inicio (izquierda) */
+    padding-left: 20px; /* Opcional: añade un poco de espacio si el container tiene poco padding */
+    gap: 20px; 
+  }
+  
+  /* Además, asegura que los contenidos de cada filtro (label y select) también se alineen a la izquierda */
+  .filtroGroup {
+    align-items: flex-start; /* Ya lo tienes, pero es bueno confirmarlo */
+  }
+
 }
 
 /* === Botón de WhatsApp === */
