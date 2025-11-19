@@ -291,41 +291,7 @@
 
 /* ====================================================== */
 
-@media (max-width: 768px) {
 
-  /* Reducción de márgenes y padding en pantallas pequeñas */
-  .internationalSection {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 50px 15px;
-  }
-
-  /* Ajuste de tamaños de fuente para mejor legibilidad */
-  .titlePart1 {
-    font-size: 1.8rem;
-  }
-
-  .titlePart2 {
-    font-size: 2.2rem;
-  }
-
-  .actionButton {
-    padding: 12px 25px;
-    font-size: 0.95rem;
-  }
-}
-
-@media (max-width: 480px) {
-
-  /* Ajuste final de tamaños de fuente */
-  .titlePart1 {
-    font-size: 1.6rem;
-  }
-
-  .titlePart2 {
-    font-size: 2rem;
-  }
-}
 
 @media (max-width: 768px) {
 
