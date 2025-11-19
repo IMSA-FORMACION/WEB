@@ -1,0 +1,249 @@
+/* src/components/Internacional/Internacional.module.css */
+
+/* --- Colores Fijos y Valores --- */
+/* Marca: #7a62fb, Oscuro: #1b1622, Fondo: #f4f0f9, Hover: #5d42e3, Glow: #00e0ff */
+
+/* --- SECCIÓN PRINCIPAL EXTERNA --- */
+.internationalSection {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 100px;
+  background-color: #f4f0f9;
+  /* Fondo de la sección completa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* --- WRAPPER DE LA TARJETA CON BORDE DE ENERGÍA --- */
+.internationalCardWrapper {
+  position: relative;
+  max-width: 1400px;
+  /* Aseguramos que no se estire demasiado en pantallas 4K */
+  width: 100%;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.internationalCardWrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* --- ANIMACIÓN DEL BORDE DE ENERGÍA (GLOW) --- */
+@keyframes pulseGlow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 0px rgba(0, 224, 255, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 15px rgba(0, 224, 255, 0.8), 0 0 25px rgba(122, 98, 251, 0.3);
+  }
+}
+
+.internationalCardWrapper::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 22px;
+  background: transparent;
+  animation: pulseGlow 4s infinite ease-in-out;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --- TARJETA INTERNA (CONTENIDO: FLEX PARA 2 COLUMNAS) --- */
+.internationalCard {
+  display: flex;
+  /* MODO ESCRITORIO POR DEFECTO: FILA */
+  align-items: stretch;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/* --- COLUMNA DE TEXTO (IZQUIERDA) --- */
+.textContent {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.newTag {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #7a62fb;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.titlePart1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #1b1622;
+  margin-bottom: 0px;
+  line-height: 1.1;
+}
+
+.titlePart2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #7a62fb;
+  margin-bottom: 5px;
+  line-height: 1.1;
+}
+
+.description {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.actionButton {
+  display: inline-block;
+  background-color: #7a62fb;
+  color: white !important;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  box-shadow: 0 5px 15px rgba(122, 98, 251, 0.3);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  align-self: flex-start;
+}
+
+.actionButton:hover {
+  background-color: #5d42e3;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(122, 98, 251, 0.5);
+}
+
+/* --- COLUMNA DE IMAGEN (DERECHA CON FUSIÓN) --- */
+.imageWrapper {
+  flex: 1;
+  position: relative;
+  height: auto;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  /* DESACTIVAMOS MASK IMAGE (no genera fusión de color) */
+  mask-image: none;
+  -webkit-mask-image: none;
+}
+
+/* PSEUDO-ELEMENTO PARA FUSIÓN HORIZONTAL (ESCRITORIO) */
+.imageWrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0; 
+  /* CAMBIO CLAVE: Aumentar el ancho de la fusión (de 25% a 40%) */
+  width: 40%; 
+  height: 100%;
+  background: linear-gradient(to right, white, transparent);
+  pointer-events: none;
+  z-index: 2; 
+}
+/* ====================================================== */
+/* --- BREAKPOINT 1400px (Cambio a Disposición Vertical) --- */
+/* ====================================================== */
+@media (max-width: 1400px) {
+  .internationalCard {
+    flex-direction: column; /* Apila las columnas (Texto arriba, Imagen abajo) */
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .textContent {
+    padding: 20px 0;
+    align-items: center; 
+  }
+  
+  .actionButton {
+    align-self: center; 
+  }
+
+  .imageWrapper {
+    min-height: 300px; 
+    padding: 20px 0;
+  }
+
+/* PSEUDO-ELEMENTO PARA FUSIÓN VERTICAL (PARTE SUPERIOR DE LA IMAGEN) */
+  .imageWrapper::after {
+    top: 0; /* Coloca la fusión en el borde SUPERIOR de la imagen */
+    bottom: auto; 
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho */
+    /* CAMBIO CLAVE: Aumentar la altura de la fusión (de 30% a 50%) */
+    height: 50%; 
+    background: linear-gradient(to bottom, white, transparent);
+  }
+
+  .titlePart1, .titlePart2 {
+    font-size: 2rem;
+  }
+  .titlePart2 {
+    font-size: 2.5rem;
+  }
+}
+/* ====================================================== */
+
+@media (max-width: 768px) {
+  .internationalSection {
+    /* Quita los grandes márgenes laterales en móvil */
+    margin-left: 0;
+    margin-right: 0;
+    padding: 50px 15px;
+  }
+
+  .titlePart1 {
+    font-size: 1.8rem;
+  }
+
+  .titlePart2 {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .actionButton {
+    padding: 12px 25px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .titlePart1 {
+    font-size: 1.6rem;
+  }
+
+  .titlePart2 {
+    font-size: 2rem;
+  }
+}
