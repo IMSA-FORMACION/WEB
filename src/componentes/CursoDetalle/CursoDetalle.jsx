@@ -19,7 +19,7 @@ export default function CursoDetalle() {
   // 🎯 FUNCIÓN PARA GENERAR EL ENLACE DE WHATSAPP
   const generateWhatsAppLink = (tituloCurso) => {
 
-    const telefono = "+5491137749571";
+    const telefono = "+5491159489408";
     // Mensaje prellenado
     const mensaje = `¡Hola! Quiero consultar por el curso: ${tituloCurso}.`;
     const encodedMessage = encodeURIComponent(mensaje);
