@@ -67,7 +67,7 @@
 .cursoImg {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* ⬅️ CAMBIAR a 'contain' para mostrar la imagen completa */
+  object-fit: cover; /* ⬅️ CAMBIAR a 'contain' para mostrar la imagen completa */
   border-radius: 10px;
 }
 
