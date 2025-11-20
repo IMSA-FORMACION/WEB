@@ -623,5 +623,31 @@
         "Trabajo remoto para empresas extranjeras"
       ]
     }
-  }
+  },
+  {
+    "id": 26,
+    "titulo": "Auxiliar de Kinesiología",
+    "descripcion": "Asistí a kinesiólogos en la preparación de pacientes, aplicación de terapias físicas básicas y organización de consultorio y equipos.",
+    "imagen": "/img/cursos/kinesiologia.jpg",
+    "area": "SALUD",
+    "modalidad": "Híbrido (En vivo + Asincrónico)",
+    "duracion": "5 meses",
+    "destacado": true,
+    "detalle": {
+        "metodologia": "Clases teóricas asincrónicas + Sesiones prácticas en vivo (Zoom) o presenciales (según disponibilidad).",
+        "temario": [
+            "Anatomía y fisiología del sistema musculoesquelético",
+            "Termoterapia, crioterapia e hidroterapia (aplicaciones básicas)",
+            "Asistencia en ejercicios terapéuticos y movilizaciones",
+            "Manejo de equipos de kinesiología (ultrasonido, electroterapia)",
+            "Higiene, bioseguridad y organización del consultorio"
+        ],
+        "salida_laboral": [
+            "Clínicas de rehabilitación y centros de fisioterapia",
+            "Consultorios de kinesiología privados",
+            "Centros deportivos y gimnasios",
+            "Asistencia en atención domiciliaria especializada"
+        ]
+    }
+}
 ]
