@@ -22,9 +22,9 @@ export default function Footer() {
             </a>
           </div>
           <div className={styles.contactItem}>
-            <a href="https://wa.me/5491137749571" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+            <a href="https://wa.me/5491159489408" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
               <FaWhatsapp size={20} />
-              <span>+54 9 11 3774-9571</span>
+              <span>+5491159489408</span>
             </a>
           </div>
         </div>
