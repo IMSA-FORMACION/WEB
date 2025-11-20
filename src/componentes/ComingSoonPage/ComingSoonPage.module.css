@@ -35,18 +35,18 @@
 @keyframes highlightPulse {
     0% {
         transform: scale(1);
-        
+
     }
 
     50% {
         transform: scale(1.02);
-   
-       
+
+
     }
 
     100% {
         transform: scale(1);
-        
+
     }
 }
 
@@ -56,10 +56,10 @@
     /* Super negrita */
     color: var(--primary-color);
     /* Usamos el color principal */
- 
+
     padding: 2px 5px;
     /* Pequeño relleno alrededor del texto */
-    
+
     display: inline-block;
     /* Necesario para que el transform funcione */
 
@@ -234,15 +234,24 @@
     box-shadow: 0 8px 20px rgba(122, 98, 251, 0.5);
 }
 
+/* src/componentes/ComingSoonModal/ComingSoonPage.module.css */
+
+/* ... (cerca del final del CSS) ... */
+
 .csMessage {
     color: var(--primary-color);
     font-weight: bold;
     margin-top: 5px;
+    /* Ajustes para el nuevo mensaje largo */
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
+
+/* ... (el resto de los estilos se mantiene igual) ... */
 
 /* Enlace de Continuar */
 .continueLink {
-    margin-top: 15px;
+    margin: 15px;
     font-size: 0.9rem;
     color: #888;
 }
@@ -333,4 +342,58 @@
     }
 
     /* Eliminado: .imsaLogo para móvil */
+}
+
+/* src/componentes/ComingSoonModal/ComingSoonPage.module.css */
+
+/* ... (Todo el CSS anterior se mantiene) ... */
+
+/* --- Contenido de éxito (Nuevo Estilo) --- */
+.successContent {
+    padding: 60px 40px; /* Más padding para que quede centrado en el espacio */
+    text-align: center;
+}
+
+.successTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.successMessage {
+    font-size: 1.15rem;
+    color: var(--text-dark);
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+/* Cambiar el nombre de csMessage a errorMessage para distinguir el éxito del error */
+.errorMessage {
+    color: red; /* Usamos un color de error estándar */
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+/* 🚨 REEMPLAZAR .csMessage con .errorMessage 🚨 */
+/* NOTA: Tu CSS original usaba .csMessage. Si tienes otros componentes usándolo, 
+         ajusta el nombre en el componente React a .errorMessage solo si es necesario, 
+         o renombra .csMessage a .errorMessage en el CSS y úsalo solo para errores. */
+/* Si solo quieres cambiar el estilo del mensaje de éxito (que ahora usa successMessage) 
+   y dejar el error, no necesitas cambiar nada más. */
+
+
+/* --- Ajustes Móviles --- */
+@media (max-width: 480px) {
+    /* ... */
+    
+    .successTitle {
+        font-size: 2rem;
+    }
+    
+    .successMessage {
+        font-size: 1rem;
+    }
 }
