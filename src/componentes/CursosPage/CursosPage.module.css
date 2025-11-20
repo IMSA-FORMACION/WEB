@@ -214,7 +214,7 @@
     min-height: 420px; /* más compacto en móvil */
     max-height: 480px; /* límite móvil */
   }
-}
+} 
 
 @media (max-width: 545px) {
   .filtros {
