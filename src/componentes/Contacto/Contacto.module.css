@@ -32,7 +32,8 @@
 
 .ilustracion {
   width: 100%;
-  max-width: 500px; /* grande */
+  max-width: 500px;
+  /* grande */
   height: auto;
 }
 
@@ -109,6 +110,25 @@ textarea {
   background-color: #5c46e8;
 }
 
+/* 🚀 ESTILO AGREGADO: Botón deshabilitado durante el envío */
+.btnEnviar:disabled {
+  background-color: #a0a0a0;
+  /* Gris más suave cuando está deshabilitado */
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* 🚀 ESTILO AGREGADO: Mensaje de error */
+.errorMessage {
+  color: #ff6b6b;
+  /* Un color de error */
+  margin-top: 5px;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 500;
+}
+
 /* Mensaje de éxito */
 .mensajeEnviado {
   text-align: center;
@@ -129,14 +149,19 @@ textarea {
   }
 
   .contactoImg {
-    flex: initial;      /* ya no fuerza 400px */
-    height: auto;       /* se ajusta al contenido */
-    margin-bottom: 20px; /* separa del form */
+    flex: initial;
+    /* ya no fuerza 400px */
+    height: auto;
+    /* se ajusta al contenido */
+    margin-bottom: 20px;
+    /* separa del form */
   }
 
   .ilustracion {
-    max-width: 200px; /* o el tamaño que quieras */
-    width: 80%;       /* proporcional */
+    max-width: 200px;
+    /* o el tamaño que quieras */
+    width: 80%;
+    /* proporcional */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -144,7 +169,8 @@ textarea {
 
   /* Formulario ocupa todo el ancho */
   .contactoFormWrapper {
-    flex: 1 1 100%; /* ahora ocupa todo el ancho */
+    flex: 1 1 100%;
+    /* ahora ocupa todo el ancho */
     width: 100%;
   }
 
@@ -152,7 +178,8 @@ textarea {
   .contactoForm input,
   .contactoForm textarea {
     width: 100%;
-    box-sizing: border-box; /* incluye padding y borde */
+    box-sizing: border-box;
+    /* incluye padding y borde */
   }
 }
 
@@ -166,7 +193,8 @@ textarea {
   height: 60px;
   z-index: 999;
   border-radius: 50%;
-  background-color: #25D366; /* color verde WhatsApp */
+  background-color: #25D366;
+  /* color verde WhatsApp */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 10px;
   display: flex;
