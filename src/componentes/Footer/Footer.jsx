@@ -16,9 +16,9 @@ export default function Footer() {
         <div className={styles.section}>
           <h4>Contacto</h4>
           <div className={styles.contactItem}>
-            <a href="mailto:formacion@imsa.com" className={styles.contactLink}>
+            <a href="mailto:administracion@imsaformacion.com" className={styles.contactLink}>
               <HiOutlineMail size={20} />
-              <span>formacion@imsa.com</span>
+              <span>administracion@imsaformacion.com</span>
             </a>
           </div>
           <div className={styles.contactItem}>

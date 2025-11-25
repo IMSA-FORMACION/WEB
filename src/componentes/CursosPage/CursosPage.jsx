@@ -107,7 +107,7 @@ export default function CursosPage() {
       <Footer/>
 
       <a
-        href="https://wa.me/5491137729571"
+        href="https://wa.me/5491159489408"
         className={styles.wafloat}
         target="_blank"
         rel="noopener noreferrer"

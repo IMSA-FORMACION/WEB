@@ -19,7 +19,7 @@ export default function Contacto() {
     const [imagen, setImagen] = useState("/img/contacto/contacto2.svg"); // Imagen inicial
 
     // Endpoint FormSubmit para envío AJAX a imsaformacion@gmail.com
-    const FORMSUBMIT_AJAX_ENDPOINT = 'https://formsubmit.co/ajax/imsaformacion@gmail.com';
+    const FORMSUBMIT_AJAX_ENDPOINT = 'https://formsubmit.co/ajax/administracion@imsaformacion.com';
 
     // Scroll al top al montar
     useEffect(() => {
