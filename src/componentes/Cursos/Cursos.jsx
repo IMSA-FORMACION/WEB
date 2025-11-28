@@ -38,7 +38,7 @@ const Cursos = () => {
 
       <div className={styles.verTodos}>
         <Link to="/cursos" className={`${styles.ingresar} ${styles.verTodosBtn}`}>
-          Ver todos los cursos de formación
+          Ver todos los cursos 
         </Link>
       </div>
     </div>

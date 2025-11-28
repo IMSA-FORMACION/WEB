@@ -342,4 +342,7 @@
   .titlePart2 {
     font-size: 2rem;
   }
+  .actionButton{
+    text-align: center;
+  }
 }
