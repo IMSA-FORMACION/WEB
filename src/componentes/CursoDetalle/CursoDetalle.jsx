@@ -70,8 +70,8 @@ export default function CursoDetalle() {
         
 
       
-                      {/** Acá van las mini cards*/}
-<div className={styles.modalidad}>
+          <div className={styles.cajaLista} style={{maxWidth:700}}>
+            <div className={styles.modalidad}>
   <h3>Modalidad: <span>{modalidad}</span></h3>
 </div>
 <div className={styles.miniCardsContainer}>
@@ -91,6 +91,8 @@ export default function CursoDetalle() {
              <h3>Objetivo General:</h3>
             <p className={styles.descripcion}>{curso.descripcion}</p>
        </div>
+
+          </div>
 
 
             {/* === AQUI INICIA LA NUEVA SECCION DE DETALLES (Listas) === */}
