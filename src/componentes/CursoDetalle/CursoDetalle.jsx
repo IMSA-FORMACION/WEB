@@ -51,16 +51,14 @@ export default function CursoDetalle() {
       <Nav />
       <div className={styles.detalleContainer}>
         <div className={styles.detalleCard}>
-
+          <h2 className={styles.titulo}>{curso.titulo}</h2>
           <div className={styles.imagenWrapper}>
             <img
               src={LOGO_URL}
               alt="Logo IMSA"
               className={styles.cursoLogoOverlay}
             />
-            <span className={styles.cursoModalidadTag}>
-              {curso.modalidad.toUpperCase()}
-            </span>
+          
             <img
               src={curso.imagen}
               alt={curso.titulo}
@@ -69,7 +67,7 @@ export default function CursoDetalle() {
           </div>
 
           <div className={styles.detalleContenido}>
-            <h2>{curso.titulo}</h2>
+        
 
       
                       {/** Acá van las mini cards*/}

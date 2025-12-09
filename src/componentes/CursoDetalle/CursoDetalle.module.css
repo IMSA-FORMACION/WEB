@@ -12,6 +12,40 @@
 }
 
 /* ==========================
+   TITULO PERSONALIZADO
+   ========================== */
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  color: #7a62fb;
+  font-size: 1.8rem;  /* tamaño base */
+  font-weight: 500;   /* similar a otros títulos */
+  margin-bottom: 20px;
+  text-align: center; /* centrado por defecto */
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .titulo {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+}
+
+
+/* ==========================
    TARJETA DETALLE
    ========================== */
 .detalleCard {
@@ -34,17 +68,19 @@
 .imagenWrapper {
   width: 100%;
   max-width: 600px;
-  height: 340px;
-  position: relative;
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 25px;
+
+  /* Mantener relación de aspecto 16:9 */
+  aspect-ratio: 16 / 9; 
+  position: relative;
 }
 
 .imagenCurso {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* evita deformación */
   border-radius: 12px;
 }
 
@@ -57,20 +93,7 @@
   pointer-events: none;
 }
 
-.cursoModalidadTag {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  z-index: 15;
-  background-color: #7a62fb;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 5px;
-  font-size: 0.8rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
+
 
 /* ==========================
    TITULO Y DESCRIPCION
@@ -277,10 +300,7 @@
     padding: 25px;
   }
 
-  .imagenWrapper {
-    max-width: 100%;
-    height: 280px;
-  }
+
 
   .miniCard {
     min-width: 180px;
@@ -306,9 +326,6 @@
     padding: 20px;
   }
 
-  .imagenWrapper {
-    height: 220px;
-  }
 
   .detalleContenido h2 {
     font-size: 1.4rem;
