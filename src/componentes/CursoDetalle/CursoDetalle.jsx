@@ -4,7 +4,8 @@ import cursosData from "../../data/cursos.json";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import styles from "./CursoDetalle.module.css";
-
+import { MdOutlineLaptop } from "react-icons/md";
+import { MdGroupAdd } from "react-icons/md";
 const LOGO_URL = "/logo_imsa_blanco.png";
 
 export default function CursoDetalle() {
@@ -70,19 +71,30 @@ export default function CursoDetalle() {
           <div className={styles.detalleContenido}>
             <h2>{curso.titulo}</h2>
 
-            {/* Info Extra Original */}
-            <div className={styles.infoExtra}>
-              <p>
-                <strong>Área:</strong> {curso.area}
-              </p>
-              <p>
-                <strong>Duración:</strong> {curso.duracion}
-              </p>
-            </div>
+      
+                      {/** Acá van las mini cards*/}
 
+<div className={styles.miniCardsContainer}>
+  
+<div className={styles.miniCard}>
+  <MdGroupAdd className={styles.miniCardIcon}/>
+  <span>Encuentros en vivo</span>
+</div>
+  <div className={styles.miniCard}>
+    <MdOutlineLaptop className={styles.miniCardIcon} />
+    <span>Intercambio en campus virtual</span>
+  </div>
+
+
+</div>
+       <div className={styles.objetivo}>
+             <h3>Objetivo General:</h3>
             <p className={styles.descripcion}>{curso.descripcion}</p>
+       </div>
+
 
             {/* === AQUI INICIA LA NUEVA SECCION DE DETALLES (Listas) === */}
+
             <div className={styles.contenedorListas}>
 
               {/* 1. Metodología (Solo si existe) */}

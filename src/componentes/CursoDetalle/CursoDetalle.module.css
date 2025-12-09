@@ -88,6 +88,9 @@
   color: #444;
   margin: 6px 0;
 }
+.infoExtra strong{
+  font-weight: 600;
+}
 
 /* =========================================
    CONTENEDOR DE BOTONES AL FINAL
@@ -245,3 +248,61 @@
     
 
 }
+
+
+/* ======================================================
+   🎯 MINI CARDS COMPACTAS (auto-width)
+   ====================================================== */
+
+.miniCardsContainer {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+  align-items: flex-start; /* Para que no se estiren al 100% */
+}
+
+.miniCard {
+  display: inline-flex; 
+  min-width: 300px;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  padding: 10px 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.miniCard:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.miniCardIcon {
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+.miniCard span {
+  font-size: 1rem;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+
+  
+}
+
+
+/* Objetivo */
+.objetivo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* todo alineado a la izquierda */
+  text-align: left;         /* texto alineado a la izquierda */
+  margin-bottom: 20px;      /* separación del contenido de arriba */
+}
+
+.objetivo h3 {
+  font-weight: 500;
+  margin: 0; /* elimina margen por defecto */
+}
+
