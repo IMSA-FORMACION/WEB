@@ -44,7 +44,7 @@ export default function CursoDetalle() {
   }
 
   // Extraemos detalle para usarlo fácil
-  const { detalle } = curso;
+  const { detalle , modalidad} = curso;
 
   return (
     <div>
@@ -73,7 +73,9 @@ export default function CursoDetalle() {
 
       
                       {/** Acá van las mini cards*/}
-
+<div className={styles.modalidad}>
+  <h3>Modalidad: <span>{modalidad}</span></h3>
+</div>
 <div className={styles.miniCardsContainer}>
   
 <div className={styles.miniCard}>

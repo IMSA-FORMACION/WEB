@@ -1,3 +1,6 @@
+/* ==========================
+   CONTENEDOR PRINCIPAL
+   ========================== */
 .detalleContainer {
   background-color: #f9f8ff;
   min-height: 100vh;
@@ -8,6 +11,9 @@
   font-family: "Fredoka", sans-serif;
 }
 
+/* ==========================
+   TARJETA DETALLE
+   ========================== */
 .detalleCard {
   background-color: #fff;
   border: 1px solid #e0dbfa;
@@ -22,7 +28,9 @@
   text-align: center;
 }
 
-/* Imagen principal */
+/* ==========================
+   IMAGEN PRINCIPAL
+   ========================== */
 .imagenWrapper {
   width: 100%;
   max-width: 600px;
@@ -64,6 +72,9 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+/* ==========================
+   TITULO Y DESCRIPCION
+   ========================== */
 .detalleContenido h2 {
   font-family: "Montserrat", sans-serif;
   color: #7a62fb;
@@ -79,83 +90,82 @@
   padding: 0 10px;
 }
 
-.infoExtra {
+/* ==========================
+   MINI CARDS
+   ========================== */
+.miniCardsContainer {
+  display: flex;
+  gap: 12px;
   margin-bottom: 30px;
+  flex-wrap: wrap; /* permite saltar línea en pantallas pequeñas */
+  justify-content: flex-start;
 }
 
-.infoExtra p {
+.miniCard {
+  display: inline-flex; 
+  min-width: 200px;
+  align-items: center;
+  gap: 12px;
+  background: #ffffff;
+  padding: 10px 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.miniCard:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.miniCardIcon {
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+.miniCard span {
   font-size: 1rem;
-  color: #444;
-  margin: 6px 0;
-}
-.infoExtra strong{
-  font-weight: 600;
-}
-
-/* =========================================
-   CONTENEDOR DE BOTONES AL FINAL
-   ========================================= */
-
-.botonesFinales {
-    display: flex;
-    justify-content: center; /* Centra los botones en la tarjeta */
-    flex-wrap: wrap; /* Permite que los botones salten de línea en móvil */
-    gap: 15px; /* Espacio entre los botones */
-    margin-top: 30px;
-    margin-bottom: 10px; /* Pequeño margen inferior */
-}
-
-
-/* Botón de Volver (secundario) */
-.volverBtn {
-  display: inline-block;
-  background-color: transparent;
-  color: #7a62fb;
-  border: 1px solid #7a62fb;
-  padding: 12px 30px; /* Igualamos padding al botón principal */
-  border-radius: 30px;
-  text-decoration: none;
+  color: #000000;
   font-family: "Montserrat", sans-serif;
-  transition: all 0.3s ease;
-  font-size: 1rem;
 }
 
-.volverBtn:hover {
-  background-color: #7a62fb;
-  color: white;
-}
-
-/* Curso no encontrado */
-.noEncontrado {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.noEncontrado h2 {
-  color: #7a62fb;
-  font-weight: 400;
+/* ==========================
+   OBJETIVO
+   ========================== */
+.objetivo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
   margin-bottom: 20px;
 }
 
-/* Responsivo */
-@media (max-width: 768px) {
-  .detalleCard {
-    padding: 20px;
-  }
-
-  .imagenWrapper {
-    height: 220px;
-  }
-
-  .detalleContenido h2 {
-    font-size: 1.4rem;
-  }
+.objetivo h3 {
+  font-weight: 500;
+  margin: 0 0 5px 0;
 }
 
-/* =========================================
-   CÓDIGO AGREGADO PARA LAS LISTAS
-   ========================================= */
+/* ==========================
+   MODALIDAD
+   ========================== */
+.modalidad {
+  display: flex;
+  margin-bottom: 20px;
+}
 
+.modalidad h3 {
+  font-weight: 500;
+  margin: 0;
+}
+
+.modalidad span {
+  margin-left: 8px;
+  font-weight: 400;
+}
+
+/* ==========================
+   LISTAS
+   ========================== */
 .contenedorListas {
   width: 100%;
   max-width: 700px;
@@ -195,7 +205,6 @@
   font-size: 0.95rem;
 }
 
-/* Checkmark minimalista usando tu color */
 .listaItems li::before {
   content: "•"; 
   color: #7a62fb;
@@ -206,9 +215,17 @@
   top: -2px;
 }
 
-/* =========================================
-   🟢 BOTÓN PRINCIPAL (CTA de marca - Opción 1)
-   ========================================= */
+/* ==========================
+   BOTONES
+   ========================== */
+.botonesFinales {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 
 .consultarBtn {
   display: inline-block;
@@ -234,75 +251,120 @@
   box-shadow: 0 6px 12px rgba(122, 98, 251, 0.6);
 }
 
+.volverBtn {
+  display: inline-block;
+  background-color: transparent;
+  color: #7a62fb;
+  border: 1px solid #7a62fb;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.volverBtn:hover {
+  background-color: #7a62fb;
+  color: white;
+}
+
+/* ==========================
+   RESPONSIVE (TABLET Y CELULAR)
+   ========================== */
+@media (max-width: 1024px) {
+  .detalleCard {
+    padding: 25px;
+  }
+
+  .imagenWrapper {
+    max-width: 100%;
+    height: 280px;
+  }
+
+  .miniCard {
+    min-width: 180px;
+    gap: 10px;
+    padding: 8px 12px;
+  }
+
+  .miniCard span {
+    font-size: 0.95rem;
+  }
+
+  .objetivo p {
+    font-size: 0.95rem;
+  }
+
+  .descripcion {
+    font-size: 0.95rem;
+  }
+}
 
 @media (max-width: 768px) {
-    .botonesFinales {
-        flex-direction: column; /* Apila los botones en móvil */
-        gap: 10px;
-    }
-    
-    .consultarBtn, .volverBtn {
-        width: 100%; /* Ocupan todo el ancho en móvil */
-        box-sizing: border-box;
-    }
-    
+  .detalleCard {
+    padding: 20px;
+  }
 
+  .imagenWrapper {
+    height: 220px;
+  }
+
+  .detalleContenido h2 {
+    font-size: 1.4rem;
+  }
+
+  .miniCardsContainer {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .miniCard {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .botonesFinales {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .consultarBtn,
+  .volverBtn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .descripcion, 
+  .objetivo p {
+    font-size: 0.9rem;
+    padding: 0 5px;
+  }
+
+  .contenedorListas {
+    max-width: 100%;
+  }
 }
 
+@media (max-width: 480px) {
+  .detalleContenido h2 {
+    font-size: 1.2rem;
+  }
 
-/* ======================================================
-   🎯 MINI CARDS COMPACTAS (auto-width)
-   ====================================================== */
+  .miniCardIcon {
+    font-size: 1.4rem;
+  }
 
-.miniCardsContainer {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 30px;
-  align-items: flex-start; /* Para que no se estiren al 100% */
+  .miniCard span {
+    font-size: 0.9rem;
+  }
+
+  .botonesFinales {
+    gap: 10px;
+  }
+
+  .consultarBtn, .volverBtn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
 }
-
-.miniCard {
-  display: inline-flex; 
-  min-width: 300px;
-  align-items: center;
-  gap: 20px;
-  background: #ffffff;
-  padding: 10px 14px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  cursor: default;
-}
-
-.miniCard:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-}
-
-.miniCardIcon {
-  font-size: 1.6rem;
-  color: #000000;
-}
-
-.miniCard span {
-  font-size: 1rem;
-  color: #000000;
-  font-family: "Montserrat", sans-serif;
-
-  
-}
-
-
-/* Objetivo */
-.objetivo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* todo alineado a la izquierda */
-  text-align: left;         /* texto alineado a la izquierda */
-  margin-bottom: 20px;      /* separación del contenido de arriba */
-}
-
-.objetivo h3 {
-  font-weight: 500;
-  margin: 0; /* elimina margen por defecto */
-}
-
