@@ -51,7 +51,7 @@ export default function CursoDetalle() {
       <Nav />
       <div className={styles.detalleContainer}>
         <div className={styles.detalleCard}>
-          <h2 className={styles.titulo}>{curso.titulo}</h2>
+         
           <div className={styles.imagenWrapper}>
             <img
               src={LOGO_URL}
@@ -65,7 +65,7 @@ export default function CursoDetalle() {
               className={styles.imagenCurso}
             />
           </div>
-
+ <h2 className={styles.titulo}>{curso.titulo}</h2>
           <div className={styles.detalleContenido}>
         
 
