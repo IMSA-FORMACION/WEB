@@ -18,7 +18,7 @@
   font-family: "Montserrat", sans-serif;
   color: #7a62fb;
   font-size: 1.8rem;  /* tamaño base */
-  font-weight: 500;   /* similar a otros títulos */
+  font-weight: 600;   /* similar a otros títulos */
   margin-bottom: 20px;
   text-align: center; /* centrado por defecto */
 }
@@ -39,7 +39,7 @@
 
 @media (max-width: 480px) {
   .titulo {
-    font-size: 1.2rem;
+   
     margin-bottom: 12px;
   }
 }
