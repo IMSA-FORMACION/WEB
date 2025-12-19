@@ -328,7 +328,7 @@
     "imagen": "/img/cursos/aire.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Asincrónico",
-    "duracion": "5 meses",
+    "duracion": "",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -382,7 +382,7 @@
     "imagen": "/img/cursos/electromecanica.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Asincrónico",
-    "duracion": "7 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -409,7 +409,7 @@
     "imagen": "/img/cursos/reparacion-pc.jpg",
     "area": "TECNOLOGÍA",
     "modalidad": "Asincrónico",
-    "duracion": "4 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -436,7 +436,7 @@
     "imagen": "/img/cursos/excel.jpg",
     "area": "TECNOLOGÍA",
     "modalidad": "Asincrónico",
-    "duracion": "3 meses",
+    "duracion": "",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -463,7 +463,7 @@
     "imagen": "/img/cursos/diseno-web.jpg",
     "area": "DISEÑO",
     "modalidad": "Asincrónico",
-    "duracion": "5 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -490,7 +490,7 @@
     "imagen": "/img/cursos/fotografia.jpg",
     "area": "DISEÑO",
     "modalidad": "Asincrónico",
-    "duracion": "4 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -517,7 +517,7 @@
     "imagen": "/img/cursos/pies.jpg",
     "area": "BELLEZA",
     "modalidad": "Asincrónico",
-    "duracion": "3 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -544,7 +544,7 @@
     "imagen": "/img/cursos/pestanas.jpg",
     "area": "BELLEZA",
     "modalidad": "Asincrónico",
-    "duracion": "2 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -571,7 +571,7 @@
     "imagen": "/img/cursos/enfermeria2.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
-    "duracion": "6 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -598,7 +598,7 @@
     "imagen": "/img/cursos/electricidad2.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Online + Práctica Presencial",
-    "duracion": "6 meses",
+    "duracion": "",
     "destacado": true,
     "detalle": {
       "metodologia": "Clases en vivo de resolución de problemas + Guía de cálculo + Aval certificado.",
@@ -626,7 +626,7 @@
     "imagen": "/img/cursos/ingles2.jpg",
     "area": "IDIOMAS",
     "modalidad": "Híbrido (En vivo + Asincrónico)",
-    "duracion": "4 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "metodologia": "Blended Learning + Clases de conversación semanales.",
@@ -654,7 +654,7 @@
     "imagen": "/img/cursos/ingles3.jpg",
     "area": "IDIOMAS",
     "modalidad": "Híbrido (En vivo + Asincrónico)",
-    "duracion": "4 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "metodologia": "Blended Learning + Preparación de exámenes internacionales.",
@@ -682,7 +682,7 @@
     "imagen": "/img/cursos/kinesiologia.jpg",
     "area": "SALUD",
     "modalidad": "Híbrido (En vivo + Asincrónico)",
-    "duracion": "5 meses",
+    "duracion": "",
     "destacado": true,
     "detalle": {
         "metodologia": "Clases teóricas asincrónicas + Sesiones prácticas en vivo (Zoom) o presenciales (según disponibilidad).",

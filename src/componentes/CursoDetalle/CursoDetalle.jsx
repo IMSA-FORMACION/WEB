@@ -99,15 +99,7 @@ export default function CursoDetalle() {
 
             <div className={styles.contenedorListas}>
 
-              {/* 1. Metodología (Solo si existe) */}
-              {detalle?.metodologia && (
-                <div className={styles.cajaLista}>
-                  <span className={styles.subtituloLista}>Metodología</span>
-                  <ul className={styles.listaItems}>
-                    <li>{detalle.metodologia}</li>
-                  </ul>
-                </div>
-              )}
+          
 
               {/* 2. Herramientas que incorporaras */}
               {detalle?.temario && (
@@ -132,6 +124,20 @@ export default function CursoDetalle() {
                   </ul>
                 </div>
               )}
+
+              {/* 4. Certificación */}
+{detalle?.certificacion && (
+  <div className={styles.cajaLista}>
+    <span className={styles.subtituloLista}>Certificación</span>
+    <p className={styles.descripcion}>
+      {detalle.certificacion}
+    </p>
+  </div>
+)}
+
+
+
+
             </div>
             {/* === FIN DE LA NUEVA SECCION === */}
 
