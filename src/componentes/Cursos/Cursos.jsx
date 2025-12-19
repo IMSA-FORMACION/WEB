@@ -30,7 +30,7 @@ const Cursos = () => {
                 />
               </div>
               <h3>{curso.titulo}</h3>
-              <p>{curso.descripcion}</p>
+              <p>{curso.descripcion_corta}</p>
               <Link to={`/cursos/${curso.id}`} className={styles.ingresar}>Ver más</Link>
             </div>
           ))}

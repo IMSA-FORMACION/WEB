@@ -2,11 +2,12 @@
   {
     "id": 1,
     "titulo": "Asistente Terapéutico",
-    "descripcion": "Formate para brindar acompañamiento y apoyo terapéutico a personas en situación de vulnerabilidad o con discapacidad.",
+    "descripcion": "El curso de asistente terapéutico te ayudara a desarrollar habilidades prácticas para el acompañamiento diario y la reinserción social del paciente, asegurando la continuidad y el éxito del plan terapéutico.",
+    "descripcion_corta":"Acompañamiento terapéutico y reinserción social del paciente, fortaleciendo la continuidad del tratamiento y el trabajo interdisciplinario.",
     "imagen": "/img/cursos/asistente-terapeutico.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
-    "duracion": "6 meses",
+    "duracion": "",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -21,17 +22,19 @@
         "Centros de salud mental y hospitales",
         "Instituciones educativas",
         "Acompañamiento domiciliario"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
     }
   },
   {
     "id": 2,
     "titulo": "Cuidador Domiciliario",
-    "descripcion": "Aprendé técnicas de cuidado, asistencia y acompañamiento a personas mayores o con necesidades especiales, en el ámbito domiciliario.",
+    "descripcion": "El curso de cuidador domiciliario te ayudará a desarrollar habilidades prácticas para la asistencia diaria y el acompañamiento integral de personas dependientes (adultos mayores, con discapacidad o enfermos crónicos) en su hogar, garantizando su bienestar, autonomía y calidad de vida en un entorno seguro.",
+     "descripcion_corta":"Asistencia diaria y acompañamiento integral de personas dependientes, promoviendo bienestar, autonomía y calidad de vida.",
     "imagen": "/img/cursos/cuidador1.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
-    "duracion": "4 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -45,17 +48,19 @@
         "Casas particulares (atención domiciliaria)",
         "Agencias de cuidadores",
         "Centros de día"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
     }
   },
   {
     "id": 3,
     "titulo": "Cuidador Domiciliario Internacional",
-    "descripcion": "Capacitate para desempeñarte como cuidador domiciliario en el exterior, con conocimientos interculturales y buenas prácticas internacionales.",
+    "descripcion": "El curso de cuidador domiciliario internacional te ayudará a desarrollar habilidades de asistencia integral y cuidado ético de personas dependientes con una perspectiva que abarca estándares de calidad y normativas aplicables en diferentes contextos y países, mejorando tu empleabilidad global.",
+    "descripcion_corta":"Formación en cuidado integral con estándares internacionales para trabajar en el exterior y ampliar oportunidades laborales.",
     "imagen": "/img/cursos/cuidador2.jpg",
     "area": "INTERNACIONAL",
     "modalidad": "Asincrónico",
-    "duracion": "5 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -69,17 +74,19 @@
         "Agencias de reclutamiento internacional",
         "Cuidado de pacientes en Perú",
         "Acompañamiento de pacientes en viajes"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 4,
     "titulo": "Auxiliar de Enfermería Domiciliaria",
-    "descripcion": "Desarrollá habilidades para asistir en tareas básicas de enfermería dentro del ámbito domiciliario, con enfoque en la atención humanizada.",
+    "descripcion": "El curso de auxiliar de enfermería domiciliaria te ayudará a desarrollar habilidades técnicas para la asistencia médica básica y los procedimientos sanitarios dentro del hogar del paciente, asegurando el cumplimiento del plan de cuidados y el seguimiento de su evolución.",
+    "descripcion_corta":"Asistencia sanitaria básica en el hogar, cumpliendo planes de cuidado y seguimiento del paciente.",
     "imagen": "/img/cursos/enfermeria.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
-    "duracion": "6 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -93,17 +100,19 @@
         "Servicios de internación domiciliaria",
         "Agencias de enfermería",
         "Cuidado particular especializado"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
     }
   },
   {
     "id": 5,
     "titulo": "Inglés Nivel Inicial (A1 - A2)",
-    "descripcion": "Adquirí las bases para la supervivencia lingüística. Ideal para quienes nunca estudiaron o buscan 'Primeros Pasos' para viajar o trabajar.",
+    "descripcion": "El curso de inglés nivel inicial te ayuda a empezar a comunicarte desde cero. Aprenderás a decir quién eres, a saludar, a hacer preguntas muy básicas y a entender frases cortas sobre cosas cotidianas. ",
+    "descripcion_corta":"Primeros pasos en inglés para comunicarte en situaciones cotidianas y laborales básicas.",
     "imagen": "/img/cursos/ingles.jpg",
     "area": "IDIOMAS",
     "modalidad": "Híbrido (En vivo + Asincrónico)",
-    "duracion": "4 meses",
+    "duracion": "",
     "destacado": true,
     "detalle": {
       "metodologia": "Blended Learning: Clases en vivo por Zoom + Plataforma interactiva.",
@@ -118,17 +127,19 @@
         "Atención al cliente básica",
         "Turismo receptivo",
         "Base para futuros estudios profesionales"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
     }
   },
   {
     "id": 6,
     "titulo": "Electricidad Domiciliaria Inicial",
-    "descripcion": "Aprendé los fundamentos, uso de herramientas y cableado básico con videos HD paso a paso en nuestro Banco de Trabajo Virtual.",
+    "descripcion": "El curso de Electricidad Domiciliaria Inicial te ayuda a comprender y manejar la energía de tu hogar con seguridad. Podrás realizar instalaciones básicas, cablear circuitos de luces y tomas de corriente, y solucionar fallas comunes sin depender de terceros, ahorrando dinero y tiempo en reparaciones.",
+    "descripcion_corta":"Instalaciones eléctricas básicas y reparaciones seguras en el hogar.",
     "imagen": "/img/cursos/electricidad.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Online + Práctica Presencial",
-    "duracion": "3 meses",
+    "duracion": "",
     "destacado": true,
     "detalle": {
       "metodologia": "50 videos HD paso a paso + Clase evaluativa presencial.",
@@ -143,17 +154,19 @@
         "Reparaciones menores en hogares",
         "Ayudante de electricista",
         "Mantenimiento básico edilicio"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
     }
   },
   {
     "id": 7,
     "titulo": "Cosmetología",
-    "descripcion": "Formate en técnicas de cuidado facial, corporal y estética integral, con conocimientos actualizados en cosmetología profesional.",
+    "descripcion": "El curso de Cosmetología te ayuda a dominar el cuidado integral de la piel y los tratamientos faciales. Podrás diagnosticar correctamente cada tipo de piel, aplicar protocolos profesionales como limpiezas profundas e hidratación avanzada, y desarrollar planes de cuidado personalizados para transformar el aspecto de tus clientes.",
+    "descripcion_corta":"Cuidado profesional de la piel y tratamientos faciales personalizados.",
     "imagen": "/img/cursos/cosmetologia.jpg",
     "area": "BELLEZA",
     "modalidad": "Asincrónico",
-    "duracion": "5 meses",
+    "duracion": "",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -168,17 +181,19 @@
         "Gabinetes privados",
         "Asesoramiento en perfumerías",
         "Venta de productos cosméticos"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
     }
   },
   {
     "id": 8,
     "titulo": "Extraccionista y Manejo de Muestras",
-    "descripcion": "Capacitate para realizar extracciones sanguíneas seguras, dominando anatomía, venopunción y protocolos de bioseguridad.",
+    "descripcion": "El curso de extraccionista y manejo de muestra te ayudará a desarrollar competencias técnicas para la toma segura y estandarizada de muestras biológicas (principalmente sangre), asegurando su correcta identificación, conservación y remisión al laboratorio para un diagnóstico preciso.",
+    "descripcion_corta":"Toma segura de muestras biológicas y correcta manipulación para análisis clínicos precisos.",
     "imagen": "/img/cursos/extraccionista.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
-    "duracion": "4 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -193,17 +208,19 @@
         "Hospitales y clínicas",
         "Centros de donación de sangre",
         "Servicios de salud ocupacional"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
     }
   },
   {
     "id": 9,
     "titulo": "Auxiliar de Farmacia",
-    "descripcion": "Aprendé a asistir en la dispensación de medicamentos, gestión de stock, facturación y atención al cliente en farmacias.",
+    "descripcion": "El curso de auxiliar de farmacia te ayudará a desarrollar habilidades administrativas y conocimientos técnicos sobre medicamentos, dosis y dispensación, asegurando la correcta gestión del stock, la atención al público y el cumplimiento de la normativa farmacéutica.",
+    "descripcion_corta":"Gestión de medicamentos, atención al cliente y control de stock en farmacias y droguerías.",
     "imagen": "/img/cursos/farmacia.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
-    "duracion": "6 meses",
+    "duracion": "",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -218,17 +235,19 @@
         "Farmacias hospitalarias",
         "Droguerías y distribuidoras",
         "Laboratorios farmacéuticos"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
     }
   },
   {
     "id": 10,
     "titulo": "Nutrición y Alimentación Saludable",
-    "descripcion": "Comprendé los principios de los nutrientes y aprendé a elaborar planes de alimentación equilibrados para diferentes etapas de la vida.",
+    "descripcion": "El curso de nutrición y alimentación saludable te ayudará a desarrollar conocimientos esenciales para elaborar planes dietéticos equilibrados y personalizados, promoviendo hábitos alimentarios correctos para la prevención de enfermedades y el mantenimiento de un estilo de vida sano.",
+    "descripcion_corta":"Conocimientos clave para promover hábitos alimentarios saludables y planes nutricionales básicos.",
     "imagen": "/img/cursos/nutricion.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
-    "duracion": "5 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -243,17 +262,19 @@
         "Gimnasios y centros deportivos",
         "Comedores escolares o empresariales",
         "Residencias de adultos mayores"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
     }
   },
   {
     "id": 11,
     "titulo": "Gerontología",
-    "descripcion": "Especializate en el proceso de envejecimiento desde perspectivas biológicas y sociales para trabajar integralmente con adultos mayores.",
+    "descripcion": "El curso de gerontología te ayudará a desarrollar conocimiento multidisciplinario sobre el proceso de envejecimiento (biológico, psicológico y social), permitiendo evaluar y diseñar programas y políticas que promuevan la calidad de vida y el bienestar de los adultos mayores.",
+    "descripcion_corta":"Formación integral sobre el envejecimiento y el cuidado profesional de adultos mayores.",
     "imagen": "/img/cursos/gerontologia.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
-    "duracion": "6 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -268,17 +289,19 @@
         "Centros de día para adultos mayores",
         "Programas municipales de tercera edad",
         "Atención domiciliaria especializada"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 12,
     "titulo": "Asistencia Médica y RCP",
-    "descripcion": "Adquirí herramientas vitales de primeros auxilios, manejo de heridas y técnicas de reanimación cardiopulmonar para emergencias.",
+    "descripcion": "El curso de asistencia médica RCP te ayudará a desarrollar habilidades esenciales de reanimación cardiopulmonar (RCP) y primeros auxilios básicos, permitiéndote actuar de manera rápida y efectiva ante emergencias médicas hasta la llegada de personal especializado.",
+    "descripcion_corta":"Capacitación en RCP y primeros auxilios para actuar con rapidez ante emergencias.",
     "imagen": "/img/cursos/rcp.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
-    "duracion": "3 meses",
+    "duracion": "",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -293,13 +316,15 @@
         "Gimnasios y clubes deportivos",
         "Instituciones educativas",
         "Cuidadores de personas"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 13,
     "titulo": "Instalación y Reparación de Aires Acondicionados",
-    "descripcion": "Aprendé a instalar, mantener y reparar equipos de aire acondicionado split y ventana, incluyendo carga de gas y detección de fallas.",
+    "descripcion": "El curso de Instalación y Reparación de Aires Acondicionados te convierte en un experto en climatización doméstica. Podrás instalar unidades Split de manera profesional, diagnosticar fallas eléctricas o mecánicas, y realizar el mantenimiento preventivo completo, asegurando tu ingreso en la temporada alta.",
+   "descripcion_corta":"Formación completa en instalación, mantenimiento y reparación de equipos de climatización.",
     "imagen": "/img/cursos/aire.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Asincrónico",
@@ -318,13 +343,15 @@
         "Empresas de climatización",
         "Mantenimiento en empresas y comercios",
         "Obras de construcción"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 14,
     "titulo": "Técnico en Refrigeración",
-    "descripcion": "Formate para reparar heladeras, cámaras frigoríficas y sistemas comerciales, dominando la termodinámica y soldadura.",
+    "descripcion": "El curso de Técnico en Refrigeración te capacita para trabajar con sistemas de frío domésticos y comerciales. Podrás diagnosticar y reparar neveras, freezers y cámaras frigoríficas, manejando los gases refrigerantes de forma segura y profesional para asegurar la correcta conservación de alimentos.",
+    "descripcion_corta":"Diagnóstico y reparación de sistemas de frío domésticos y comerciales.",
     "imagen": "/img/cursos/refrigeracion.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Asincrónico",
@@ -343,13 +370,15 @@
         "Mantenimiento de cadenas de supermercados",
         "Servicio técnico de electrodomésticos",
         "Industria alimentaria (cadena de frío)"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 15,
     "titulo": "Electromecánica",
-    "descripcion": "Combiná conocimientos de electricidad y mecánica para el mantenimiento de motores, automatización y maquinaria industrial.",
+    "descripcion": "El curso de Electromecánica te permite dominar el corazón de la maquinaria industrial. Podrás instalar, controlar y realizar el mantenimiento de motores eléctricos, diseñar circuitos de comando con contactores y relés, y asegurar el funcionamiento óptimo de equipos en cualquier planta de producción.",
+    "descripcion_corta":"Mantenimiento e instalación de motores, circuitos eléctricos y maquinaria industrial.",
     "imagen": "/img/cursos/electromecanica.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Asincrónico",
@@ -368,13 +397,15 @@
         "Talleres mecánicos",
         "Empresas de mantenimiento industrial",
         "Plantas de energía"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 16,
     "titulo": "Reparación de PC y Redes",
-    "descripcion": "Diagnósticá y solucioná fallas de hardware y software, formateo, eliminación de virus y configuración básica de redes.",
+    "descripcion": "El curso de Reparación de PC y Redes te ayuda a convertirte en un técnico informático integral y resolutivo. Podrás diagnosticar y solucionar fallas de hardware y software en computadoras, configurar redes cableadas e inalámbricas en hogares y oficinas, y montar tu propio taller de soporte técnico con total confianza.",
+    "descripcion_corta":"Diagnóstico, reparación y mantenimiento de computadoras y redes .",
     "imagen": "/img/cursos/reparacion-pc.jpg",
     "area": "TECNOLOGÍA",
     "modalidad": "Asincrónico",
@@ -393,13 +424,15 @@
         "Departamentos de IT en empresas",
         "Locales de venta de computación",
         "Soporte técnico remoto"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 17,
     "titulo": "Excel: Básico a Avanzado",
-    "descripcion": "Dominá la hoja de cálculo más usada, desde fórmulas básicas hasta tablas dinámicas, macros y análisis de datos complejos.",
+    "descripcion": "El Curso de Excel (Básico y Avanzado) te permite dominar la herramienta más importante del entorno laboral. Podrás manejar grandes volúmenes de datos, crear tableros de control y reportes dinámicos (pivot tables), y automatizar tareas complejas con funciones y macros, convirtiéndote en un recurso indispensable para cualquier empresa",
+    "descripcion_corta":"Dominio de Excel para análisis de datos, reportes y automatización de tareas.",
     "imagen": "/img/cursos/excel.jpg",
     "area": "TECNOLOGÍA",
     "modalidad": "Asincrónico",
@@ -418,13 +451,15 @@
         "Recursos Humanos y liquidación de sueldos",
         "Control de stock y logística",
         "Análisis de datos y finanzas"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 18,
     "titulo": "Diseño de Páginas Web",
-    "descripcion": "Creá sitios web funcionales y atractivos aprendiendo HTML, CSS, diseño UX/UI y adaptación a dispositivos móviles.",
+    "descripcion": "El curso de Diseño de Páginas Web te capacita para crear y lanzar sitios profesionales e interactivos. Podrás estructurar el contenido con HTML, estilizarlo con CSS y añadir funcionalidades con frameworks, permitiéndote diseñar desde landing pages hasta sitios completos para clientes o para impulsar tu propio proyecto digital.",
+    "descripcion_corta":"Creación de sitios web profesionales con HTML, CSS y diseño responsivo.",
     "imagen": "/img/cursos/diseno-web.jpg",
     "area": "DISEÑO",
     "modalidad": "Asincrónico",
@@ -443,13 +478,15 @@
         "Diseñador web freelance",
         "Empresas de desarrollo de software",
         "Gestión de sitios web corporativos"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 19,
     "titulo": "Fotografía y Edición Digital",
-    "descripcion": "Aprendé a capturar imágenes profesionales y a editarlas con software especializado como Photoshop y Lightroom.",
+    "descripcion": "El curso de Fotografía y Edición Digital te ayuda a capturar imágenes impactantes y a darles un acabado profesional. Podrás dominar los fundamentos técnicos de la cámara (apertura, velocidad, ISO), componer escenas con intención, y utilizar software de edición avanzado para retocar, mejorar el color y crear un estilo visual único en tus fotografías.",
+    "descripcion_corta":"Captura y edición profesional de imágenes para proyectos creativos y comerciales.",
     "imagen": "/img/cursos/fotografia.jpg",
     "area": "DISEÑO",
     "modalidad": "Asincrónico",
@@ -468,13 +505,15 @@
         "Fotografía de producto para E-commerce",
         "Estudios de fotografía y moda",
         "Retocador digital freelance"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 20,
     "titulo": "Belleza de Manos y Pies",
-    "descripcion": "Especializate en manicuría y pedicuría integral, esmaltado semipermanente, uñas esculpidas y tratamientos de spa.",
+    "descripcion": "El curso de Belleza de Manos y Pies te convierte en un especialista en manicure y pedicure de alta calidad. Podrás realizar esmaltado semipermanente, esculpido y uñas acrílicas o gelificadas, y ofrecer tratamientos de spa para la piel, creando un servicio completo y muy demandado.",
+   "descripcion_corta":"Manicuría y pedicuría profesional con técnicas modernas y spa.",
     "imagen": "/img/cursos/pies.jpg",
     "area": "BELLEZA",
     "modalidad": "Asincrónico",
@@ -493,13 +532,15 @@
         "Nail bars (bares de uñas)",
         "Atención a domicilio",
         "Emprendimiento propio"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 21,
     "titulo": "Diseño de Pestañas (Lashista)",
-    "descripcion": "Capacitate en la aplicación de extensiones de pestañas pelo a pelo y volumen, visagismo y bioseguridad ocular.",
+    "descripcion": "El curso de Diseño de Pestañas y Lashista te permite entrar al lucrativo mundo de la mirada. Podrás aplicar técnicas como el lifting de pestañas y extensiones pelo a pelo y volumen ruso, creando diseños personalizados que realcen la belleza natural de cada rostro con precisión, higiene y seguridad profesional.",
+    "descripcion_corta":"Especialización en extensiones, lifting y diseño de pestañas personalizados.",
     "imagen": "/img/cursos/pestanas.jpg",
     "area": "BELLEZA",
     "modalidad": "Asincrónico",
@@ -518,13 +559,15 @@
         "Centros de estética",
         "Profesional independiente",
         "Complemento para maquilladoras"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 22,
     "titulo": "Auxiliar de Enfermería Clínica",
-    "descripcion": "Formate para asistir en higiene, confort, signos vitales y administración de medicamentos en hospitales y clínicas.",
+    "descripcion": "El curso de auxiliar de enfermería clínica te ayudará a desarrollar habilidades prácticas para asistir al personal de enfermería en hospitales y clínicas, realizando tareas de cuidado directo, preparación de materiales y mantenimiento de la higiene y confort del paciente internado.",
+    "descripcion_corta":"Apoyo al personal de enfermería en hospitales y clínicas, brindando cuidado directo al paciente.",
     "imagen": "/img/cursos/enfermeria2.jpg",
     "area": "SALUD",
     "modalidad": "Asincrónico",
@@ -543,13 +586,15 @@
         "Clínicas y sanatorios",
         "Centros de diagnóstico",
         "Residencias médicas"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 23,
     "titulo": "Electricista Instalador Profesional",
-    "descripcion": "Módulo completo. Aprendé diseño de cargas, armado de tableros, normativa AEA y gestioná tu propio negocio de servicios eléctricos.",
+    "descripcion": "El curso de Electricista e Instalador Profesional eleva tu carrera al nivel de la certificación. Podrás realizar cálculos de carga complejos, diseñar y ejecutar instalaciones eléctricas de gran magnitud (comercios, industrias) y trabajar cumpliendo con todas las normativas y códigos de seguridad vigentes.",
+    "descripcion_corta":"Diseño e instalación eléctrica profesional cumpliendo normativas vigentes.",
     "imagen": "/img/cursos/electricidad2.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Online + Práctica Presencial",
@@ -569,13 +614,15 @@
         "Obras de construcción y reformas integrales",
         "Emprendimiento propio de servicios eléctricos",
         "Mantenimiento industrial"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 24,
     "titulo": "Inglés Nivel Intermedio (B1 - B2)",
-    "descripcion": "Lográ fluidez y autonomía. Clases de conversación semanales 'Fluidez Total' para quienes ya tienen base y buscan confianza.",
+    "descripcion": "El curso de inglés nivel intermedio te ayuda a manejar la mayoría de las situaciones y conversaciones. Podrás hablar con más fluidez, entender textos complejos, dar tu opinión y desenvolverte bien cuando viajas o en el trabajo.",
+    "descripcion_corta":"Desarrollo de fluidez para desenvolverte con seguridad en viajes y trabajo.",
     "imagen": "/img/cursos/ingles2.jpg",
     "area": "IDIOMAS",
     "modalidad": "Híbrido (En vivo + Asincrónico)",
@@ -595,13 +642,15 @@
         "Turismo internacional",
         "Atención al cliente avanzada",
         "Soporte técnico IT"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 25,
     "titulo": "Inglés Nivel Avanzado (C1 - C2)",
-    "descripcion": "Dominio total y especialización 'Maestría'. Preparación para exámenes internacionales y módulos de Inglés de Negocios.",
+    "descripcion": "El curso de inglés nivel avanzado te ayuda a dominar el idioma casi como un nativo. Podrás hablar de cualquier tema con precisión, entender todo lo que lees o escuchas y usar el lenguaje de forma profesional y creativa.",
+    "descripcion_corta":"Dominio avanzado del idioma para contextos profesionales, académicos y laborales internacionales.",
     "imagen": "/img/cursos/ingles3.jpg",
     "area": "IDIOMAS",
     "modalidad": "Híbrido (En vivo + Asincrónico)",
@@ -621,13 +670,15 @@
         "Comercio exterior y relaciones internacionales",
         "Docencia y traducción",
         "Trabajo remoto para empresas extranjeras"
-      ]
+      ],
+      "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
   {
     "id": 26,
     "titulo": "Auxiliar de Kinesiología",
-    "descripcion": "Asistí a kinesiólogos en la preparación de pacientes, aplicación de terapias físicas básicas y organización de consultorio y equipos.",
+    "descripcion": "El curso de auxiliar de kinesiología te ayudará a desarrollar competencias para asistir al kinesiólogo en la aplicación de técnicas de rehabilitación física, preparando equipos, asistiendo en los ejercicios terapéuticos y colaborando en el cuidado y movilización del paciente.",
+    "descripcion_corta":"Asistencia en rehabilitación física y ejercicios terapéuticos junto al kinesiólogo.",
     "imagen": "/img/cursos/kinesiologia.jpg",
     "area": "SALUD",
     "modalidad": "Híbrido (En vivo + Asincrónico)",
@@ -647,7 +698,8 @@
             "Consultorios de kinesiología privados",
             "Centros deportivos y gimnasios",
             "Asistencia en atención domiciliaria especializada"
-        ]
+        ],
+        "certificacion":"Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
 }
 ]

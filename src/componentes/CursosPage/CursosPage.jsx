@@ -94,7 +94,7 @@ export default function CursosPage() {
                 <img src={curso.imagen} alt={curso.titulo} className={styles.cursoImg} />
               </div>
               <h3>{curso.titulo}</h3>
-              <p>{curso.descripcion}</p>
+              <p>{curso.descripcion_corta}</p>
               <Link to={`/cursos/${curso.id}`} className={styles.ingresar}>
                 Ver más
               </Link>

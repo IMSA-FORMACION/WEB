@@ -109,10 +109,10 @@ export default function CursoDetalle() {
                 </div>
               )}
 
-              {/* 2. Temario */}
+              {/* 2. Herramientas que incorporaras */}
               {detalle?.temario && (
                 <div className={styles.cajaLista}>
-                  <span className={styles.subtituloLista}>Temario</span>
+                  <span className={styles.subtituloLista}>Herramientas que incorporaras</span>
                   <ul className={styles.listaItems}>
                     {detalle.temario.map((item, index) => (
                       <li key={index}>{item}</li>
