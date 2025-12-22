@@ -44,6 +44,27 @@ export default function Nosotros() {
             <p>Capacitarte con IMSA es más que aprender: es prepararte para actuar. Queremos que cada curso sea un paso real hacia tu desarrollo personal y profesional. Porque el saber cobra sentido cuando se transforma en oportunidades. Hoy es un gran día para empezar a construir tu futuro.</p>
           </div>
 
+          <div className={style.instituciones}>
+  <h3 className={style.institucionesTitulo}>
+    Instituciones y estándares con los que trabajamos
+  </h3>
+
+  <p className={style.institucionesTexto}>
+    Nuestros programas y contenidos se desarrollan en línea con marcos
+    académicos reconocidos a nivel nacional e internacional.
+  </p>
+
+  <div className={style.logos}>
+    <img src="/img/empresas/AACI-gris.png" alt="Asociación Argentina de Cultura Inglesa" />
+    <img src="/img/empresas/cambridge-gris.png" alt="Cambridge English" />
+    <img src="/img/empresas/camara-argentina-gris.png" alt="Cámara Argentina" />
+    <img src="/img/empresas/CARAA-gris.png" alt="CARAA" />
+  </div>
+</div>
+
+
+
+
           <div className={style.botonContainer}>
             <Link to={'/contacto'} className={style.botonContacto}>Contactate con nosotros</Link>
           </div>
