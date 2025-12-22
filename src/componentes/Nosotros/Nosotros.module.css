@@ -136,5 +136,14 @@
   width: auto;
   filter: grayscale(100%);
   opacity: 0.85;
-  transition: opacity 0.3s ease, filter 0.3s ease;
+  transition: 
+    transform 0.3s ease,
+    opacity 0.3s ease,
+    filter 0.3s ease;
+}
+
+.logos img:hover {
+  transform: scale(1.15);
+  filter: grayscale(0%);
+  opacity: 1;
 }
