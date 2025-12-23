@@ -1,15 +1,9 @@
-/* =========================
-   CONTENEDOR
-========================= */
 .instituciones {
   padding: 40px 20px;
   font-family: "Montserrat", sans-serif;
   background-color: #ffffff;
 }
 
-/* =========================
-   TÍTULO
-========================= */
 .institucionesTitulo {
   font-size: 2rem;
   font-weight: 300;
@@ -18,20 +12,13 @@
   margin-bottom: 50px;
 }
 
-/* =========================
-   CARRUSEL (VENTANA)
-========================= */
 .carousel {
   width: 100%;
   overflow: hidden;
-  position: relative;
   display: flex;
-  justify-content: center; /* centra el track */
+  justify-content: center;
 }
 
-/* =========================
-   TRACK (MOVIMIENTO FLUIDO)
-========================= */
 .track {
   display: flex;
   align-items: center;
@@ -39,9 +26,6 @@
   will-change: transform;
 }
 
-/* =========================
-   LOGOS
-========================= */
 .track img {
   height: 100px;
   width: auto;
@@ -52,10 +36,6 @@
 
 
 
-
-/* =========================
-   RESPONSIVE
-========================= */
 @media (max-width: 768px) {
   .institucionesTitulo {
     font-size: 1.5rem;

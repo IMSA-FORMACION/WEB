@@ -6,23 +6,15 @@ export default function Empresas() {
   const animationRef = useRef(null);
   const lastTimeRef = useRef(null);
   const positionRef = useRef(0);
-  const speed = 100; // px por segundo
   const isPaused = useRef(false);
+  const speed = 100; // px por segundo
+  const gap = 80; // gap entre logos
 
   useEffect(() => {
     const track = trackRef.current;
     if (!track) return;
 
-    let trackWidth = 0;
-    const gap = 80;
-
-    function init() {
-      const containerWidth = track.parentElement.offsetWidth;
-      trackWidth = track.scrollWidth / 2;
-      positionRef.current = 0;
-      lastTimeRef.current = null;
-      animationRef.current = requestAnimationFrame(step);
-    }
+    let trackWidth = track.scrollWidth / 2;
 
     function step(timestamp) {
       if (!lastTimeRef.current) lastTimeRef.current = timestamp;
@@ -34,8 +26,11 @@ export default function Empresas() {
         positionRef.current -= movement;
 
         const firstLogo = track.children[0];
+        if (!firstLogo) return;
+
         const firstLogoWidth = firstLogo.offsetWidth + gap;
 
+        // Loop infinito: cuando el primer logo sale completamente
         if (Math.abs(positionRef.current) >= firstLogoWidth) {
           positionRef.current += firstLogoWidth;
           track.appendChild(firstLogo);
@@ -47,18 +42,19 @@ export default function Empresas() {
       animationRef.current = requestAnimationFrame(step);
     }
 
-    // Esperar a que todas las imágenes carguen
+    // Esperar que todas las imágenes carguen
     const images = Array.from(track.querySelectorAll("img"));
     let loaded = 0;
     images.forEach((img) => {
       if (img.complete) loaded++;
       else img.onload = () => {
         loaded++;
-        if (loaded === images.length) init();
+        if (loaded === images.length) animationRef.current = requestAnimationFrame(step);
       };
     });
-    if (loaded === images.length) init();
+    if (loaded === images.length) animationRef.current = requestAnimationFrame(step);
 
+    // Recalcular posición en resize
     const handleResize = () => {
       positionRef.current = 0;
     };
@@ -87,7 +83,7 @@ export default function Empresas() {
           <img src="/img/empresas/camara-argentina.png" alt="Cámara Argentina" />
           <img src="/img/empresas/CARAA.png" alt="CARAA" />
 
-          {/* Duplicados */}
+          {/* Duplicados para loop infinito */}
           <img src="/img/empresas/AACI.png" alt="AACI" />
           <img src="/img/empresas/cambridge.png" alt="Cambridge English" />
           <img src="/img/empresas/camara-argentina.png" alt="Cámara Argentina" />
