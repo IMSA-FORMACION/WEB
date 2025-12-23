@@ -14,9 +14,9 @@ export default function Empresas() {
 
   return (
     <section className={style.instituciones}>
-      <h3 className={style.institucionesTitulo}>
-        Empresas que confían en nosotros
-      </h3>
+      <h2 className={style.institucionesTitulo}>
+        EMPRESAS QUE CONFÍAN EN NOSOTROS
+      </h2>
       
       <div className={style.sliderContainer}>
         <div className={style.sliderTrack}>

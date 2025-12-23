@@ -1,15 +1,26 @@
 .instituciones {
-  padding: 60px 0;
+  /* Usamos padding vertical para separar de otras secciones 
+     y 0 a los lados para que la marquesina llegue al borde */
+  padding: 80px 0; 
   background-color: #fff;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el título y el container de logos */
+  justify-content: center;
 }
 
 .institucionesTitulo {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   text-align: center;
   color: #7a62fb;
-  margin-bottom: 50px;
-  font-family: sans-serif;
+  /* Margen generoso abajo para separar del carrusel */
+  margin: 0 0 60px 0; 
+  width: 100%;
+  max-width: 1200px; /* Evita que el título toque los bordes en pantallas enormes */
+  padding: 0 20px;
 }
 
 .sliderContainer {
@@ -17,61 +28,94 @@
   overflow: hidden;
   position: relative;
   display: flex;
-  /* Degradado suave en los bordes */
-  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+  align-items: center;
+  /* El degradado ayuda a centrar visualmente el foco en el medio */
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
 }
 
 .sliderTrack {
   display: flex;
+  align-items: center;
   will-change: transform;
-  /* El ancho debe ser: ancho del slide * cantidad total de logos */
-  width: calc(250px * 16); 
-  animation: scroll 25s linear infinite;
+  /* Ancho: (ancho slide + gap) * total de logos */
+  /* He añadido un gap de 40px para mejor respiro entre logos */
+  gap: 40px; 
+  width: max-content; 
+  animation: scroll 30s linear infinite;
 }
 
-/* --- AQUÍ ESTÁ EL CAMBIO --- */
 .sliderContainer:hover .sliderTrack {
   animation-play-state: paused;
 }
 
 .slide {
-  width: 250px;
+  /* Quitamos el width fijo de 250px si queremos que el 
+     contenido dicte el espacio, o lo mantenemos para uniformidad */
+  width: 220px; 
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease; /* Para el efecto de escala */
 }
-
 
 .slide img {
   height: 80px;
   width: auto;
+  max-width: 100%;
   object-fit: contain;
-  pointer-events: auto; /* Permite detectar el hover sobre la imagen */
+  filter: brightness(1);
+  transition: transform 0.3s ease;
 }
 
+.slide img:hover {
+  transform: scale(1.1);
+}
+
+/* Ajuste de la animación para incluir el GAP */
 @keyframes scroll {
   0% {
     transform: translate3d(0, 0, 0);
   }
   100% {
-    /* Moverse la mitad de la lista total de logos */
-    transform: translate3d(calc(-250px * 8), 0, 0);
+    /* IMPORTANTE: Debe ser exactamente la mitad del ancho de tu track 
+       incluyendo los gaps para que el loop sea invisible */
+    transform: translate3d(calc(-220px * 8 - 40px * 8), 0, 0);
   }
 }
 
 @media (max-width: 768px) {
+  .instituciones {
+    padding: 50px 0;
+  }
+
+  .institucionesTitulo {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+  }
+
   .slide {
     width: 150px;
-    margin-right: 15px;
   }
+
   .slide img {
-    height: 70px;
-  
+    height: 60px;
   }
+
   @keyframes scroll {
     0% { transform: translate3d(0, 0, 0); }
-    100% { transform: translate3d(calc(-150px * 8), 0, 0); }
+    100% { transform: translate3d(calc(-150px * 8 - 40px * 8), 0, 0); }
   }
 }
