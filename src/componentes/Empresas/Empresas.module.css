@@ -1,52 +1,75 @@
 .instituciones {
-  padding: 40px 20px;
-  font-family: "Montserrat", sans-serif;
-  background-color: #ffffff;
+  padding: 60px 0;
+  background-color: #fff;
+  overflow: hidden;
 }
 
 .institucionesTitulo {
   font-size: 2rem;
-  font-weight: 300;
   text-align: center;
   color: #7a62fb;
   margin-bottom: 50px;
+  font-family: sans-serif;
 }
 
-.carousel {
+.sliderContainer {
   width: 100%;
   overflow: hidden;
+  position: relative;
   display: flex;
-  justify-content: center;
+  /* Degradado suave en los bordes */
+  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
 }
 
-.track {
+.sliderTrack {
+  display: flex;
+  will-change: transform;
+  /* El ancho debe ser: ancho del slide * cantidad total de logos */
+  width: calc(250px * 16); 
+  animation: scroll 25s linear infinite;
+}
+
+/* --- AQUÍ ESTÁ EL CAMBIO --- */
+.sliderContainer:hover .sliderTrack {
+  animation-play-state: paused;
+}
+
+.slide {
+  width: 250px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
-  gap: 80px;
-  will-change: transform;
+  justify-content: center;
+  transition: transform 0.3s ease; /* Para el efecto de escala */
 }
 
-.track img {
-  height: 100px;
+
+.slide img {
+  height: 80px;
   width: auto;
   object-fit: contain;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  cursor: pointer;
+  pointer-events: auto; /* Permite detectar el hover sobre la imagen */
 }
 
-
+@keyframes scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    /* Moverse la mitad de la lista total de logos */
+    transform: translate3d(calc(-250px * 8), 0, 0);
+  }
+}
 
 @media (max-width: 768px) {
-  .institucionesTitulo {
-    font-size: 1.5rem;
-    margin-bottom: 40px;
+  .slide {
+    width: 150px;
   }
-
-  .track {
-    gap: 50px;
+  .slide img {
+    height: 50px;
   }
-
-  .track img {
-    height: 60px;
+  @keyframes scroll {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(calc(-150px * 8), 0, 0); }
   }
 }
