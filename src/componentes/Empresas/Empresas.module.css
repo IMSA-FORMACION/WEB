@@ -1,0 +1,78 @@
+/* =========================
+   CONTENEDOR
+========================= */
+.instituciones {
+  padding: 40px 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+}
+
+/* =========================
+   TÍTULO
+========================= */
+.institucionesTitulo {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  color: #7a62fb;
+  margin-bottom: 50px;
+}
+
+/* =========================
+   CARRUSEL (VENTANA)
+========================= */
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center; /* centra el track */
+}
+
+/* =========================
+   TRACK (MOVIMIENTO FLUIDO)
+========================= */
+.track {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  will-change: transform;
+}
+
+/* =========================
+   LOGOS
+========================= */
+.track img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+
+
+/* =========================
+   PAUSA AL HOVER
+========================= */
+.carousel:hover .track {
+  /* Pausa la animación JS */
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .institucionesTitulo {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+
+  .track {
+    gap: 50px;
+  }
+
+  .track img {
+    height: 60px;
+  }
+}

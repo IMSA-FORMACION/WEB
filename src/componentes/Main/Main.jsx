@@ -6,6 +6,7 @@ import Nosotros from '../Nosotros/Nosotros';
 import Mapa from '../Mapa/Mapa';
 import Cursos from '../Cursos/Cursos';
 import Internacional from '../Internacional/Internacional'
+import Empresas from '../Empresas/Empresas'
 import style from './Main.module.css'
 
 export default function Main() {
@@ -14,8 +15,9 @@ export default function Main() {
       <Carrousel />
       <Formacion />
       <Internacional/>
-      <Redes />
+     <Empresas/>
       <Cursos/>
+       <Redes />
       <Nosotros/>
       <Mapa/>
     </main>
