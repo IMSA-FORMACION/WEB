@@ -64,9 +64,11 @@
 @media (max-width: 768px) {
   .slide {
     width: 150px;
+    margin-right: 15px;
   }
   .slide img {
-    height: 50px;
+    height: 70px;
+  
   }
   @keyframes scroll {
     0% { transform: translate3d(0, 0, 0); }
