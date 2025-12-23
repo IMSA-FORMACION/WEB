@@ -6,6 +6,7 @@ export default function Empresas() {
     { src: "/img/empresas/cambridge.png", alt: "Cambridge English" },
     { src: "/img/empresas/camara-argentina.png", alt: "Cámara Argentina" },
     { src: "/img/empresas/CARAA.png", alt: "CARAA" },
+    { src: "/img/empresas/OIEP.png" , alt:"OIEP"},
   ];
 
   // Para que el loop sea infinito y no se vea el corte, 
