@@ -4,8 +4,9 @@ import style from "./Empresas.module.css";
 export default function Empresas() {
   const trackRef = useRef(null);
   const animationRef = useRef(null);
-  const speed = 0.5;
+  const lastTimeRef = useRef(null);
   const positionRef = useRef(0);
+  const speed = 100; // px por segundo
   const isPaused = useRef(false);
 
   useEffect(() => {
@@ -13,53 +14,53 @@ export default function Empresas() {
     if (!track) return;
 
     let trackWidth = 0;
+    const gap = 80;
 
-    function startAnimation() {
+    function init() {
       const containerWidth = track.parentElement.offsetWidth;
       trackWidth = track.scrollWidth / 2;
-      positionRef.current = (containerWidth - trackWidth) / 2;
+      positionRef.current = 0;
+      lastTimeRef.current = null;
+      animationRef.current = requestAnimationFrame(step);
+    }
 
-      function step() {
-        if (!isPaused.current) {
-          positionRef.current -= speed;
+    function step(timestamp) {
+      if (!lastTimeRef.current) lastTimeRef.current = timestamp;
+      const delta = timestamp - lastTimeRef.current;
+      lastTimeRef.current = timestamp;
 
-          const firstLogo = track.children[0];
-          if (!firstLogo) return;
-          const firstLogoWidth = firstLogo.offsetWidth + 80;
+      if (!isPaused.current) {
+        const movement = (speed * delta) / 1000;
+        positionRef.current -= movement;
 
-          if (Math.abs(positionRef.current) >= firstLogoWidth) {
-            positionRef.current += firstLogoWidth;
-            track.appendChild(firstLogo);
-          }
+        const firstLogo = track.children[0];
+        const firstLogoWidth = firstLogo.offsetWidth + gap;
 
-          track.style.transform = `translateX(${positionRef.current}px)`;
+        if (Math.abs(positionRef.current) >= firstLogoWidth) {
+          positionRef.current += firstLogoWidth;
+          track.appendChild(firstLogo);
         }
-        animationRef.current = requestAnimationFrame(step);
+
+        track.style.transform = `translateX(${positionRef.current}px)`;
       }
 
       animationRef.current = requestAnimationFrame(step);
     }
 
-    // Esperar que todas las imágenes estén cargadas
+    // Esperar a que todas las imágenes carguen
     const images = Array.from(track.querySelectorAll("img"));
-    let loadedCount = 0;
+    let loaded = 0;
     images.forEach((img) => {
-      if (img.complete) {
-        loadedCount++;
-      } else {
-        img.onload = () => {
-          loadedCount++;
-          if (loadedCount === images.length) startAnimation();
-        };
-      }
+      if (img.complete) loaded++;
+      else img.onload = () => {
+        loaded++;
+        if (loaded === images.length) init();
+      };
     });
-    if (loadedCount === images.length) startAnimation();
+    if (loaded === images.length) init();
 
-    // Recalcular en resize (mobile / responsive)
     const handleResize = () => {
-      const containerWidth = track.parentElement.offsetWidth;
-      trackWidth = track.scrollWidth / 2;
-      positionRef.current = (containerWidth - trackWidth) / 2;
+      positionRef.current = 0;
     };
     window.addEventListener("resize", handleResize);
 
