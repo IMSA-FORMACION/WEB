@@ -80,9 +80,7 @@
   transition: transform 0.3s ease;
 }
 
-.slide img:hover {
-  transform: scale(1.1);
-}
+
 
 /* Ajuste de la animación para incluir el GAP */
 @keyframes scroll {
