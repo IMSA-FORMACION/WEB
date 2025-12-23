@@ -15,7 +15,7 @@ export default function Empresas() {
   return (
     <section className={style.instituciones}>
       <h2 className={style.institucionesTitulo}>
-        EMPRESAS QUE CONFÍAN EN NOSOTROS
+        CERTIFICAN NUESTROS CURSOS
       </h2>
       
       <div className={style.sliderContainer}>
