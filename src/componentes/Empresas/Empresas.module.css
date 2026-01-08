@@ -45,17 +45,14 @@
     transparent
   );
 }
-
 .sliderTrack {
   display: flex;
   align-items: center;
-  will-change: transform;
-  /* Ancho: (ancho slide + gap) * total de logos */
-  /* He añadido un gap de 40px para mejor respiro entre logos */
   gap: 40px; 
-  width: max-content; 
+  width: fit-content; /* Mejor compatibilidad */
   animation: scroll 30s linear infinite;
 }
+
 
 .sliderContainer:hover .sliderTrack {
   animation-play-state: paused;
