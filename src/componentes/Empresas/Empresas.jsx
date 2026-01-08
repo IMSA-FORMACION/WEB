@@ -7,12 +7,12 @@ export default function Empresas() {
     { src: "/img/empresas/camara-argentina.png", alt: "Cámara Argentina" },
     { src: "/img/empresas/CARAA.png", alt: "CARAA" },
     { src: "/img/empresas/OIEP.png" , alt:"OIEP"},
-    { src: "public/img/empresas/AATALAC.png" , alt:"AATALAC"},
+    { src: "public/img/empresas/AATALAC.webp" , alt:"AATALAC"},
   ];
 
   // Para que el loop sea infinito y no se vea el corte, 
   // duplicamos la lista de logos
-  const todosLosLogos = [...logos, ...logos, ...logos, ...logos, ...logos];
+  const todosLosLogos = [...logos, ...logos, ...logos, ...logos];
 
   return (
     <section className={style.instituciones}>
