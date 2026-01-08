@@ -12,7 +12,7 @@ export default function Empresas() {
 
   // Para que el loop sea infinito y no se vea el corte, 
   // duplicamos la lista de logos
-  const todosLosLogos = [...logos, ...logos, ...logos, ...logos];
+  const todosLosLogos = [...logos, ...logos, ...logos, ...logos, ...logos];
 
   return (
     <section className={style.instituciones}>
