@@ -11,7 +11,7 @@ const areas = [
   { title: 'TÉCNICOS', url_img: '/img/Formacion/tecnicos.webp' },
    {title:'CRECIMIENTO  ', url_img:'/img/Formacion/personal.jpg'},
   {title:'ADMINISTRACIÓN', url_img:'/img/Formacion/administracion.jpg'},
-  {title:'INTERNACIONAL', url_img:'/img/Formacion/internacional.jpg'},
+  {title:'INTERNACIONAL', url_img:'/img/Formacion/internacional1.jpg'},
 ];
 
 function Formacion() {
