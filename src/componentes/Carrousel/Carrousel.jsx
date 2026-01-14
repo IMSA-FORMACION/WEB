@@ -1,9 +1,15 @@
 import { useState, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom'; // ✅ importamos navigate
+import { useNavigate } from 'react-router-dom';
 import style from './Carrousel.module.css';
 
 export default function Carrousel() {
   const slides = [
+    {
+      imagen: "/img/carrousel/IMSA_Carrousel_0.webp",
+      titulo: "¡COMENZAMOS EN MARZO!",
+      parrafos: ["Inscribite hoy y transformá tu futuro profesional con IMSA"],
+      boton: "Inscribirse",
+    },
     {
       imagen: "/img/carrousel/IMSA_Carrousel_1.webp",
       titulo: "Tus oportunidades no tienen límites",
@@ -36,7 +42,7 @@ export default function Carrousel() {
   const [indice, setIndice] = useState(0);
   const [pausado, setPausado] = useState(false);
   const intervaloRef = useRef(null);
-  const navigate = useNavigate(); // ✅ Hook para redirección
+  const navigate = useNavigate();
 
   const iniciarAutoAvance = () => {
     if (intervaloRef.current) clearInterval(intervaloRef.current);
@@ -46,41 +52,29 @@ export default function Carrousel() {
   };
 
   useEffect(() => {
-    if (!pausado) {
-      iniciarAutoAvance();
-    }
-
+    if (!pausado) iniciarAutoAvance();
     return () => clearInterval(intervaloRef.current);
   }, [pausado]);
 
   const handleClickImagen = () => {
     setPausado(true);
     clearInterval(intervaloRef.current);
-
-    setTimeout(() => {
-      setPausado(false);
-    }, 15000);
+    setTimeout(() => setPausado(false), 15000);
   };
 
-  const handleManualChange = (nuevaDireccion) => {
-    setIndice((prev) => (prev + nuevaDireccion + slides.length) % slides.length);
+  const handleManualChange = (dir) => {
+    setIndice((prev) => (prev + dir + slides.length) % slides.length);
     setPausado(true);
     clearInterval(intervaloRef.current);
-
-    setTimeout(() => {
-      setPausado(false);
-    }, 15000);
+    setTimeout(() => setPausado(false), 15000);
   };
 
-  // ✅ Función para manejar los botones
   const handleBotonClick = (textoBoton) => {
     if (textoBoton === "Ver cursos de formación") {
-      navigate("/cursos"); // Redirige a la ruta /cursos
+      navigate("/cursos");
     } else if (textoBoton === "Conocenos más") {
       const elemento = document.getElementById("nosotros");
-      if (elemento) {
-        elemento.scrollIntoView({ behavior: "smooth" }); // Scroll suave al ID
-      }
+      if (elemento) elemento.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -98,18 +92,41 @@ export default function Carrousel() {
 
       <div className={style.texto}>
         <h1>{actual.titulo}</h1>
+
         {actual.parrafos.map((p, i) => (
           <p key={i}>{p}</p>
         ))}
-        <button
-          className={style.boton}
-          onClick={() => handleBotonClick(actual.boton)}
-        >
-          {actual.boton}
-        </button>
+
+        {/* ✅ BOTONES */}
+        {indice === 0 ? (
+          <div className={style.botonesInscripcion}>
+            <a
+              href="mailto:administracion@imsaformacion.com"
+              className={style.boton}
+            >
+              Inscribirme por correo
+            </a>
+
+            <a
+              href="https://wa.me/5491159489408"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={style.boton}
+            >
+              Inscribirme por WhatsApp
+            </a>
+          </div>
+        ) : (
+          <button
+            className={style.boton}
+            onClick={() => handleBotonClick(actual.boton)}
+          >
+            {actual.boton}
+          </button>
+        )}
       </div>
 
-      {/* Controles manuales */}
+      {/* Controles */}
       <div className={style.controles}>
         <button onClick={() => handleManualChange(-1)} className={style.controlBtn}>◀</button>
         <button onClick={() => handleManualChange(1)} className={style.controlBtn}>▶</button>
