@@ -6,6 +6,7 @@ import Home from "./componentes/Home/Home.jsx";
 
 // ✅ Lista de imágenes a precargar
 const imagesToPreload = [
+    "/img/carrousel/IMSA_Carrousel_0.webp",
     "/img/carrousel/IMSA_Carrousel_1.webp",
     "/img/carrousel/IMSA_Carrousel_2.webp",
     "/img/carrousel/IMSA_Carrousel_3.webp",
