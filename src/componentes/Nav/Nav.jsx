@@ -42,7 +42,15 @@ export default function Nav() {
 
       <div className={style.redes}> 
         <FaFacebookF />
-        <LuInstagram />
+        {/* Enlace Instagram Escritorio */}
+        <a 
+          href="https://www.instagram.com/imsa.formacion" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className={style.socialLink}
+        >
+          <LuInstagram />
+        </a>
       </div>
 
       <div className={style.hamburguesa} onClick={() => setMenuAbierto(!menuAbierto)}>
@@ -53,16 +61,25 @@ export default function Nav() {
       {menuAbierto && (
         <div className={style.menuMobile}>
           <nav className={style.menuLinks}>
-            <Link to='/cursos'>CURSOS DE FORMACIÓN <IoCaretDown /></Link>
+            <Link to='/cursos' onClick={handleMenuClick}>CURSOS DE FORMACIÓN <IoCaretDown /></Link>
 
             <Link to="/#nosotros" onClick={handleMenuClick}>
               NOSOTROS
             </Link>
-            <Link to='/contacto'>CONTACTO</Link>
+            <Link to='/contacto' onClick={handleMenuClick}>CONTACTO</Link>
           </nav>
           <div className={style.menuRedes}>
             <FaFacebookF />
-            <LuInstagram />
+            {/* Enlace Instagram Móvil */}
+            <a 
+              href="https://www.instagram.com/imsa.formacion" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={handleMenuClick}
+              className={style.socialLink}
+            >
+              <LuInstagram />
+            </a>
           </div>
         </div>
       )}
