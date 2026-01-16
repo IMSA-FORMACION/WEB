@@ -33,11 +33,11 @@ export default function Footer() {
         <div className={styles.section}>
           <h4>Redes Sociales</h4>
           <div className={styles.socialIcons}>
-            <a href="https://www.facebook.com/imsa.formacion" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+            <a  href="https://www.facebook.com/people/IMSA/61585515595551/"  target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
               <FaFacebookF size={20} />
               <span className={styles.socialText}>imsa.formacion</span>
             </a>
-            <a href="https://www.instagram.com/imsa.formacion" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+            <a href="https://www.instagram.com/imsa.formacion"  target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
               <FaInstagram size={20} />
               <span className={styles.socialText}>imsa.formacion</span>
             </a>
