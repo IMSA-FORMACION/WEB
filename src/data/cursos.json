@@ -106,7 +106,7 @@
   },
   {
     "id": 5,
-    "titulo": "Inglés Nivel Inicial (A1 - A2)",
+    "titulo": "Inglés A1/ A2",
     "descripcion": "El curso de inglés nivel inicial te ayuda a empezar a comunicarte desde cero. Aprenderás a decir quién eres, a saludar, a hacer preguntas muy básicas y a entender frases cortas sobre cosas cotidianas. ",
     "descripcion_corta":"Primeros pasos en inglés para comunicarte en situaciones cotidianas y laborales básicas.",
     "imagen": "/img/cursos/ingles.jpg",
@@ -620,7 +620,7 @@
   },
   {
     "id": 24,
-    "titulo": "Inglés Nivel Intermedio (B1 - B2)",
+    "titulo": "Inglés A2+/B1",
     "descripcion": "El curso de inglés nivel intermedio te ayuda a manejar la mayoría de las situaciones y conversaciones. Podrás hablar con más fluidez, entender textos complejos, dar tu opinión y desenvolverte bien cuando viajas o en el trabajo.",
     "descripcion_corta":"Desarrollo de fluidez para desenvolverte con seguridad en viajes y trabajo.",
     "imagen": "/img/cursos/ingles2.jpg",
@@ -648,7 +648,7 @@
   },
   {
     "id": 25,
-    "titulo": "Inglés Nivel Avanzado (C1 - C2)",
+    "titulo": "Inglés B1/B2",
     "descripcion": "El curso de inglés nivel avanzado te ayuda a dominar el idioma casi como un nativo. Podrás hablar de cualquier tema con precisión, entender todo lo que lees o escuchas y usar el lenguaje de forma profesional y creativa.",
     "descripcion_corta":"Dominio avanzado del idioma para contextos profesionales, académicos y laborales internacionales.",
     "imagen": "/img/cursos/ingles3.jpg",
