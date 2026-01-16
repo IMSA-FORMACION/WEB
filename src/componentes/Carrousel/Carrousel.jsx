@@ -97,33 +97,35 @@ export default function Carrousel() {
           <p key={i}>{p}</p>
         ))}
 
-        {/* ✅ BOTONES */}
-        {indice === 0 ? (
-          <div className={style.botonesInscripcion}>
-            <a
-              href="mailto:administracion@imsaformacion.com"
-              className={style.boton}
-            >
-              Inscribirme por correo
-            </a>
+       {/* ✅ BOTONES */}
+{indice === 0 ? (
+  <div className={style.botonesInscripcion}>
+    <a
+      href="mailto:administracion@imsaformacion.com"
+      className={style.boton}
+    >
+      Inscribirme por correo
+    </a>
 
-            <a
-              href="https://wa.me/5491159489408"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={style.boton}
-            >
-              Inscribirme por WhatsApp
-            </a>
-          </div>
-        ) : (
-          <button
-            className={style.boton}
-            onClick={() => handleBotonClick(actual.boton)}
-          >
-            {actual.boton}
-          </button>
-        )}
+    <a
+      href="https://wa.me/5491159489408"
+      target="_blank"
+      rel="noopener noreferrer"
+      className={style.boton}
+    >
+      Inscribirme por WhatsApp
+    </a>
+  </div>
+) : (
+  <button
+    className={style.boton}
+    onClick={() => handleBotonClick(actual.boton)}
+    type="button"
+  >
+    {actual.boton}
+  </button>
+)}
+
       </div>
 
       {/* Controles */}
