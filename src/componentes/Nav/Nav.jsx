@@ -41,7 +41,14 @@ export default function Nav() {
       </div>
 
       <div className={style.redes}> 
-        <FaFacebookF />
+         <a 
+    href="https://www.facebook.com/people/IMSA/61585515595551/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className={style.socialLink}
+  >
+    <FaFacebookF />
+  </a>
         {/* Enlace Instagram Escritorio */}
         <a 
           href="https://www.instagram.com/imsa.formacion" 
@@ -68,19 +75,27 @@ export default function Nav() {
             </Link>
             <Link to='/contacto' onClick={handleMenuClick}>CONTACTO</Link>
           </nav>
-          <div className={style.menuRedes}>
-            <FaFacebookF />
-            {/* Enlace Instagram Móvil */}
-            <a 
-              href="https://www.instagram.com/imsa.formacion" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              onClick={handleMenuClick}
-              className={style.socialLink}
-            >
-              <LuInstagram />
-            </a>
-          </div>
+        <div className={style.menuRedes}>
+  <a 
+    href="https://www.facebook.com/people/IMSA/61585515595551/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    onClick={handleMenuClick}
+    className={style.socialLink}
+  >
+    <FaFacebookF />
+  </a>
+
+  <a 
+    href="https://www.instagram.com/imsa.formacion" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    onClick={handleMenuClick}
+    className={style.socialLink}
+  >
+    <LuInstagram />
+  </a>
+</div>
         </div>
       )}
     </div>

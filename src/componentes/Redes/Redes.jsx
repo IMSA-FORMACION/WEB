@@ -37,9 +37,9 @@ export default function Redes() {
         <div className={style.iconos}>
           {/* Enlace Facebook */}
           <a 
-            href="https://www.facebook.com/TU_PAGINA_AQUI" 
-            target="_blank" 
-            rel="noopener noreferrer"
+             href="https://www.facebook.com/people/IMSA/61585515595551/" 
+    target="_blank" 
+    rel="noopener noreferrer"
           >
             <img
               src='/img/redes/Facebook.png'
