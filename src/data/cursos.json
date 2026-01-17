@@ -7,7 +7,8 @@
     "imagen": "/img/cursos/asistente-terapeutico.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "96h",
+    "docente":"Ángeles Morris",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -34,7 +35,8 @@
     "imagen": "/img/cursos/cuidador1.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "48h",
+    "docente":"Ángeles Morris",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -60,7 +62,8 @@
     "imagen": "/img/cursos/cuidador2.jpg",
     "area": "INTERNACIONAL",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "48h",
+    "docente":"Ángeles Morris",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -86,7 +89,7 @@
     "imagen": "/img/cursos/enfermeria.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "80h",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -112,7 +115,8 @@
     "imagen": "/img/cursos/ingles.jpg",
     "area": "IDIOMAS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "120h",
+    "docente":"Evelyn Benencio",
     "destacado": true,
     "detalle": {
       "metodologia": "Blended Learning: Clases en vivo por Zoom + Plataforma interactiva.",
@@ -139,7 +143,8 @@
     "imagen": "/img/cursos/electricidad.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "48h",
+    "docente":"Pablo Castelli",
     "destacado": true,
     "detalle": {
       "metodologia": "50 videos HD paso a paso + Clase evaluativa presencial.",
@@ -166,7 +171,8 @@
     "imagen": "/img/cursos/cosmetologia.jpg",
     "area": "BELLEZA",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "36h",
+    "docente":"Micaela Ciancaglini",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -193,7 +199,8 @@
     "imagen": "/img/cursos/extraccionista.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "24h / 32h",
+    "docente":"",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -247,7 +254,7 @@
     "imagen": "/img/cursos/nutricion.jpg",
     "area": "SALUD",
     "modalidad": "100% Online",
-    "duracion": "",
+    "duracion": "16h",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -328,7 +335,8 @@
     "imagen": "/img/cursos/aire.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "72h",
+    "docente":"Pablo Daniel Cerri",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -355,7 +363,8 @@
     "imagen": "/img/cursos/refrigeracion.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "6 meses",
+    "duracion": "80h",
+    "docente":"Pablo Daniel Cerri",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -436,7 +445,8 @@
     "imagen": "/img/cursos/excel.jpg",
     "area": "TECNOLOGÍA",
     "modalidad": "100% online",
-    "duracion": "",
+    "duracion": "10.5h basico / 16h avanzado",
+    "docente":"Sharon Pesce",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -490,7 +500,8 @@
     "imagen": "/img/cursos/fotografia.jpg",
     "area": "DISEÑO",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "36h",
+    "docente":"Laura Lagana",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -626,7 +637,8 @@
     "imagen": "/img/cursos/ingles2.jpg",
     "area": "IDIOMAS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "120h",
+    "docente":"Evelyn Benencio",
     "destacado": false,
     "detalle": {
       "metodologia": "Blended Learning + Clases de conversación semanales.",
@@ -654,7 +666,8 @@
     "imagen": "/img/cursos/ingles3.jpg",
     "area": "IDIOMAS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "120h",
+    "docente":"Evelyn Benencio",
     "destacado": false,
     "detalle": {
       "metodologia": "Blended Learning + Preparación de exámenes internacionales.",
@@ -682,7 +695,8 @@
     "imagen": "/img/cursos/kinesiologia.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "140h",
+    "docente":"Fernanda Ghiglione",
     "destacado": true,
     "detalle": {
       "metodologia": "Clases teóricas asincrónicas + Sesiones prácticas en vivo (Zoom) o presenciales (según disponibilidad).",
