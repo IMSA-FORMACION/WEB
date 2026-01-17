@@ -88,9 +88,9 @@ export default function CursosPage() {
             <div key={curso.id} className={styles.cursoCard}>
               <div className={styles.cursoImgWrapper}>
                 <img src={LOGO_URL} alt="Logo IMSA" className={styles.cursoLogoOverlay} />
-                <span className={styles.cursoAsincronicoTag}>
+               {/* <span className={styles.cursoAsincronicoTag}>
                   {curso.modalidad.toUpperCase()}
-                </span>
+                </span>*/}
                 <img src={curso.imagen} alt={curso.titulo} className={styles.cursoImg} />
               </div>
               <h3>{curso.titulo}</h3>
