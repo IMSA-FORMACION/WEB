@@ -80,7 +80,7 @@
   },
   {
     "id": 4,
-    "titulo": "Auxiliar de Enfermería Domiciliaria",
+    "titulo": "Auxiliar de Enfermería",
     "descripcion": "El curso de auxiliar de enfermería domiciliaria te ayudará a desarrollar habilidades técnicas para la asistencia médica básica y los procedimientos sanitarios dentro del hogar del paciente, asegurando el cumplimiento del plan de cuidados y el seguimiento de su evolución.",
     "descripcion_corta":"Asistencia sanitaria básica en el hogar, cumpliendo planes de cuidado y seguimiento del paciente.",
     "imagen": "/img/cursos/enfermeria.jpg",
@@ -268,7 +268,7 @@
   },
   {
     "id": 11,
-    "titulo": "Gerontología",
+    "titulo": "Especialización en Gerontologia",
     "descripcion": "El curso de gerontología te ayudará a desarrollar conocimiento multidisciplinario sobre el proceso de envejecimiento (biológico, psicológico y social), permitiendo evaluar y diseñar programas y políticas que promuevan la calidad de vida y el bienestar de los adultos mayores.",
     "descripcion_corta":"Formación integral sobre el envejecimiento y el cuidado profesional de adultos mayores.",
     "imagen": "/img/cursos/gerontologia.jpg",
@@ -565,7 +565,7 @@
   },
   {
     "id": 22,
-    "titulo": "Auxiliar de Enfermería Clínica",
+    "titulo": "Especialización en Cuidados Paliativos",
     "descripcion": "El curso de auxiliar de enfermería clínica te ayudará a desarrollar habilidades prácticas para asistir al personal de enfermería en hospitales y clínicas, realizando tareas de cuidado directo, preparación de materiales y mantenimiento de la higiene y confort del paciente internado.",
     "descripcion_corta":"Apoyo al personal de enfermería en hospitales y clínicas, brindando cuidado directo al paciente.",
     "imagen": "/img/cursos/enfermeria2.jpg",
