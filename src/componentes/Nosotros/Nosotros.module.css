@@ -98,3 +98,102 @@
 
 
 
+/* Contenedor de los párrafos */
+.parrafos {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Espaciado entre punto y aparte */
+.parrafos p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 28px; /* <-- más espacio entre párrafos */
+}
+
+/* Último párrafo sin espacio extra */
+.parrafos p:last-child {
+  margin-bottom: 0;
+}
+
+/* Cursiva destacada */
+.parrafos em {
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* IMSA GRUPO EDUCATIVO en negrita */
+.parrafos p:first-child strong {
+  font-weight: 700;
+}
+
+
+
+.proyecto {
+  margin-top: 80px;
+}
+
+/* Subtítulo */
+.subtitulo {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  margin-bottom: 50px;
+}
+
+/* Dos párrafos lado a lado */
+.dosColumnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  max-width: 1000px;
+  margin: 0 auto 60px auto;
+}
+
+.dosColumnas p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Imagen centrada */
+.imagenCentrada {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.imagenCentrada img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Texto al pie */
+.pieFoto {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Último párrafo */
+.parrafoFinal {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  line-height: 1.8;
+}
+
+/* Firma */
+.firma {
+  text-align: center;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .dosColumnas {
+    grid-template-columns: 1fr;
+  }
+}
