@@ -6,7 +6,7 @@
     "descripcion_corta":"Acompañamiento terapéutico y reinserción social del paciente, fortaleciendo la continuidad del tratamiento y el trabajo interdisciplinario.",
     "imagen": "/img/cursos/asistente-terapeutico.jpg",
     "area": "SALUD",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": true,
     "detalle": {
@@ -33,7 +33,7 @@
      "descripcion_corta":"Asistencia diaria y acompañamiento integral de personas dependientes, promoviendo bienestar, autonomía y calidad de vida.",
     "imagen": "/img/cursos/cuidador1.jpg",
     "area": "SALUD",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -59,7 +59,7 @@
     "descripcion_corta":"Formación en cuidado integral con estándares internacionales para trabajar en el exterior y ampliar oportunidades laborales.",
     "imagen": "/img/cursos/cuidador2.jpg",
     "area": "INTERNACIONAL",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -85,7 +85,7 @@
     "descripcion_corta":"Asistencia sanitaria básica en el hogar, cumpliendo planes de cuidado y seguimiento del paciente.",
     "imagen": "/img/cursos/enfermeria.jpg",
     "area": "SALUD",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -111,7 +111,7 @@
     "descripcion_corta":"Primeros pasos en inglés para comunicarte en situaciones cotidianas y laborales básicas.",
     "imagen": "/img/cursos/ingles.jpg",
     "area": "IDIOMAS",
-    "modalidad": "Híbrido (En vivo + Asincrónico)",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": true,
     "detalle": {
@@ -138,7 +138,7 @@
     "descripcion_corta":"Instalaciones eléctricas básicas y reparaciones seguras en el hogar.",
     "imagen": "/img/cursos/electricidad.jpg",
     "area": "TÉCNICOS",
-    "modalidad": "Online + Práctica Presencial",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": true,
     "detalle": {
@@ -163,9 +163,9 @@
     "titulo": "Cosmetología",
     "descripcion": "El curso de Cosmetología te ayuda a dominar el cuidado integral de la piel y los tratamientos faciales. Podrás diagnosticar correctamente cada tipo de piel, aplicar protocolos profesionales como limpiezas profundas e hidratación avanzada, y desarrollar planes de cuidado personalizados para transformar el aspecto de tus clientes.",
     "descripcion_corta":"Cuidado profesional de la piel y tratamientos faciales personalizados.",
-    "imagen": "/img/cursos/cosmetologia.jpg",
+    "imagen": "/img/cursos/cosmetolog100% onlineia.jpg",
     "area": "BELLEZA",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": true,
     "detalle": {
@@ -192,7 +192,7 @@
     "descripcion_corta":"Toma segura de muestras biológicas y correcta manipulación para análisis clínicos precisos.",
     "imagen": "/img/cursos/extraccionista.jpg",
     "area": "SALUD",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -219,7 +219,7 @@
     "descripcion_corta":"Gestión de medicamentos, atención al cliente y control de stock en farmacias y droguerías.",
     "imagen": "/img/cursos/farmacia.jpg",
     "area": "SALUD",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": true,
     "detalle": {
@@ -246,7 +246,7 @@
     "descripcion_corta":"Conocimientos clave para promover hábitos alimentarios saludables y planes nutricionales básicos.",
     "imagen": "/img/cursos/nutricion.jpg",
     "area": "SALUD",
-    "modalidad": "Asincrónico",
+    "modalidad": "100% Online",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -273,7 +273,7 @@
     "descripcion_corta":"Formación integral sobre el envejecimiento y el cuidado profesional de adultos mayores.",
     "imagen": "/img/cursos/gerontologia.jpg",
     "area": "SALUD",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -300,7 +300,7 @@
     "descripcion_corta":"Capacitación en RCP y primeros auxilios para actuar con rapidez ante emergencias.",
     "imagen": "/img/cursos/rcp.jpg",
     "area": "SALUD",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -327,7 +327,7 @@
    "descripcion_corta":"Formación completa en instalación, mantenimiento y reparación de equipos de climatización.",
     "imagen": "/img/cursos/aire.jpg",
     "area": "TÉCNICOS",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": true,
     "detalle": {
@@ -354,7 +354,7 @@
     "descripcion_corta":"Diagnóstico y reparación de sistemas de frío domésticos y comerciales.",
     "imagen": "/img/cursos/refrigeracion.jpg",
     "area": "TÉCNICOS",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "6 meses",
     "destacado": false,
     "detalle": {
@@ -381,7 +381,7 @@
     "descripcion_corta":"Mantenimiento e instalación de motores, circuitos eléctricos y maquinaria industrial.",
     "imagen": "/img/cursos/electromecanica.jpg",
     "area": "TÉCNICOS",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -408,7 +408,7 @@
     "descripcion_corta":"Diagnóstico, reparación y mantenimiento de computadoras y redes .",
     "imagen": "/img/cursos/reparacion-pc.jpg",
     "area": "TECNOLOGÍA",
-    "modalidad": "Asincrónico",
+    "modalidad": "100% online",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -435,7 +435,7 @@
     "descripcion_corta":"Dominio de Excel para análisis de datos, reportes y automatización de tareas.",
     "imagen": "/img/cursos/excel.jpg",
     "area": "TECNOLOGÍA",
-    "modalidad": "Asincrónico",
+    "modalidad": "100% online",
     "duracion": "",
     "destacado": true,
     "detalle": {
@@ -462,7 +462,7 @@
     "descripcion_corta":"Creación de sitios web profesionales con HTML, CSS y diseño responsivo.",
     "imagen": "/img/cursos/diseno-web.jpg",
     "area": "DISEÑO",
-    "modalidad": "Asincrónico",
+    "modalidad": "100% online",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -489,7 +489,7 @@
     "descripcion_corta":"Captura y edición profesional de imágenes para proyectos creativos y comerciales.",
     "imagen": "/img/cursos/fotografia.jpg",
     "area": "DISEÑO",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -516,7 +516,7 @@
    "descripcion_corta":"Manicuría y pedicuría profesional con técnicas modernas y spa.",
     "imagen": "/img/cursos/pies.jpg",
     "area": "BELLEZA",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -543,7 +543,7 @@
     "descripcion_corta":"Especialización en extensiones, lifting y diseño de pestañas personalizados.",
     "imagen": "/img/cursos/pestanas.jpg",
     "area": "BELLEZA",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -570,7 +570,7 @@
     "descripcion_corta":"Apoyo al personal de enfermería en hospitales y clínicas, brindando cuidado directo al paciente.",
     "imagen": "/img/cursos/enfermeria2.jpg",
     "area": "SALUD",
-    "modalidad": "Asincrónico",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -597,7 +597,7 @@
     "descripcion_corta":"Diseño e instalación eléctrica profesional cumpliendo normativas vigentes.",
     "imagen": "/img/cursos/electricidad2.jpg",
     "area": "TÉCNICOS",
-    "modalidad": "Online + Práctica Presencial",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": true,
     "detalle": {
@@ -625,7 +625,7 @@
     "descripcion_corta":"Desarrollo de fluidez para desenvolverte con seguridad en viajes y trabajo.",
     "imagen": "/img/cursos/ingles2.jpg",
     "area": "IDIOMAS",
-    "modalidad": "Híbrido (En vivo + Asincrónico)",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -653,7 +653,7 @@
     "descripcion_corta":"Dominio avanzado del idioma para contextos profesionales, académicos y laborales internacionales.",
     "imagen": "/img/cursos/ingles3.jpg",
     "area": "IDIOMAS",
-    "modalidad": "Híbrido (En vivo + Asincrónico)",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
     "detalle": {
@@ -681,7 +681,7 @@
     "descripcion_corta":"Asistencia en rehabilitación física y ejercicios terapéuticos junto al kinesiólogo.",
     "imagen": "/img/cursos/kinesiologia.jpg",
     "area": "SALUD",
-    "modalidad": "Híbrido (En vivo + Asincrónico)",
+    "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": true,
     "detalle": {
