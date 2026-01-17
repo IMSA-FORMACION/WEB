@@ -20,9 +20,9 @@ const Cursos = () => {
                   alt="Logo IMSA"
                   className={styles.cursoLogoOverlay}
                 />
-                <span className={styles.cursoAsincronicoTag}>
+                {/*<span className={styles.cursoAsincronicoTag}>
                   {curso.modalidad.toUpperCase()}
-                </span>
+                </span>*/}
                 <img
                   src={curso.imagen}
                   alt={curso.titulo}
