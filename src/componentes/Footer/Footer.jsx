@@ -6,11 +6,17 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        {/* Sección 1: Ubicación */}
-        <div className={styles.section}>
-          <h4>Ubicación</h4>
-          <p>Moreno 1571, Ingeniero Maschwitz, Provincia de Buenos Aires</p>
-        </div>
+       {/* Sección 1: Ubicación */}
+<div className={styles.section}>
+  <h4>Ubicación</h4>
+  <ul className={styles.locations}>
+    <li>Moreno 1571, Ingeniero Maschwitz, Provincia de Buenos Aires</li>
+    <li>Sede Tortuguitas, Buenos Aires</li>
+    <li>Sede CABA – Colegiales</li>
+    <li>Sede Córdoba</li>
+  </ul>
+</div>
+
 
         {/* Sección 2: Contacto */}
         <div className={styles.section}>
