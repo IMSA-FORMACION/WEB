@@ -101,7 +101,7 @@ export default function Carrousel() {
 {indice === 0 ? (
   <div className={style.botonesInscripcion}>
     <a
-      href="mailto:administracion@imsaformacion.com"
+      href="mailto:info@imsaformacion.com"
       className={style.boton}
     >
       Inscribirme por correo
