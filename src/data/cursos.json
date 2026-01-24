@@ -420,6 +420,7 @@
     "modalidad": "100% online",
     "duracion": "",
     "destacado": false,
+    "vacantes":false,
     "detalle": {
       "temario": [
         "Arquitectura de PC: Motherboard, CPU, RAM, Discos",
@@ -467,7 +468,7 @@
   },
   {
     "id": 18,
-    "titulo": "Diseño de Páginas Web",
+    "titulo": "Desarrollo Web en Html y CSS",
     "descripcion": "El curso de Diseño de Páginas Web te capacita para crear y lanzar sitios profesionales e interactivos. Podrás estructurar el contenido con HTML, estilizarlo con CSS y añadir funcionalidades con frameworks, permitiéndote diseñar desde landing pages hasta sitios completos para clientes o para impulsar tu propio proyecto digital.",
     "descripcion_corta": "Creación de sitios web profesionales con HTML, CSS y diseño responsivo.",
     "imagen": "/img/cursos/diseno-web.jpg",
@@ -529,6 +530,7 @@
     "area": "BELLEZA",
     "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
+    "vacantes":false,
     "destacado": false,
     "detalle": {
       "temario": [
@@ -557,6 +559,7 @@
     "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
+    "vacantes":false,
     "detalle": {
       "temario": [
         "Anatomía del ojo y ciclo de la pestaña",
