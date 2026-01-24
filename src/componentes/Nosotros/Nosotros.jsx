@@ -43,7 +43,7 @@ export default function Nosotros() {
 
   <div className={style.dosColumnas}>
     <p>
-      ¿Por qué hoy? Para brindar una opción de formación y capacitación integral a
+     <strong>¿Por qué hoy?</strong>  Para brindar una opción de formación y capacitación integral a
       personas que buscan prepararse para el mundo laboral, combinando la excelencia
       académica con un acompañamiento humano y cercano. Nuestra misión es asegurar que
       cada alumno cuente con el apoyo y la confianza necesaria para transformar su
@@ -51,7 +51,7 @@ export default function Nosotros() {
     </p>
 
     <p>
-      ¿Qué esperamos alcanzar? Convertirnos en el grupo educativo referente por su
+      <strong>¿Qué esperamos alcanzar?</strong> Convertirnos en el grupo educativo referente por su
       calidad humana y pedagógica, siendo reconocidos no solo por lo que enseñamos sino
       por cómo estamos acompañando a nuestra comunidad. Aspiramos a ser el camino entre
       el deseo de aprender y la oportunidad de trabajar, expandiendo nuestro sueño para
