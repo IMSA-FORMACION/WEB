@@ -10,7 +10,7 @@ export default function Footer() {
 <div className={styles.section}>
   <h4>Ubicación</h4>
   <ul className={styles.locations}>
-    <li>Moreno 1571, Ingeniero Maschwitz, Provincia de Buenos Aires</li>
+    <li>Sede Ingeniero Maschwitz, Provincia de Buenos Aires</li>
     <li>Sede Tortuguitas, Buenos Aires</li>
     <li>Sede CABA – Colegiales</li>
     <li>Sede Córdoba</li>
