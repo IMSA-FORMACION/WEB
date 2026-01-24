@@ -7,7 +7,7 @@
     "imagen": "/img/cursos/asistente-terapeutico.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "96h",
+    "duracion": "9 meses",
     "docente":"Ángeles Morris",
     "destacado": true,
     "detalle": {
@@ -35,7 +35,7 @@
     "imagen": "/img/cursos/cuidador1.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "48h",
+    "duracion": "5 meses",
     "docente":"Ángeles Morris",
     "destacado": false,
     "detalle": {
@@ -89,7 +89,7 @@
     "imagen": "/img/cursos/enfermeria.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "80h",
+    "duracion": "5 meses",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -115,7 +115,7 @@
     "imagen": "/img/cursos/ingles.jpg",
     "area": "IDIOMAS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "120h",
+    "duracion": "120h - 9 meses",
     "docente":"Evelyn Benencio",
     "destacado": true,
     "detalle": {
@@ -143,7 +143,7 @@
     "imagen": "/img/cursos/electricidad.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "48h",
+    "duracion": "4 meses",
     "docente":"Pablo Castelli",
     "destacado": true,
     "detalle": {
@@ -199,7 +199,7 @@
     "imagen": "/img/cursos/extraccionista.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "24h / 32h",
+    "duracion": "5 meses",
     "docente":"",
     "destacado": false,
     "detalle": {
@@ -227,7 +227,7 @@
     "imagen": "/img/cursos/farmacia.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "8 meses",
     "destacado": true,
     "detalle": {
       "temario": [
@@ -254,7 +254,7 @@
     "imagen": "/img/cursos/nutricion.jpg",
     "area": "SALUD",
     "modalidad": "100% Online",
-    "duracion": "16h",
+    "duracion": "4 meses",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -281,7 +281,7 @@
     "imagen": "/img/cursos/gerontologia.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "4 meses",
     "destacado": false,
     "detalle": {
       "temario": [
@@ -363,7 +363,7 @@
     "imagen": "/img/cursos/refrigeracion.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "80h",
+    "duracion": "4 meses",
     "docente":"Pablo Daniel Cerri",
     "destacado": false,
     "detalle": {
@@ -609,7 +609,7 @@
     "imagen": "/img/cursos/electricidad2.jpg",
     "area": "TÉCNICOS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "4 meses",
     "destacado": true,
     "detalle": {
       "metodologia": "Clases en vivo de resolución de problemas + Guía de cálculo + Aval certificado.",
@@ -637,7 +637,7 @@
     "imagen": "/img/cursos/ingles2.jpg",
     "area": "IDIOMAS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "120h",
+    "duracion": "120h - 9 meses",
     "docente":"Evelyn Benencio",
     "destacado": false,
     "detalle": {
@@ -666,7 +666,7 @@
     "imagen": "/img/cursos/ingles3.jpg",
     "area": "IDIOMAS",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "120h",
+    "duracion": "120h - 9 meses",
     "docente":"Evelyn Benencio",
     "destacado": false,
     "detalle": {
@@ -695,7 +695,7 @@
     "imagen": "/img/cursos/kinesiologia.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "140h",
+    "duracion": "9 meses",
     "docente":"Fernanda Ghiglione",
     "destacado": true,
     "detalle": {
