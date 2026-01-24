@@ -6,7 +6,8 @@ import Footer from "../Footer/Footer";
 import styles from "./CursoDetalle.module.css";
 import { MdOutlineLaptop } from "react-icons/md";
 import { MdGroupAdd } from "react-icons/md";
-import { IoDocumentText } from "react-icons/io5"; // RECURSOS MULTIMEDIA
+import { IoDocumentText } from "react-icons/io5"; // RECURSOS MULTIMEDIA}
+import { MdRecordVoiceOver } from "react-icons/md"; // Acomáñamiento de tutores
 const LOGO_URL = "/logo_imsa_blanco.png";
 
 export default function CursoDetalle() {
@@ -58,7 +59,7 @@ export default function CursoDetalle() {
               src={LOGO_URL}
               alt="Logo IMSA"
               className={styles.cursoLogoOverlay}
-            />
+            />  
           
             <img
               src={curso.imagen}
@@ -76,7 +77,10 @@ export default function CursoDetalle() {
   <h3>Modalidad: <span>{modalidad}</span></h3>
 </div>
 <div className={styles.miniCardsContainer}>
-  
+    <div className={styles.miniCard}>
+    <IoDocumentText className={styles.miniCardIcon}/>
+    <span>Recursos Multimedia</span>
+  </div>  
 <div className={styles.miniCard}>
   <MdGroupAdd className={styles.miniCardIcon}/>
   <span>En vivo o acceso a las grabaciones </span>
@@ -86,6 +90,10 @@ export default function CursoDetalle() {
     <span>Intercambio en campus virtual</span>
   </div>
 
+  <div className={styles.miniCard}>
+      <MdRecordVoiceOver className={styles.miniCardIcon}/>
+      <span>Acompañamiento de Tutores</span>
+  </div>
 
 </div>
        <div className={styles.objetivo}>

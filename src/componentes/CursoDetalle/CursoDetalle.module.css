@@ -113,43 +113,82 @@
   padding: 0 10px;
 }
 
+
 /* ==========================
-   MINI CARDS
+   MINI CARDS (Cuadrícula 2x2)
    ========================== */
 .miniCardsContainer {
-  display: flex;
-  gap: 12px;
+  display: grid;
+  /* Fuerza exactamente 2 columnas de igual tamaño */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px;
   margin-bottom: 30px;
-  flex-wrap: wrap; /* permite saltar línea en pantallas pequeñas */
-  justify-content: flex-start;
+  width: 100%;
+  max-width: 700px; /* Para que no se estiren infinito en pantallas gigantes */
 }
 
 .miniCard {
-  display: inline-flex; 
-  min-width: 200px;
+  display: flex; 
   align-items: center;
-  gap: 12px;
+  justify-content: flex-start; /* Alinea contenido al inicio */
+  gap: 15px;
   background: #ffffff;
-  padding: 10px 14px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  cursor: default;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #eee; /* Un borde sutil para definir el límite */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  
+  /* Asegura que todas tengan la misma altura en la fila */
+  height: 100%; 
+  box-sizing: border-box;
 }
 
 .miniCard:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+  border-color: #7a62fb;
 }
 
 .miniCardIcon {
-  font-size: 1.6rem;
-  color: #000000;
+  font-size: 1.8rem;
+    color: #000000; /* Cambiado a violeta para coherencia */
+  flex-shrink: 0; /* Evita que el icono se achique si hay mucho texto */
 }
 
 .miniCard span {
-  font-size: 1rem;
-  color: #000000;
+  font-size: 0.95rem;
+  color: #333;
   font-family: "Montserrat", sans-serif;
+  text-align: left;
+  line-height: 1.2;
+}
+
+/* ==========================
+   RESPONSIVE (AJUSTADO)
+   ========================== */
+
+/* Tablets y Celulares medianos */
+@media (max-width: 768px) {
+  .miniCardsContainer {
+    /* Pasa a una sola columna */
+    grid-template-columns: 1fr; 
+    gap: 10px;
+  }
+  
+  .miniCard {
+    padding: 12px 15px;
+  }
+}
+
+/* Celulares muy pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  .miniCard span {
+    font-size: 0.85rem;
+  }
+  
+  .miniCardIcon {
+    font-size: 1.5rem;
+  }
 }
 
 /* ==========================
