@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer";
 import styles from "./CursoDetalle.module.css";
 import { MdOutlineLaptop } from "react-icons/md";
 import { MdGroupAdd } from "react-icons/md";
+import { IoDocumentText } from "react-icons/io5"; // RECURSOS MULTIMEDIA
 const LOGO_URL = "/logo_imsa_blanco.png";
 
 export default function CursoDetalle() {
@@ -78,7 +79,7 @@ export default function CursoDetalle() {
   
 <div className={styles.miniCard}>
   <MdGroupAdd className={styles.miniCardIcon}/>
-  <span>Encuentros en vivo</span>
+  <span>En vivo o acceso a las grabaciones </span>
 </div>
   <div className={styles.miniCard}>
     <MdOutlineLaptop className={styles.miniCardIcon} />
