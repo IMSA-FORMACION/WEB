@@ -37,9 +37,9 @@ export default function Nosotros() {
 </div>
 
 <div className={style.proyecto}>
-  <h5 className={style.subtitulo}>
+  <h3 className={style.subtitulo}>
    " TU PROGRESO ES NUESTRO PROYECTO MÁS IMPORTANTE "
-  </h5>
+  </h3>
 
   <div className={style.dosColumnas}>
     <p>
