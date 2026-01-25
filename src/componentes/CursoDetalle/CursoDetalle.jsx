@@ -69,7 +69,7 @@ export default function CursoDetalle() {
             <div className={styles.cajaLista} style={{ maxWidth: 700 }}>
               <div className={styles.infoCabecera}>
                 <div className={styles.datoDinamico}>
-                  <MdOutlineAccessTime className={styles.iconoDato} />
+                
                   <h3>Duración: <span>{duracion || "Consultar"}</span></h3>
                 </div>
                 <div className={styles.modalidad}>

@@ -214,7 +214,7 @@
 .modalidad {
   display: flex;
   margin-bottom: 20px;
-  color: #7a62fb;
+  color: #7a62fb; 
 
 }
 
@@ -224,6 +224,7 @@
 }
 
 .modalidad span {
+  color: #000000; 
   margin-left: 8px;
   font-weight: 400;
 }
@@ -450,15 +451,24 @@
 
 .datoDinamico {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 5px;
-  color: #7a62fb;
+  margin-bottom: 20px;
+   color: #7a62fb; 
+
 }
 
-.iconoDato {
-  font-size: 1.4rem;
+.datoDinamico h3 {
+  font-weight: 500;
+  margin: 0;
 }
+
+.datoDinamico span {
+  color: #000000;
+  margin-left: 8px;
+  font-weight: 400;
+}
+
+
+
 
 /* Botón Campana */
 .contenedorAviso {
