@@ -428,3 +428,105 @@
     font-size: 0.9rem;
   }
 }
+/* Banner superior */
+.bannerProximamente {
+  background-color: #ff4757;
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 12px 12px 0 0;
+  margin-top: -30px; /* Compensa el padding de la card */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Duración y Reloj */
+.infoCabecera {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.datoDinamico {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+  color: #7a62fb;
+}
+
+.iconoDato {
+  font-size: 1.4rem;
+}
+
+/* Botón Campana */
+.contenedorAviso {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.avisoBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  color: #ff4757;
+  border: 2px solid #ff4757;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.avisoBtn:hover {
+  background-color: #ff4757;
+  color: white;
+}
+
+.campanaIcon {
+  font-size: 1.2rem;
+}
+
+/* Botón de aviso cuando reemplaza al principal abajo */
+.avisoBtnFinal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #ff4757; /* Color de alerta/banner */
+  color: white !important;
+  border: 1px solid #ff4757;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 71, 87, 0.3);
+}
+
+.avisoBtnFinal:hover {
+  background-color: #ff2e44;
+  border-color: #ff2e44;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 71, 87, 0.5);
+}
+
+.campanaIcon {
+  font-size: 1.2rem;
+}
+
+/* Ajuste para que los botones se adapten en móvil */
+@media (max-width: 768px) {
+  .avisoBtnFinal {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
