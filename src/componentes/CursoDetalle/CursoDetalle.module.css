@@ -272,7 +272,8 @@
   font-size: 0.95rem;
 }
 
-.listaItems li::before {
+/* Esto dice: pon el punto SOLO si el li NO tiene la clase temarioTitulo */
+.listaItems li:not(.temarioTitulo)::before {
   content: "•"; 
   color: #7a62fb;
   font-weight: bold;
@@ -280,6 +281,18 @@
   position: absolute;
   left: 5px;
   top: -2px;
+}
+
+/* Aseguramos que el título no tenga padding extra a la izquierda */
+.temarioTitulo {
+  list-style: none;
+  padding-left: 0 !important; /* Quitamos el espacio donde iría el punto */
+  font-weight: 700;
+  color: #7a62fb;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 /* ==========================
@@ -555,4 +568,19 @@
     font-size: 0.65rem;
     padding: 4px 10px;
   }
+}
+
+.temarioTitulo {
+  list-style: none;         /* Quitamos el puntito */
+  font-weight: 500;         /* Negrita */         /* Color de tu marca */
+  margin-top: 15px;         /* Espacio arriba para separar bloques */
+  margin-bottom: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.temarioItem {
+  
+  margin-left: 10px;        /* Sangría para los puntos de adentro */
+  color: #444;
 }

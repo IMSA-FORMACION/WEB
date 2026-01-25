@@ -93,14 +93,26 @@ export default function CursoDetalle() {
             </div>
 
             <div className={styles.contenedorListas}>
-              {detalle?.temario && (
-                <div className={styles.cajaLista}>
-                  <span className={styles.subtituloLista}>Herramientas que incorporaras</span>
-                  <ul className={styles.listaItems}>
-                    {detalle.temario.map((item, index) => <li key={index}>{item}</li>)}
-                  </ul>
-                </div>
-              )}
+           {detalle?.temario && (
+  <div className={styles.cajaLista}>
+    <span className={styles.subtituloLista}>Herramientas que incorporaras</span>
+    <ul className={styles.listaItems}>
+      {detalle.temario.map((item, index) => {
+        // Si el texto termina en ":", es un encabezado
+        const esTitulo = item.trim().endsWith(":");
+        
+        return (
+          <li 
+            key={index} 
+            className={esTitulo ? styles.temarioTitulo : styles.temarioItem}
+          >
+            {item}
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+)}
               {detalle?.salida_laboral && (
                 <div className={styles.cajaLista}>
                   <span className={styles.subtituloLista}>Salida Laboral</span>

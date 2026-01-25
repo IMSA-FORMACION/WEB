@@ -759,17 +759,20 @@
   "destacado": true,
   "detalle": {
     "metodologia": "Clases en vivo de resolución de problemas + material con actividades + Aval certificado.",
-    "temario": [
-      "WORD: Estilos, Temas y coherencia visual.",
-      "WORD: Manejo de márgenes, saltos de página y secciones.",
-      "WORD: Inserción de Tablas y Gráficos avanzados.",
-      "EXCEL: Organización de Celdas y Rangos escalables.",
-      "EXCEL: Biblioteca de Fórmulas (Funciones matemáticas y lógicas).",
-      "EXCEL: Automatización básica y actualización de datos.",
-      "POWERPOINT: Combinación de objetos (imágenes, videos y formas).",
-      "POWERPOINT: Interactividad mediante Hipervínculos y Botones.",
-      "POWERPOINT: Animación con sentido y diseño de presentaciones dinámicas."
-    ],
+  "temario": [
+  "Word:",
+  "Estilos y Temas de coherencia visual",
+  "Manejo de márgenes, saltos y secciones",
+  "Tablas y Gráficos dinámicos",
+  "Excel:",
+  "Celdas, Rangos y organización escalable",
+  "Funciones matemáticas y razonamiento lógico",
+  "Automatización y actualización de datos",
+  "PowerPoint:",
+  "Inserción de objetos, imágenes y videos",
+  "Hipervínculos y navegación interactiva",
+  "Animación con sentido y foco visual"
+],
     "salida_laboral": [
       "Asistente administrativo y contable",
       "Secretariado y recepción",
