@@ -717,37 +717,8 @@
       "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
-  {
-    "id": 27,
-    "titulo": "Competencias Básicas de Coaching Ontológico",
-    "descripcion": "Iníciate en el mundo del coaching ontológico aprendiendo a observar la realidad desde nuevas perspectivas. Este curso se enfoca en el desarrollo del ser, la inteligencia emocional y el poder del lenguaje para transformar resultados personales y profesionales.",
-    "descripcion_corta": "Desarrolla habilidades de comunicación, escucha activa y liderazgo transformacional.",
-    "imagen": "/img/cursos/coaching.jpg",
-    "area": "COACHING",
-    "modalidad": "Online",
-    "duracion": "4 meses",
-    "docente": "A confirmar",
-    "destacado": false,
-    "detalle": {
-      "metodologia": "Clases online 100% asincrónicas con tutorías mensuales de consulta.",
-      "temario": [
-        "Introducción a la Ontología del Lenguaje",
-        "Los tres dominios del ser: Lenguaje, Emoción y Cuerpo",
-        "Escucha activa y validación del otro",
-        "Actos lingüísticos: Afirmaciones, declaraciones y promesas",
-        "Gestión emocional y diseño de estados de ánimo"
-      ],
-      "salida_laboral": [
-        "Liderazgo de equipos de trabajo",
-        "Recursos Humanos y gestión de talento",
-        "Desarrollo personal y consultoría",
-        "Facilitador de procesos de cambio organizacional"
-      ],
-      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
-    }
-  },
  {
-  "id": 28,
+  "id": 27,
   "titulo": "Office Básico",
   "descripcion": "Aprender a realizar y diseñar un documento de texto en Word, cuya presentación sea profesional y adecuada. Diseñar, crear y utilizar planillas de cálculo, comprendiendo y desarrollando las fórmulas y herramientas más utilizadas en Excel. Crear presentaciones interactivas, con objetos, texto e imágenes necesarias para exponer diversas temáticas.",
   "descripcion_corta": "Manejar en conjunto todos los programas del paquete Office de forma sincronizada para la gestión de los datos y de la información.",
@@ -781,34 +752,11 @@
     ],
     "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
   }
-},
-  {
-    "id": 29,
-    "titulo": "Contabilidad Básica",
-    "descripcion": "Un curso ideal para quienes desean comprender los procesos contables de una empresa. Aprenderás a registrar operaciones, analizar balances y entender el flujo financiero desde cero, sin necesidad de conocimientos previos.",
-    "descripcion_corta": "Introducción al registro contable, estados financieros y gestión patrimonial.",
-    "imagen": "/img/cursos/contabilidad.jpg",
-    "area": "ADMINISTRACIÓN",
-    "modalidad": "Online",
-    "duracion": "5 meses",
-    "docente": "A confirmar",
-    "destacado": false,
-    "detalle": {
-      "metodologia": "Estudio de casos reales, planillas prácticas de contabilidad y soporte docente.",
-      "temario": [
-        "Principios generales de contabilidad y partida doble",
-        "Libro Diario, Libro Mayor y Balance de comprobación",
-        "Activo, Pasivo y Patrimonio Neto",
-        "Tratamiento del IVA y conciliación bancaria",
-        "Análisis básico de estados contables"
-      ],
-      "salida_laboral": [
-        "Auxiliar contable en empresas",
-        "Administración de PyMEs",
-        "Estudios contables",
-        "Gestión de cobranzas y facturación"
-      ],
-      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
-    }
-  }
+}
 ]
+
+
+
+
+
+
