@@ -491,39 +491,16 @@
 }
 
 
-/* Botón de aviso cuando reemplaza al principal abajo */
-/* El Sticker en la imagen */
-.stickerProximamente {
-  position: absolute;
-  bottom: 12px;
-  right: 0;
-  background-color: #969192; /* Gris sólido que pasaste */
-  color: white;
-  padding: 5px 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 0.7rem;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-  z-index: 30;
-  border-radius: 12px 0 0 12px;
-  
-  /* Sombra de texto muy fina para legibilidad sin ensuciar */
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-  
-  /* Sin borde negro: usamos un borde sutil casi invisible */
-  border: none;
-  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.1);
-}
 
-/* Botón de aviso (Mismo tono, estilo profesional) */
+
+/* Botón de aviso (Estilo Minimalista Claro) */
 .avisoBtnFinal {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background-color: #969192; /* Mismo tono exacto */
-  color: white !important;
+  background-color: #F8F5ED; /* El tono que propusiste */
+  color: #1a1a1a !important;  /* Negro suave para mayor elegancia */
   padding: 12px 30px;
   border-radius: 30px;
   text-decoration: none;
@@ -534,23 +511,24 @@
   transition: all 0.3s ease;
   text-align: center;
   
-  /* Borde del mismo color para que no se vea negro */
-  border: 1px solid #858081; 
+  /* Borde sutil para dar definición sobre fondos blancos */
+  border: 1px solid #e0ddd5; 
   
-  /* Sombra suave para dar profundidad */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  /* Sombra muy ligera y limpia */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-shadow: none; /* Quitamos la sombra de texto blanca */
 }
 
 .avisoBtnFinal:hover {
-  background-color: #7d7879; /* Un gris un pelín más oscuro al pasar el mouse */
-  border-color: #7d7879;
+  background-color: #f0ede4; /* Oscurece apenas un toque el hueso */
+  border-color: #d1cebc;
   transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .campanaIcon {
   font-size: 1.2rem;
+  color: #1a1a1a; /* Icono en el mismo tono que el texto */
 }
 
 /* Ajuste para que los botones se adapten en móvil */
@@ -573,31 +551,32 @@
   position: relative; /* Necesario para ubicar el sticker adentro */
 }
 
-
-/* El Sticker estilo Banner Gris con Sombra de Texto */
+/* Botón de aviso cuando reemplaza al principal abajo */
+/* El Sticker en la imagen (Versión Minimalista Clara) */
 .stickerProximamente {
   position: absolute;
   bottom: 12px;
   right: 0;
-  /* Gradiente gris para que no sea un color plano y aburrido */
-  background: linear-gradient(135deg, rgba(100, 100, 100, 0.95) 0%, rgba(150, 145, 146, 0.9) 100%);
-  color: #ffffff;
+  background-color: #F8F5ED; /* Tono Hueso */
+  color: #1a1a1a;           /* Texto negro suave */
   padding: 5px 14px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700; /* Subimos un poco el peso a 700 para más claridad */
+  font-weight: 700;         /* Un poco más de peso para que resalte lo pequeño */
   font-size: 0.7rem;
-  letter-spacing: 0.8px;
-  
-  /* 🎯 SOMBRA AL TEXTO: Esto hace que el blanco se lea perfecto sobre el gris */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  
-  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.3);
-  border-radius: 12px 0 0 12px;
-  z-index: 30;
+  letter-spacing: 1px;
   text-transform: uppercase;
+  z-index: 30;
+  border-radius: 12px 0 0 12px;
   
-  /* Borde sutil a la izquierda para definirlo mejor */
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  /* Borde muy fino a la izquierda y arriba para despegarlo de la foto si es clara */
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  
+  /* Sombra sutil para que parezca un papel pegado */
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.1);
+  
+  /* Quitamos sombras de texto para que se vea plano y moderno */
+  text-shadow: none;
 }
 
 /* Ajuste para móviles */
@@ -605,6 +584,5 @@
   .stickerProximamente {
     font-size: 0.65rem;
     padding: 4px 10px;
-    bottom: 8px;
   }
 }
