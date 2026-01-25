@@ -760,21 +760,15 @@
   "detalle": {
     "metodologia": "Clases en vivo de resolución de problemas + material con actividades + Aval certificado.",
     "temario": [
-      "Fundamentos de Word: Entorno de trabajo.",
-      "Fundamentos de Word: Personalizando un documento.",
-      "Fundamentos de Word: Objetos y tablas.",
-      "Fundamentos de Word: Presentación e impresión.",
-      "Fundamentos de Power Point: Introducción y conceptos básicos.",
-      "Fundamentos de Power Point: Personalizando las diapositivas.",
-      "Fundamentos de Power Point: Aplicación de animaciones, transiciones y configuración de salida.",
-      "Fundamentos de Power Point: Ambiente de trabajo, su ventana.",
-      "Fundamentos de Excel: Conceptos básicos, hoja, libro, fila, columna.",
-      "Fundamentos de Excel: Funciones aritméticas.",
-      "Fundamentos de Excel: Manejo de la hoja de trabajo. Selección de celdas y pegado especial.",
-      "Fundamentos de Excel: Diferencia entre función y fórmula, composiciones.",
-      "Fundamentos de Excel: Funciones básicas (Suma, promedio, mínimo, máximo, autosuma).",
-      "Fundamentos de Excel: Funciones lógicas: SI (básica y anidada), CONTAR.SI, SUMAR.SI.",
-      "Fundamentos de Excel: Creación e interpretación de gráficos básicos."
+      "WORD: Estilos, Temas y coherencia visual.",
+      "WORD: Manejo de márgenes, saltos de página y secciones.",
+      "WORD: Inserción de Tablas y Gráficos avanzados.",
+      "EXCEL: Organización de Celdas y Rangos escalables.",
+      "EXCEL: Biblioteca de Fórmulas (Funciones matemáticas y lógicas).",
+      "EXCEL: Automatización básica y actualización de datos.",
+      "POWERPOINT: Combinación de objetos (imágenes, videos y formas).",
+      "POWERPOINT: Interactividad mediante Hipervínculos y Botones.",
+      "POWERPOINT: Animación con sentido y diseño de presentaciones dinámicas."
     ],
     "salida_laboral": [
       "Asistente administrativo y contable",
