@@ -472,7 +472,7 @@
     "descripcion": "El curso de Diseño de Páginas Web te capacita para crear y lanzar sitios profesionales e interactivos. Podrás estructurar el contenido con HTML, estilizarlo con CSS y añadir funcionalidades con frameworks, permitiéndote diseñar desde landing pages hasta sitios completos para clientes o para impulsar tu propio proyecto digital.",
     "descripcion_corta": "Creación de sitios web profesionales con HTML, CSS y diseño responsivo.",
     "imagen": "/img/cursos/diseno-web.jpg",
-    "area": "DISEÑO",
+    "area": "TECNOLOGÍA",
     "modalidad": "100% online",
     "duracion": "",
     "destacado": false,
@@ -480,9 +480,7 @@
       "temario": [
         "Lenguajes fundamentales: HTML5 y CSS3",
         "Diseño visual: Teoría del color y tipografía",
-        "Diseño Responsivo (adaptable a celulares)",
-        "Introducción a Gestores de Contenido (WordPress)",
-        "Nociones de SEO y posicionamiento web"
+        "Diseño Responsivo (adaptable a celulares)"
       ],
       "salida_laboral": [
         "Agencias de marketing y publicidad",
