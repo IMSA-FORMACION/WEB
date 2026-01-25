@@ -51,16 +51,18 @@ export default function CursoDetalle() {
       <div className={styles.detalleContainer}>
         <div className={styles.detalleCard}>
           
-          {/* BANNER SUPERIOR */}
-          {sinVacantes && (
-            <div className={styles.bannerProximamente}>
-              PROXIMAMENTE - LISTA DE ESPERA ABIERTA
-            </div>
-          )}
+       
 
           <div className={styles.imagenWrapper}>
             <img src={LOGO_URL} alt="Logo IMSA" className={styles.cursoLogoOverlay} />  
             <img src={curso.imagen} alt={curso.titulo} className={styles.imagenCurso} />
+
+               {/* BANNER SUPERIOR */}
+          {sinVacantes && (
+            <div className={styles.stickerProximamente}>
+              PROXIMAMENTE - LISTA DE ESPERA ABIERTA
+            </div>
+          )}
           </div>
 
           <h2 className={styles.titulo}>{curso.titulo}</h2>

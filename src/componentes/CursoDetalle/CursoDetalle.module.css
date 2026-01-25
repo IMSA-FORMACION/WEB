@@ -430,18 +430,7 @@
   }
 }
 /* Banner superior */
-.bannerProximamente {
-  background-color: #ff4757;
-  color: white;
-  width: 100%;
-  padding: 10px 0;
-  font-weight: 600;
-  font-size: 0.9rem;
-  border-radius: 12px 12px 0 0;
-  margin-top: -30px; /* Compensa el padding de la card */
-  margin-bottom: 20px;
-  text-align: center;
-}
+
 
 /* Duración y Reloj */
 .infoCabecera {
@@ -538,5 +527,45 @@
   .avisoBtnFinal {
     width: 100%;
     box-sizing: border-box;
+  }
+}
+
+/* Elimina o comenta .bannerProximamente anterior */
+
+.imagenWrapper {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden; /* Importante para que el sticker no se salga de los bordes redondeados */
+  margin-bottom: 25px;
+  aspect-ratio: 16 / 9; 
+  position: relative; /* Necesario para ubicar el sticker adentro */
+}
+
+  
+/* El nuevo Sticker estilo Banner a la derecha abajo (Versión Pequeña) */
+.stickerProximamente {
+  position: absolute;
+  bottom: 12px;        /* Un poco más cerca del borde */
+  right: 0;            /* Pegado a la derecha */
+  background-color: rgba(255, 71, 87, 0.9); /* Rojo con leve transparencia */
+  color: white;
+  padding: 4px 12px;   /* Mucho más estrecho */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;    /* Peso medio */
+  font-size: 0.7rem;   /* Fuente bien pequeña */
+  letter-spacing: 0.5px;
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px 0 0 12px; /* Redondeado más acorde al tamaño */
+  z-index: 30;
+  text-transform: uppercase;
+}
+
+/* Ajuste para móviles aún más pequeños */
+@media (max-width: 480px) {
+  .stickerProximamente {
+    font-size: 0.65rem;
+    padding: 3px 10px;
+    bottom: 8px;
   }
 }
