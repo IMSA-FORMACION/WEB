@@ -459,36 +459,6 @@
 
 
 
-/* Botón Campana */
-.contenedorAviso {
-  margin: 20px 0;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.avisoBtn {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background-color: transparent;
-  color: #ff4757;
-  border: 2px solid #ff4757;
-  padding: 10px 20px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-  transition: all 0.3s ease;
-}
-
-.avisoBtn:hover {
-  background-color: #ff4757;
-  color: white;
-}
-
-.campanaIcon {
-  font-size: 1.2rem;
-}
 
 
 
@@ -499,7 +469,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background-color: #F8F5ED; /* El tono que propusiste */
+  background-color:  #F8F8F8;
   color: #1a1a1a !important;  /* Negro suave para mayor elegancia */
   padding: 12px 30px;
   border-radius: 30px;
@@ -557,7 +527,7 @@
   position: absolute;
   bottom: 12px;
   right: 0;
-  background-color: #F8F5ED; /* Tono Hueso */
+  background-color:  #F8F8F8; 
   color: #1a1a1a;           /* Texto negro suave */
   padding: 5px 14px;
   font-family: "Montserrat", sans-serif;
