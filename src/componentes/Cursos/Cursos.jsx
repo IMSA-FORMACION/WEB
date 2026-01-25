@@ -1,8 +1,8 @@
 import styles from "./Cursos.module.css";
-import cursosData from "../../data/cursos.json"; // ✅ import del JSON
-import { Link } from "react-router-dom"; // Para navegar luego a /cursos o detalle
+import cursosData from "../../data/cursos.json"; 
+import { Link } from "react-router-dom"; 
 
-const LOGO_URL = "/logo_imsa_blanco.png"; // Ruta del logo
+const LOGO_URL = "/logo_imsa_blanco.png"; 
 
 const Cursos = () => {
   return (
@@ -11,29 +11,39 @@ const Cursos = () => {
 
       <div className={styles.cursosGrid}>
         {cursosData
-          .filter((curso) => curso.destacado) // ✅ Mostrar solo los destacados en home
-          .map((curso) => (
-            <div key={curso.id} className={styles.cursoCard}>
-              <div className={styles.cursoImgWrapper}>
-                <img
-                  src={LOGO_URL}
-                  alt="Logo IMSA"
-                  className={styles.cursoLogoOverlay}
-                />
-                {/*<span className={styles.cursoAsincronicoTag}>
-                  {curso.modalidad.toUpperCase()}
-                </span>*/}
-                <img
-                  src={curso.imagen}
-                  alt={curso.titulo}
-                  className={styles.cursoImg}
-                />
+          .filter((curso) => curso.destacado) 
+          .map((curso) => {
+            // Evaluamos la condición de vacantes para cada curso destacado
+            const sinVacantes = curso.vacantes === false || String(curso.vacantes) === "false";
+
+            return (
+              <div key={curso.id} className={styles.cursoCard}>
+                <div className={styles.cursoImgWrapper}>
+                  <img
+                    src={LOGO_URL}
+                    alt="Logo IMSA"
+                    className={styles.cursoLogoOverlay}
+                  />
+                  
+                  {/* STICKER EN UNA SOLA LÍNEA */}
+                  {sinVacantes && (
+                    <div className={styles.stickerProximamente}>
+                      PRÓXIMAMENTE - LISTA DE ESPERA ABIERTA
+                    </div>
+                  )}
+
+                  <img
+                    src={curso.imagen}
+                    alt={curso.titulo}
+                    className={styles.cursoImg}
+                  />
+                </div>
+                <h3>{curso.titulo}</h3>
+                <p>{curso.descripcion_corta}</p>
+                <Link to={`/cursos/${curso.id}`} className={styles.ingresar}>Ver más</Link>
               </div>
-              <h3>{curso.titulo}</h3>
-              <p>{curso.descripcion_corta}</p>
-              <Link to={`/cursos/${curso.id}`} className={styles.ingresar}>Ver más</Link>
-            </div>
-          ))}
+            );
+          })}
       </div>
 
       <div className={styles.verTodos}>

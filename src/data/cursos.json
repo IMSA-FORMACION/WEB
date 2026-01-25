@@ -419,7 +419,7 @@
     "area": "TECNOLOGÍA",
     "modalidad": "100% online",
     "duracion": "",
-    "destacado": false,
+    "destacado": true,
     "vacantes":false,
     "detalle": {
       "temario": [

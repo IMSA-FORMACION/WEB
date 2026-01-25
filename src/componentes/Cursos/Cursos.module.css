@@ -177,8 +177,34 @@
   border-radius: 10px; 
 }
 
-@media (max-width: 370px) {
-  .verTodosBtn{
-    
+.stickerProximamente {
+  position: absolute;
+  bottom: 10px;          /* Un poco más arriba del borde inferior */
+  right: 0;
+  background-color: #F8F8F8;
+  color: #1a1a1a;
+  padding: 4px 8px;      /* Reducimos el padding para ganar espacio */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;      /* Extra bold para que se lea mejor al ser tan chico */
+  font-size: 0.52rem;    /* Tamaño ultra-compacto */
+  letter-spacing: 0px;   /* Quitamos espacio entre letras para que no se estire */
+  text-transform: uppercase;
+  z-index: 30;
+  border-radius: 6px 0 0 6px; /* Bordes un poco más finos */
+  
+  white-space: nowrap;   /* Obliga a una sola línea */
+  pointer-events: none;
+  
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Ajuste para móviles pequeños */
+@media (max-width: 480px) {
+  .stickerProximamente {
+    font-size: 0.48rem;   /* Tamaño mínimo legible en celular */
+    padding: 3px 6px;
+    bottom: 8px;
   }
 }
