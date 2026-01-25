@@ -60,7 +60,7 @@ export default function CursoDetalle() {
                {/* BANNER SUPERIOR */}
           {sinVacantes && (
             <div className={styles.stickerProximamente}>
-              PROXIMAMENTE - LISTA DE ESPERA ABIERTA
+              PRÓXIMAMENTE - LISTA DE ESPERA ABIERTA
             </div>
           )}
           </div>

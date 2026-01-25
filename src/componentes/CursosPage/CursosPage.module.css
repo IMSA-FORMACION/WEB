@@ -257,3 +257,34 @@
 .wafloat:hover {
   transform: scale(1.1);
 }
+.stickerProximamente {
+  position: absolute;
+  bottom: 12px;
+  right: 0;
+  background-color: #F8F8F8;
+  color: #1a1a1a;
+  padding: 5px 10px; /* Un poco más de aire lateral */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.6rem; /* Bajamos un pelín el tamaño para que entre todo el texto largo */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  z-index: 30;
+  border-radius: 10px 0 0 10px;
+  
+  /* 🎯 LA CLAVE PARA UNA SOLA LÍNEA */
+  white-space: nowrap; 
+  
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 480px) {
+  .stickerProximamente {
+    font-size: 0.55rem; /* Más pequeño aún en móviles para que no cruce toda la card */
+    padding: 4px 8px;
+  }
+}
