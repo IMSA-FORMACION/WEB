@@ -393,6 +393,7 @@
     "modalidad": "Online + Prácticas Presenciales",
     "duracion": "",
     "destacado": false,
+    "vacantes":false,
     "detalle": {
       "temario": [
         "Circuitos eléctricos y componentes de potencia",
