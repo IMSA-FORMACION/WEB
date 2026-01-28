@@ -259,32 +259,32 @@
 }
 .stickerProximamente {
   position: absolute;
-  bottom: 12px;
+  bottom: 10px;          /* Un poco más arriba del borde inferior */
   right: 0;
   background-color: #F8F8F8;
   color: #1a1a1a;
-  padding: 5px 10px; /* Un poco más de aire lateral */
+  padding: 4px 8px;      /* Reducimos el padding para ganar espacio */
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 0.6rem; /* Bajamos un pelín el tamaño para que entre todo el texto largo */
-  letter-spacing: 0.5px;
+  font-weight: 800;      /* Extra bold para que se lea mejor al ser tan chico */
+  font-size: 0.52rem;    /* Tamaño ultra-compacto */
+  letter-spacing: 0px;   /* Quitamos espacio entre letras para que no se estire */
   text-transform: uppercase;
   z-index: 30;
-  border-radius: 10px 0 0 10px;
+  border-radius: 6px 0 0 6px; /* Bordes un poco más finos */
   
-  /* 🎯 LA CLAVE PARA UNA SOLA LÍNEA */
-  white-space: nowrap; 
-  
-  border-left: 1px solid rgba(0, 0, 0, 0.05);
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
-  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;   /* Obliga a una sola línea */
   pointer-events: none;
+  
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-/* Ajuste para pantallas pequeñas */
+/* Ajuste para móviles pequeños */
 @media (max-width: 480px) {
   .stickerProximamente {
-    font-size: 0.55rem; /* Más pequeño aún en móviles para que no cruce toda la card */
-    padding: 4px 8px;
+    font-size: 0.48rem;   /* Tamaño mínimo legible en celular */
+    padding: 3px 6px;
+    bottom: 8px;
   }
 }
