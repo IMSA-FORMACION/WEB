@@ -171,7 +171,7 @@
     "imagen": "/img/cursos/cosmetologia.jpg",
     "area": "BELLEZA",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "36h",
+    "duracion": "3 meses",
     "docente":"Micaela Ciancaglini",
     "destacado": true,
     "detalle": {
@@ -584,7 +584,7 @@
     "imagen": "/img/cursos/enfermeria2.jpg",
     "area": "SALUD",
     "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
+    "duracion": "4 meses",
     "destacado": false,
     "detalle": {
       "temario": [
