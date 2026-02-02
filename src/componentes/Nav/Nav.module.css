@@ -164,3 +164,50 @@
   }
 }
 
+/* Estilo base para el botón ingresar en móvil (dentro del menú links) */
+.ingresarMobile {
+  background-color: #7a62fb;
+  color: white !important;
+  border: 1px solid #7a62fb;
+  padding: 10px 30px; /* Más padding para que sea fácil de tocar */
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px; /* Separación del último link */
+  cursor: pointer;
+  width: fit-content; /* Se ajusta al texto */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(122, 98, 251, 0.2);
+}
+
+.ingresarMobile:hover {
+  background-color: #f4f0f9;
+  color: #b45dfc !important;
+  border: 1px solid #b45dfc;
+  box-shadow: 0 6px 12px rgba(122, 98, 251, 0.3);
+}
+
+/* Ajuste al contenedor de links en móvil para que el botón respire */
+.menuLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* IMPORTANTE: Ajuste de accesibilidad para el botón hamburguesa */
+.hamburguesa {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
+
+@media(max-width:800px){
+  .hamburguesa {
+    display: block;
+  }
+}

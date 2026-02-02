@@ -7,6 +7,14 @@ import { CiMenuBurger, CiMenuFries } from "react-icons/ci";
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from "react-router-dom";
 
+// Definimos los enlaces de redes para no repetir código
+const REDES = [
+  { id: 1, icon: <FaFacebookF />, url: "https://www.facebook.com/people/IMSA/61585515595551/" },
+  { id: 2, icon: <LuInstagram />, url: "https://www.instagram.com/imsa.formacion" }
+];
+
+const URL_INGRESAR = "https://imsaformacion-administracion.etnaeducacion.com.ar/";
+
 export default function Nav() {
   const [menuAbierto, setMenuAbierto] = useState(false);
   const location = useLocation();
@@ -20,7 +28,7 @@ export default function Nav() {
     return () => mediaQuery.removeEventListener('change', handleResize);
   }, []);
 
-  const handleMenuClick = () => setMenuAbierto(false); // cierra menú móvil
+  const handleMenuClick = () => setMenuAbierto(false);
 
   return (
     <div className={style.nav}>
@@ -28,74 +36,62 @@ export default function Nav() {
         <Link to="/"><img src={logo} alt="Logo IMSA" /></Link>
       </div>
 
+      {/* NAVEGACIÓN ESCRITORIO */}
       <div className={style.enlaces}>
         <Link to='/cursos'>CURSOS DE FORMACIÓN <IoCaretDown /></Link>
-
-        {/* Link a nosotros con hash */}
-        <Link to="/#nosotros" onClick={handleMenuClick}>
-          NOSOTROS
-        </Link>
-
+        <Link to="/#nosotros">NOSOTROS</Link>
         <Link to='/contacto'>CONTACTO</Link>
-        <a className={style.ingresar}>INGRESAR</a>
-      </div>
-
-      <div className={style.redes}> 
-         <a 
-    href="https://www.facebook.com/people/IMSA/61585515595551/" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className={style.socialLink}
-  >
-    <FaFacebookF />
-  </a>
-        {/* Enlace Instagram Escritorio */}
         <a 
-          href="https://www.instagram.com/imsa.formacion" 
+          href={URL_INGRESAR} 
           target="_blank" 
-          rel="noopener noreferrer"
-          className={style.socialLink}
+          rel="noopener noreferrer" 
+          className={style.ingresar}
         >
-          <LuInstagram />
+          INGRESAR AL CAMPUS
         </a>
       </div>
 
-      <div className={style.hamburguesa} onClick={() => setMenuAbierto(!menuAbierto)}>
-        {menuAbierto ? <CiMenuFries size={28} style={{ color:'#7a62fb' }} /> 
-                     : <CiMenuBurger size={28} style={{ color:'#7a62fb' }} />}
+      {/* REDES ESCRITORIO */}
+      <div className={style.redes}> 
+        {REDES.map(red => (
+          <a key={red.id} href={red.url} target="_blank" rel="noopener noreferrer" className={style.socialLink}>
+            {red.icon}
+          </a>
+        ))}
       </div>
 
+      {/* BOTÓN HAMBURGUESA (Cambiado a <button> por accesibilidad) */}
+      <button className={style.hamburguesa} onClick={() => setMenuAbierto(!menuAbierto)} aria-label="Menu">
+        {menuAbierto ? <CiMenuFries size={28} style={{ color:'#7a62fb' }} /> 
+                     : <CiMenuBurger size={28} style={{ color:'#7a62fb' }} />}
+      </button>
+
+      {/* MENÚ MÓVIL */}
       {menuAbierto && (
         <div className={style.menuMobile}>
-          <nav className={style.menuLinks}>
-            <Link to='/cursos' onClick={handleMenuClick}>CURSOS DE FORMACIÓN <IoCaretDown /></Link>
-
-            <Link to="/#nosotros" onClick={handleMenuClick}>
-              NOSOTROS
-            </Link>
-            <Link to='/contacto' onClick={handleMenuClick}>CONTACTO</Link>
-          </nav>
-        <div className={style.menuRedes}>
+<nav className={style.menuLinks}>
+  <Link to='/cursos' onClick={handleMenuClick}>CURSOS DE FORMACIÓN</Link>
+  <Link to="/#nosotros" onClick={handleMenuClick}>NOSOTROS</Link>
+  <Link to='/contacto' onClick={handleMenuClick}>CONTACTO</Link>
+  
   <a 
-    href="https://www.facebook.com/people/IMSA/61585515595551/" 
+    href={URL_INGRESAR} 
     target="_blank" 
-    rel="noopener noreferrer"
+    rel="noopener noreferrer" 
     onClick={handleMenuClick}
-    className={style.socialLink}
+    className={style.ingresarMobile}
   >
-    <FaFacebookF />
+    INGRESAR AL CAMPUS
   </a>
+</nav>
 
-  <a 
-    href="https://www.instagram.com/imsa.formacion" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    onClick={handleMenuClick}
-    className={style.socialLink}
-  >
-    <LuInstagram />
-  </a>
-</div>
+          <div className={style.menuRedes}>
+            {REDES.map(red => (
+              <a key={red.id} href={red.url} target="_blank" rel="noopener noreferrer" onClick={handleMenuClick} className={style.socialLink}>
+                {red.icon}
+              </a>
+            ))}
+          </div>
         </div>
       )}
     </div>
