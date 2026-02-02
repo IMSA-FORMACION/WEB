@@ -300,33 +300,45 @@
       "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
-  {
-    "id": 12,
-    "titulo": "Primeros Socorros con RCP y DEA",
-    "descripcion": "El curso de asistencia médica RCP te ayudará a desarrollar habilidades esenciales de reanimación cardiopulmonar (RCP) y primeros auxilios básicos, permitiéndote actuar de manera rápida y efectiva ante emergencias médicas hasta la llegada de personal especializado.",
-    "descripcion_corta": "Capacitación en RCP y primeros auxilios para actuar con rapidez ante emergencias.",
-    "imagen": "/img/cursos/rcp.jpg",
-    "area": "SALUD",
-    "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "",
-    "destacado": false,
-    "detalle": {
-      "temario": [
-        "Evaluación de la escena y del paciente",
-        "Manejo de heridas, quemaduras, fracturas y hemorragias",
-        "Técnica de RCP (compresiones y ventilación)",
-        "Uso del Desfibrilador Externo Automático (DEA)",
-        "Emergencias: ACV, infartos, asfixias, convulsiones"
-      ],
-      "salida_laboral": [
-        "Personal de seguridad y brigadistas",
-        "Gimnasios y clubes deportivos",
-        "Instituciones educativas",
-        "Cuidadores de personas"
-      ],
-      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
-    }
-  },
+{
+  "id": 12,
+  "titulo": "Primeros Socorros, RCP y DEA",
+  "descripcion": "Este curso brinda conocimientos técnicos y habilidades prácticas para intervenir con confianza ante emergencias. Bajo el marco normativo de la Res. 905/15, formamos 'primeros respondedores' capaces de salvar vidas en el ámbito laboral y civil, con maniobras de RCP de alta calidad en adultos, niños y lactantes según estándares internacionales.",
+  "descripcion_corta": "Capacitación bajo Res. 905/15 para formar primeros respondedores con uso de tecnología y simuladores.",
+  "imagen": "/img/cursos/rcp.jpg",
+  "area": "SALUD",
+  "modalidad": "Online + Prácticas Presenciales",
+  "duracion": "Consultar",
+  "destacado": false,
+  "vacantes": true,
+  "detalle": {
+    "metodologia": "Uso de simuladores de torso con sensores de frecuencia, entrenadores de DEA, dispositivos de vía aérea para maniobra de Heimlich y kits de primeros auxilios.",
+    "temario": [
+      "Capacidad de Respuesta:",
+      "Identificación rápida de paro cardiorrespiratorio",
+      "Activación del sistema de emergencias médicas (SEM)",
+      "Cadena de Supervivencia y algoritmos de decisión rápida",
+      "Dominio Técnico y RCP:",
+      "RCP de alta calidad en adultos, niños y lactantes",
+      "Operación segura de Desfibrilador Externo Automático (DEA)",
+      "Maniobra de Heimlich y desobstrucción (OVACE)",
+      "Gestión de Crisis:",
+      "Protocolos de control de hemorragias y vendajes",
+      "Atención inicial en quemaduras y fracturas",
+      "Manejo de emergencias médicas comunes",
+      "Cumplimiento Legal y Normativa Res. 905/15"
+    ],
+    "salida_laboral": [
+      "Brigadistas y responsables de Seguridad e Higiene (Res. 905/15)",
+      "Docentes, entrenadores deportivos y guardavidas",
+      "Personal de hotelería, guías de turismo y transporte",
+      "Vigiladores y personal de fuerzas de seguridad",
+      "Cuidadores domiciliarios, niñeras y personal de salud",
+      "Competencia transversal valorada para cualquier CV (Apto para Primeros Auxilios)"
+    ],
+    "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
+  }
+},
   {
     "id": 13,
     "titulo": "Instalación y Reparación de Aires Acondicionados",
