@@ -753,6 +753,42 @@
     ],
     "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
   }
+},
+{
+  "id": 28,
+  "titulo": "Competencias Básicas de Coaching Ontológico",
+  "descripcion": "Este curso invita a desarrollar nuevas maneras de observar, comprender y accionar en la vida diaria. A través de herramientas simples y conscientes, se busca generar una mayor coherencia entre lo que sentimos, decimos y hacemos, impactando directamente en los ámbitos laboral, profesional y personal.",
+  "descripcion_corta": "Desarrollá habilidades de comunicación, gestión emocional y coherencia para transformar tu forma de actuar y relacionarte.",
+  "imagen": "/img/cursos/coaching.jpg",
+  "area": "DESARROLLO PERSONAL",
+  "modalidad": "Online",
+  "duracion": "6 meses (2 módulos)",
+  "docente": "A confirmar",
+  "destacado": true,
+  "vacantes": true,
+  "detalle": {
+    "metodologia": "Clases teórico-prácticas con enfoque en la toma de conciencia y aplicación inmediata en la vida cotidiana.",
+    "temario": [
+      "Módulo 1: Fundamentos y Observación:",
+      "Introducción al Coaching Ontológico",
+      "El observador que somos: ampliar la conciencia",
+      "Coherencia ontológica: Lenguaje, Emoción y Cuerpo",
+      "Gestión emocional y autoconocimiento",
+      "Módulo 2: Herramientas de Acción:",
+      "Comunicación asertiva y efectiva",
+      "Fortalecimiento de vínculos y relaciones",
+      "Toma de decisiones consciente",
+      "Adopción de nuevas competencias para el cambio",
+      "Impacto y resultados sostenidos en el tiempo"
+    ],
+    "salida_laboral": [
+      "Liderazgo de equipos de trabajo",
+      "Gestión de recursos humanos",
+      "Mejora en el desempeño profesional independiente",
+      "Coordinación de grupos y comunicación institucional"
+    ],
+    "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
+  }
 }
 ]
 
