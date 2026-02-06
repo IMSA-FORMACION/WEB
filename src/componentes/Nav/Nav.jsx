@@ -13,7 +13,7 @@ const REDES = [
   { id: 2, icon: <LuInstagram />, url: "https://www.instagram.com/imsa.formacion" }
 ];
 
-const URL_INGRESAR = "https://imsaformacion-administracion.etnaeducacion.com.ar/";
+const URL_INGRESAR = "https://imsaformacion.etnaeducacion.com.ar/login?returnUrl=%252F/";
 
 export default function Nav() {
   const [menuAbierto, setMenuAbierto] = useState(false);
