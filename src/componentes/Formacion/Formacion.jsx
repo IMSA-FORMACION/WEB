@@ -9,7 +9,7 @@ const areas = [
   { title: 'DISEÑO', url_img: '/img/Formacion/diseño.webp' },
   { title: 'TECNOLOGÍA', url_img: '/img/Formacion/tecnologia.webp' },
   { title: 'TÉCNICOS', url_img: '/img/Formacion/tecnicos.webp' },
-   {title:'DESAROLLO  ', url_img:'/img/Formacion/personal.jpg'},
+   {title:'DESARROLLO  ', url_img:'/img/Formacion/personal.jpg'},
   {title:'ADMINISTRACIÓN', url_img:'/img/Formacion/administracion.jpg'},
   {title:'INTERNACIONAL', url_img:'/img/Formacion/internacional1.jpg'},
 ];
