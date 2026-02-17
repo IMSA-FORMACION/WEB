@@ -810,9 +810,10 @@
   "imagen": "/img/cursos/auxiliar-contable.jpg",
   "area": "ADMINISTRACIÓN",
   "modalidad": "Online",
-  "duracion": "36 horas",
+  "duracion": "9 semanas (36 horas)",
   "docente": "A confirmar",
   "destacado": false,
+  "vacantes": true,
   "detalle": {
     "metodologia": "Clases teórico-prácticas con aplicación en casos reales y simulación de empresa. Uso de herramientas digitales como Excel y sistemas administrativos, junto con práctica integradora final.",
     "temario": [
