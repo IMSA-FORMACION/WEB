@@ -801,7 +801,41 @@
     ],
     "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
   }
+},
+{
+  "id": 29,
+  "titulo": "Auxiliar Administrativo Contable",
+  "descripcion": "Formación integral para desempeñarte en áreas administrativas y contables de empresas, dominando documentación, registros, normativa fiscal y herramientas digitales aplicadas a la gestión empresarial.",
+  "descripcion_corta": "Administración, contabilidad, normativa fiscal y herramientas digitales aplicadas a empresas.",
+  "imagen": "/img/cursos/auxiliar-contable.jpg",
+  "area": "ADMINISTRACIÓN",
+  "modalidad": "Online",
+  "duracion": "36 horas",
+  "docente": "A confirmar",
+  "destacado": false,
+  "detalle": {
+    "metodologia": "Clases teórico-prácticas con aplicación en casos reales y simulación de empresa. Uso de herramientas digitales como Excel y sistemas administrativos, junto con práctica integradora final.",
+    "temario": [
+      "Introducción a la administración y organización empresarial",
+      "Documentación administrativa y gestión documental",
+      "Principios básicos de contabilidad y registración de operaciones",
+      "Gestión de tesorería",
+      "Facturación y procesos de cobranzas",
+      "Normativa fiscal vigente",
+      "Herramientas informáticas aplicadas (Excel y sistemas administrativos)",
+      "Práctica integradora final con caso simulado de empresa"
+    ],
+    "salida_laboral": [
+      "Auxiliar administrativo en empresas",
+      "Auxiliar contable",
+      "Gestión de facturación y cobranzas",
+      "Asistente en estudios contables",
+      "Soporte administrativo en PyMEs"
+    ],
+    "certificacion": "Certificado de Auxiliar Administrativo Contable otorgado por la institución al finalizar y aprobar la práctica integradora."
+  }
 }
+
 ]
 
 
