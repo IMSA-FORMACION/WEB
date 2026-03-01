@@ -145,7 +145,7 @@
     "modalidad": "Online + Prácticas Presenciales",
     "duracion": "4 meses",
     "docente":"Pablo Castelli",
-    "destacado": true,
+    "destacado": false,
     "detalle": {
       "metodologia": "50 videos HD paso a paso + Clase evaluativa presencial.",
       "temario": [
@@ -834,6 +834,37 @@
       "Soporte administrativo en PyMEs"
     ],
     "certificacion": "Certificado de Auxiliar Administrativo Contable otorgado por la institución al finalizar y aprobar la práctica integradora."
+  }
+},
+{
+  "id": 30,
+  "titulo": "Curso Introductorio de Coaching Ontológico",
+  "descripcion": "Una invitación a mirarnos, comprendernos y transformarnos desde el lenguaje, las emociones y el cuerpo. El Coaching Ontológico propone aprender a observarnos a nosotros mismos para ampliar nuestras posibilidades de acción, transformando cómo estamos siendo para cambiar lo que hacemos.",
+  "descripcion_corta": "Explorá los fundamentos del coaching para transformar tu observador, mejorar tus conversaciones y liderar tu desarrollo personal.",
+  "imagen": "/img/cursos/coaching2.jpg",
+  "area": "DESARROLLO PERSONAL",
+  "modalidad": "Online (Encuentros virtuales)",
+  "duracion": "4 encuentros (Desde el miércoles 18 de marzo, 19:30 h)",
+  "docente": "A confirmar",
+  "destacado": true,
+  "vacantes": true,
+  "detalle": {
+    "metodologia": "Encuentros vivenciales, virtuales y reflexivos con ejercicios prácticos e integración de experiencias cotidianas. Aprender haciendo y observándonos.",
+    "temario": [
+      "¿Qué es observar y cómo construimos realidad?",
+      "El poder del lenguaje en nuestras acciones",
+      "Emociones básicas y su impacto",
+      "El cuerpo como fuente de información",
+      "Responsabilidad personal y capacidad de elección",
+      "Transformación de conversaciones internas"
+    ],
+    "salida_laboral": [
+      "Liderazgo y gestión de personas",
+      "Docencia y facilitación de grupos",
+      "Emprendedurismo y gestión de equipos",
+      "Base para formación profesional en Coaching"
+    ],
+    "certificacion": "Certificado de asistencia al Curso Introductorio de Coaching Ontológico otorgado por la institución."
   }
 }
 
