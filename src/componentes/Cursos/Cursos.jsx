@@ -13,7 +13,6 @@ const Cursos = () => {
         {cursosData
           .filter((curso) => curso.destacado) 
           .map((curso) => {
-            // Evaluamos la condición de vacantes para cada curso destacado
             const sinVacantes = curso.vacantes === false || String(curso.vacantes) === "false";
 
             return (
@@ -25,10 +24,17 @@ const Cursos = () => {
                     className={styles.cursoLogoOverlay}
                   />
                   
-                  {/* STICKER EN UNA SOLA LÍNEA */}
+                  {/* CARTEL PROXIMAMENTE */}
                   {sinVacantes && (
                     <div className={styles.stickerProximamente}>
                       PRÓXIMAMENTE - LISTA DE ESPERA ABIERTA
+                    </div>
+                  )}
+
+                  {/* 🌟 NUEVO CARTEL EXTRA (Aparece si existe en el JSON) */}
+                  {curso.cartelExtra && (
+                    <div className={styles.stickerExtra}>
+                      {curso.cartelExtra}
                     </div>
                   )}
 

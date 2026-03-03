@@ -85,6 +85,12 @@ export default function CursosPage() {
                     </div>
                   )}
 
+{/* 🌟 NUEVO: STICKER EXTRA */}
+        {curso.cartelExtra && (
+          <div className={styles.stickerExtra}>
+            {curso.cartelExtra}
+          </div>
+        )}
                   <img src={curso.imagen} alt={curso.titulo} className={styles.cursoImg} />
                 </div>
                 <h3>{curso.titulo}</h3>

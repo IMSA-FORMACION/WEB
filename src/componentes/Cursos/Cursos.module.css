@@ -208,3 +208,34 @@
     bottom: 8px;
   }
 }
+.stickerExtra {
+  position: absolute;
+  /* Lo subimos un poco más que el de proximamente (que tiene 10px) */
+  bottom: 45px; 
+  right: 0;
+  background-color: #7a62fb;
+  color: #ffffff;
+  padding: 4px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.55rem; /* Un pelín más grande para legibilidad */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  z-index: 40; /* Subimos el z-index para que gane a la capa oscura */
+  border-radius: 6px 0 0 6px;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.3);
+  display: block; /* Aseguramos que se comporte como bloque */
+}
+
+/* IMPORTANTE: En tu media query de 480px tenías 'top: 8px' 
+   eso lo mandaba arriba de nuevo. Cámbialo a bottom: */
+@media (max-width: 480px) {
+  .stickerExtra {
+    font-size: 0.50rem;
+    padding: 3px 8px;
+    bottom: 35px; /* Ajuste para que no se amontonen en celu */
+    top: auto;    /* Cancelamos el top anterior */
+  }
+}
