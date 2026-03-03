@@ -615,34 +615,7 @@
       "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
     }
   },
-  {
-    "id": 23,
-    "titulo": "Electricista Instalador Profesional",
-    "descripcion": "El curso de Electricista e Instalador Profesional eleva tu carrera al nivel de la certificación. Podrás realizar cálculos de carga complejos, diseñar y ejecutar instalaciones eléctricas de gran magnitud (comercios, industrias) y trabajar cumpliendo con todas las normativas y códigos de seguridad vigentes.",
-    "descripcion_corta": "Diseño e instalación eléctrica profesional cumpliendo normativas vigentes.",
-    "imagen": "/img/cursos/electricidad2.jpg",
-    "area": "TÉCNICOS",
-    "modalidad": "Online + Prácticas Presenciales",
-    "duracion": "4 meses",
-    "destacado": true,
-    "detalle": {
-      "metodologia": "Clases en vivo de resolución de problemas + Guía de cálculo + Aval certificado.",
-      "temario": [
-        "Diseño y cálculo de cargas eléctricas",
-        "Armado de tableros y puesta a tierra",
-        "Lectura e interpretación de planos",
-        "Normativa AEA (Reglamentación vigente)",
-        "Gestión del negocio y presupuestos"
-      ],
-      "salida_laboral": [
-        "Electricista instalador matriculado (según zona)",
-        "Obras de construcción y reformas integrales",
-        "Emprendimiento propio de servicios eléctricos",
-        "Mantenimiento industrial"
-      ],
-      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
-    }
-  },
+ 
   {
     "id": 24,
     "titulo": "Inglés A2/B1",
