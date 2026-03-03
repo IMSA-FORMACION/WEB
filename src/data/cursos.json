@@ -229,6 +229,8 @@
     "modalidad": "Online + Prácticas Presenciales",
     "duracion": "8 meses",
     "destacado": true,
+    "cartelExtra": "¡Disponibles desde abril!",
+    "vacantes":false,
     "detalle": {
       "temario": [
         "Farmacología básica y clasificación de medicamentos",

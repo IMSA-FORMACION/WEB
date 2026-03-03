@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 import styles from "./CursoDetalle.module.css";
 
 // ICONOS
-import { MdOutlineLaptop, MdGroupAdd, MdRecordVoiceOver, MdOutlineAccessTime } from "react-icons/md";
+import { MdOutlineLaptop, MdGroupAdd, MdRecordVoiceOver } from "react-icons/md";
 import { IoDocumentText } from "react-icons/io5";
 import { HiOutlineBell } from "react-icons/hi"; 
 
@@ -41,8 +41,10 @@ export default function CursoDetalle() {
     );
   }
 
-  const { detalle, modalidad, duracion, vacantes } = curso;
-  // Definimos la condición de "Sin Vacantes"
+  // AGREGAMOS 'cartelExtra' AQUÍ PARA QUE EL COMPONENTE LO RECONOZCA
+  const { detalle, modalidad, duracion, vacantes, cartelExtra } = curso;
+  
+  // Condición de Vacantes
   const sinVacantes = vacantes === false || String(vacantes) === "false";
 
   return (
@@ -51,18 +53,23 @@ export default function CursoDetalle() {
       <div className={styles.detalleContainer}>
         <div className={styles.detalleCard}>
           
-       
-
           <div className={styles.imagenWrapper}>
             <img src={LOGO_URL} alt="Logo IMSA" className={styles.cursoLogoOverlay} />  
             <img src={curso.imagen} alt={curso.titulo} className={styles.imagenCurso} />
 
-               {/* BANNER SUPERIOR */}
-          {sinVacantes && (
-            <div className={styles.stickerProximamente}>
-              PRÓXIMAMENTE - LISTA DE ESPERA ABIERTA
-            </div>
-          )}
+            {/* CARTEL DE PRÓXIMAMENTE (Si no hay vacantes) */}
+            {sinVacantes && (
+              <div className={styles.stickerProximamente}>
+                PRÓXIMAMENTE - LISTA DE ESPERA ABIERTA
+              </div>
+            )}
+
+            {/* 🌟 NUEVO CARTEL EXTRA (Si existe en el JSON) */}
+            {cartelExtra && (
+              <div className={styles.stickerExtra}>
+                {cartelExtra}
+              </div>
+            )}
           </div>
 
           <h2 className={styles.titulo}>{curso.titulo}</h2>
@@ -71,7 +78,6 @@ export default function CursoDetalle() {
             <div className={styles.cajaLista} style={{ maxWidth: 700 }}>
               <div className={styles.infoCabecera}>
                 <div className={styles.datoDinamico}>
-                
                   <h3>Duración: <span>{duracion || "Consultar"}</span></h3>
                 </div>
                 <div className={styles.modalidad}>
@@ -93,26 +99,25 @@ export default function CursoDetalle() {
             </div>
 
             <div className={styles.contenedorListas}>
-           {detalle?.temario && (
-  <div className={styles.cajaLista}>
-    <span className={styles.subtituloLista}>Herramientas que incorporaras</span>
-    <ul className={styles.listaItems}>
-      {detalle.temario.map((item, index) => {
-        // Si el texto termina en ":", es un encabezado
-        const esTitulo = item.trim().endsWith(":");
-        
-        return (
-          <li 
-            key={index} 
-            className={esTitulo ? styles.temarioTitulo : styles.temarioItem}
-          >
-            {item}
-          </li>
-        );
-      })}
-    </ul>
-  </div>
-)}
+              {detalle?.temario && (
+                <div className={styles.cajaLista}>
+                  <span className={styles.subtituloLista}>Herramientas que incorporarás</span>
+                  <ul className={styles.listaItems}>
+                    {detalle.temario.map((item, index) => {
+                      const esTitulo = item.trim().endsWith(":");
+                      return (
+                        <li 
+                          key={index} 
+                          className={esTitulo ? styles.temarioTitulo : styles.temarioItem}
+                        >
+                          {item}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              )}
+
               {detalle?.salida_laboral && (
                 <div className={styles.cajaLista}>
                   <span className={styles.subtituloLista}>Salida Laboral</span>
@@ -123,10 +128,8 @@ export default function CursoDetalle() {
               )}
             </div>
 
-            {/* 🎯 SECCIÓN DE BOTONES DINÁMICA */}
             <div className={styles.botonesFinales}>
               {sinVacantes ? (
-                /* BOTÓN DE AVISO (Solo si no hay vacantes) */
                 <a 
                   href={generateWhatsAppLink(curso.titulo, true)}
                   target="_blank"
@@ -136,7 +139,6 @@ export default function CursoDetalle() {
                   <HiOutlineBell className={styles.campanaIcon} /> Quiero que me avisen
                 </a>
               ) : (
-                /* BOTÓN DE CONSULTA (Solo si hay vacantes) */
                 <a
                   href={generateWhatsAppLink(curso.titulo)}
                   target="_blank"
