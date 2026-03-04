@@ -584,3 +584,72 @@
   margin-left: 10px;        /* Sangría para los puntos de adentro */
   color: #444;
 }
+
+
+/* ==========================
+   STICKERS SOBRE LA IMAGEN
+   ========================== */
+
+/* Sticker Blanco (Próximamente) - Abajo */
+.stickerProximamente {
+  position: absolute;
+  bottom: 12px;
+  right: 0;
+  background-color: #F8F8F8; 
+  color: #1a1a1a;
+  padding: 6px 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  z-index: 30;
+  border-radius: 12px 0 0 12px;
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.1);
+  
+  /* Evita que textos largos rompan el diseño */
+  max-width: 85%;
+  white-space: normal;
+  text-align: right;
+  line-height: 1.2;
+}
+
+/* Sticker Violeta (Extra) - Arriba del de próximamente */
+.stickerExtra {
+  position: absolute;
+  bottom: 52px; /* Se posiciona arriba del otro */
+  right: 0;
+  background-color: #7a62fb;
+  color: #ffffff;
+  padding: 5px 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 0.6rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  z-index: 31; 
+  border-radius: 8px 0 0 8px;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
+  
+  /* Ajuste para texto dinámico */
+  max-width: 75%;
+  white-space: normal;
+  text-align: right;
+  line-height: 1.1;
+}
+
+/* Ajuste Responsive para ambos */
+@media (max-width: 480px) {
+  .stickerProximamente {
+    font-size: 0.6rem;
+    padding: 4px 10px;
+    bottom: 8px;
+  }
+  .stickerExtra {
+    font-size: 0.5rem;
+    padding: 3px 8px;
+    bottom: 50px; /* Bajamos la posición en móviles */
+  }
+}
