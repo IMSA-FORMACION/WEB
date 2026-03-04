@@ -7,8 +7,21 @@ export default function Carrousel() {
     {
       imagen: "/img/carrousel/IMSA_Carrousel_0.webp",
       titulo: "¡COMENZAMOS EN MARZO!",
-      parrafos: ["Inscribite hoy y transformá tu futuro profesional con IMSA"],
-      boton: "Inscribirse",
+      parrafos: [
+        "Inscribite hoy y transformá tu futuro profesional con IMSA"
+      ],
+      botones: [
+        {
+          texto: "Inscribirme por correo",
+          tipo: "mail",
+          destino: "info@imsaformacion.com"
+        },
+        {
+          texto: "Inscribirme por WhatsApp",
+          tipo: "externo",
+          destino: "https://wa.me/5491159489408"
+        }
+      ]
     },
     {
       imagen: "/img/carrousel/IMSA_Carrousel_1.webp",
@@ -17,26 +30,44 @@ export default function Carrousel() {
         "Poder estudiar desde cualquier lugar del mundo y comenzar tu camino profesional.",
         "Online, a tu ritmo y con certificación.",
       ],
-      boton: "Ver cursos de formación",
+      botones: [
+        {
+          texto: "Ver cursos de formación",
+          tipo: "ruta",
+          destino: "/cursos"
+        }
+      ]
     },
     {
       imagen: "/img/carrousel/IMSA_Carrousel_2.webp",
       titulo: "Aprendé desde donde estés",
       parrafos: [
         "Nuestros cursos están creados con una mirada práctica y humana.",
-        "Porque aprender es más que estudiar: es crecer, elegir y transformar",
+        "Porque aprender es más que estudiar: es crecer, elegir y transformar"
       ],
-      boton: "Conocenos más",
+      botones: [
+        {
+          texto: "Conocenos más",
+          tipo: "scroll",
+          destino: "nosotros"
+        }
+      ]
     },
     {
       imagen: "/img/carrousel/IMSA_Carrousel_3.webp",
       titulo: "Una experiencia de aprendizaje que te acompaña",
       parrafos: [
         "Nuestros cursos organizados por módulos, con calendario de actividades, contenidos actualizados y espacios de consulta directa.",
-        "Estudiás con libertad, pero siempre acompañado.",
+        "Estudiás con libertad, pero siempre acompañado."
       ],
-      boton: "Ver cursos de formación",
-    },
+      botones: [
+        {
+          texto: "Ver cursos de formación",
+          tipo: "ruta",
+          destino: "/cursos"
+        }
+      ]
+    }
   ];
 
   const [indice, setIndice] = useState(0);
@@ -69,12 +100,26 @@ export default function Carrousel() {
     setTimeout(() => setPausado(false), 15000);
   };
 
-  const handleBotonClick = (textoBoton) => {
-    if (textoBoton === "Ver cursos de formación") {
-      navigate("/cursos");
-    } else if (textoBoton === "Conocenos más") {
-      const elemento = document.getElementById("nosotros");
-      if (elemento) elemento.scrollIntoView({ behavior: "smooth" });
+  const handleBotonClick = (boton) => {
+    if (!boton) return;
+
+    if (boton.tipo === "ruta") {
+      navigate(boton.destino);
+    }
+
+    if (boton.tipo === "scroll") {
+      const elemento = document.getElementById(boton.destino);
+      if (elemento) {
+        elemento.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
+    if (boton.tipo === "externo") {
+      window.open(boton.destino, "_blank");
+    }
+
+    if (boton.tipo === "mail") {
+      window.location.href = `mailto:${boton.destino}`;
     }
   };
 
@@ -97,41 +142,35 @@ export default function Carrousel() {
           <p key={i}>{p}</p>
         ))}
 
-       {/* ✅ BOTONES */}
-{indice === 0 ? (
-  <div className={style.botonesInscripcion}>
-    <a
-      href="mailto:info@imsaformacion.com"
-      className={style.boton}
-    >
-      Inscribirme por correo
-    </a>
-
-    <a
-      href="https://wa.me/5491159489408"
-      target="_blank"
-      rel="noopener noreferrer"
-      className={style.boton}
-    >
-      Inscribirme por WhatsApp
-    </a>
-  </div>
-) : (
-  <button
-    className={style.boton}
-    onClick={() => handleBotonClick(actual.boton)}
-    type="button"
-  >
-    {actual.boton}
-  </button>
-)}
-
+        {/* ✅ BOTONES */}
+        <div className={style.botonesInscripcion}>
+          {actual.botones?.map((boton, i) => (
+            <button
+              key={i}
+              className={style.boton}
+              onClick={() => handleBotonClick(boton)}
+              type="button"
+            >
+              {boton.texto}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Controles */}
       <div className={style.controles}>
-        <button onClick={() => handleManualChange(-1)} className={style.controlBtn}>◀</button>
-        <button onClick={() => handleManualChange(1)} className={style.controlBtn}>▶</button>
+        <button
+          onClick={() => handleManualChange(-1)}
+          className={style.controlBtn}
+        >
+          ◀
+        </button>
+        <button
+          onClick={() => handleManualChange(1)}
+          className={style.controlBtn}
+        >
+          ▶
+        </button>
       </div>
     </div>
   );
