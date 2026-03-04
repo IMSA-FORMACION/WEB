@@ -610,7 +610,7 @@
   box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.1);
   
   /* Evita que textos largos rompan el diseño */
-  max-width: 85%;
+  max-width: 100%;
   white-space: normal;
   text-align: right;
   line-height: 1.2;
@@ -650,6 +650,6 @@
   .stickerExtra {
     font-size: 0.5rem;
     padding: 3px 8px;
-    bottom: 50px; /* Bajamos la posición en móviles */
+    bottom: 50  px; /* Bajamos la posición en móviles */
   }
 }
