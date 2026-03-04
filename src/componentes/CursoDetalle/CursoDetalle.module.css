@@ -619,7 +619,7 @@
 /* Sticker Violeta (Extra) - Arriba del de próximamente */
 .stickerExtra {
   position: absolute;
-  bottom: 40px; /* Se posiciona arriba del otro */
+  bottom: 45px; /* Se posiciona arriba del otro */
   right: 0;
   background-color: #7a62fb;
   color: #ffffff;

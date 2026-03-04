@@ -152,7 +152,7 @@
   margin-right: 0;
 }
 }
-@media(max-width:800px){
+@media(max-width:900px){
   .enlaces{
     display: none;
   }
@@ -206,7 +206,7 @@
   outline: none;
 }
 
-@media(max-width:800px){
+@media(max-width:900px){
   .hamburguesa {
     display: block;
   }
