@@ -1,0 +1,112 @@
+.slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Montserrat para todo el contenedor */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+  animation: scaleFocus 10s infinite alternate;
+}
+
+.texto {
+  position: absolute;
+  color: white;
+  text-align: center;
+  max-width: 850px;
+  padding: 20px;
+  animation: fadeInRight 0.8s ease-out;
+  /* Refuerzo de fuente */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.cuerpo {
+  margin-bottom: 2rem;
+}
+
+.cuerpo p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  font-weight: 300;
+}
+
+.boton {
+  /* Forzado de fuente Montserrat */
+  font-family: "Montserrat", sans-serif !important;
+  padding: 12px 35px;
+  
+  /* Estilo sólido violeta unificado */
+  background-color: #7a62fb;
+  color: white;
+  border: 2px solid #7a62fb;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.15rem;
+  font-weight: 600;
+  
+  /* Transición y sombra premium */
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 4px 15px rgba(122, 98, 241, 0.3);
+}
+
+.boton:hover {
+  background-color: #8e77ff;
+  border-color: #8e77ff;
+  /* Efecto de movimiento unificado (sube y escala un poquito) */
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(122, 98, 251, 0.5);
+}
+
+.boton:active {
+  transform: translateY(-1px) scale(0.98);
+}
+
+/* Animaciones específicas */
+@keyframes scaleFocus {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 1.8rem;
+  }
+  
+  .cuerpo p {
+    font-size: 1.1rem;
+  }
+
+  .boton {
+    width: 100%;
+    max-width: 280px;
+  }
+}

@@ -1,0 +1,116 @@
+.slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Forzamos Montserrat en todo el contenedor para que hereden p, h1, etc. */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.55);
+  animation: slidePan 15s infinite alternate linear;
+}
+
+.texto {
+  position: absolute;
+  color: white;
+  text-align: center;
+  max-width: 900px;
+  padding: 30px;
+  animation: fadeInUp 0.9s ease-out;
+  /* Refuerzo de fuente para el contenedor de texto */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.cuerpo p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.destacado {
+  font-weight: 600 !important;
+  font-style: italic;
+  color: #a088fc;
+}
+
+.boton {
+  /* Forzado de Montserrat */
+  font-family: "Montserrat", sans-serif !important;
+  margin-top: 1rem;
+  padding: 12px 35px;
+  
+  /* Estilo sólido igual al anterior */
+  background-color: #7a62fb;
+  color: white;
+  border: 2px solid #7a62fb;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  
+  /* Transición y sombra inicial */
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 4px 15px rgba(122, 98, 241, 0.3);
+}
+
+.boton:hover {
+  background-color: #8e77ff;
+  border-color: #8e77ff;
+  /* Efecto de movimiento idéntico al slide anterior */
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(122, 98, 251, 0.5);
+}
+
+.boton:active {
+  transform: translateY(-1px) scale(0.98);
+}
+
+/* Animaciones específicas */
+@keyframes slidePan {
+  from { transform: scale(1.1) translateX(-2%); }
+  to { transform: scale(1.1) translateX(2%); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 1.7rem;
+  }
+  
+  .cuerpo p {
+    font-size: 1rem;
+  }
+  
+  .boton {
+    width: 100%;
+    max-width: 280px;
+  }
+}

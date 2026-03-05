@@ -1,0 +1,116 @@
+.slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Dominio total de Montserrat */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+  animation: slideFadeIn 0.8s ease-out;
+}
+
+.texto {
+  position: absolute;
+  color: white;
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  animation: textAppear 1s ease-out;
+  /* Refuerzo */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.parrafo {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+/* Contenedor de botones */
+.botonesInscripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.boton {
+  /* Forzado de fuente */
+  font-family: "Montserrat", sans-serif !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 25px;
+  
+  /* Estilo sólido violeta */
+  background-color: #7a62fb;
+  color: white;
+  border: 2px solid #7a62fb; /* Agregamos borde para consistencia */
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  min-width: 220px;
+
+  /* Transición idéntica a los anteriores */
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 4px 15px rgba(122, 98, 241, 0.3);
+}
+
+.boton:hover {
+  background-color: #8e77ff;
+  border-color: #8e77ff;
+  /* Efecto de movimiento unificado */
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(122, 98, 251, 0.5);
+}
+
+.boton:active {
+  transform: translateY(-1px) scale(0.98);
+}
+
+/* Animaciones */
+@keyframes slideFadeIn {
+  from { opacity: 0; transform: scale(1.05); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes textAppear {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .titulo { font-size: 2rem; }
+  .parrafo { font-size: 1.1rem; }
+  
+  .botonesInscripcion {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .boton {
+    width: 90%;
+    max-width: 300px;
+  }
+}

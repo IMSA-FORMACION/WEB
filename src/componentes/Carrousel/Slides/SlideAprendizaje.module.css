@@ -1,0 +1,121 @@
+.slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Forzamos Montserrat a todo el contenedor */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+  animation: revealBlur 1.2s ease-out;
+}
+
+.texto {
+  position: absolute;
+  color: white;
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+  animation: zoomInText 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.titulo {
+  /* Ya lo tenías, pero asegúrate de que el nombre sea idéntico al del import */
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.cuerpo p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin: 0.8rem 0;
+  font-weight: 400;
+}
+
+.botonScroll {
+  /* Forzamos la fuente */
+  font-family: "Montserrat", sans-serif !important;
+  margin-top: 1.5rem;
+  padding: 14px 40px;
+  
+  /* Colores invertidos: Violeta por defecto */
+  background-color: #7a62fb; 
+  color: white;
+  
+  border: 2px solid #7a62fb;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  
+  /* Transición suave para el movimiento y color */
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 4px 15px rgba(122, 98, 241, 0.3);
+}
+
+.botonScroll:hover {
+  /* Al pasar el mouse: se aclara un poco y se mueve */
+  background-color: #8e77ff; 
+  border-color: #8e77ff;
+  
+  /* Movimiento: sube un poco y se agranda casi imperceptiblemente */
+  transform: translateY(-4px) scale(1.02);
+  
+  /* Sombra más profunda al elevarse */
+  box-shadow: 0 8px 20px rgba(122, 98, 251, 0.5);
+}
+
+.botonScroll:active {
+  /* Efecto de "presionado" */
+  transform: translateY(-1px) scale(0.98);
+}
+
+/* Animaciones exclusivas */
+@keyframes revealBlur {
+  from {
+    filter: brightness(0) blur(20px);
+    transform: scale(1.1);
+  }
+  to {
+    filter: brightness(0.6) blur(0);
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomInText {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 1.9rem;
+  }
+  
+  .cuerpo p {
+    font-size: 1.1rem;
+  }
+  
+  .botonScroll {
+    width: 100%;
+    max-width: 260px;
+  }
+}

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 /* Reset básico */
 * {
   margin: 0;
@@ -9,12 +9,13 @@
 /* Asegura que el body y html ocupen toda la altura */
 html, body {
   height: 100%;
-  font-family: sans-serif; /* Puedes personalizar la fuente */
-  background-color: #fff;  /* Fondo blanco por defecto */
-  color: #000;             /* Color de texto por defecto */
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* --- AGREGA ESTO --- */
+  width: 100%;
+  overflow-x: hidden; /* Corta cualquier desborde lateral */
+  position: relative;
+  /* ------------------ */
+  font-family: sans-serif;
+  /* ... resto de tu código */
 }
 
 /* Mejora para imágenes y media */
