@@ -1,0 +1,147 @@
+.slide {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.triangulo {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 28px solid #7a62fb;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+/* --- POSICIONES DE TRIÁNGULOS --- */
+.t1 { top: 5%; left: 10%; transform: rotate(15deg); animation: float 6s infinite ease-in-out; }
+.t2 { top: 20%; left: 2%; transform: rotate(-10deg); border-bottom-width: 20px; }
+.t3 { bottom: 10%; left: 5%; transform: rotate(45deg); animation: float 8s infinite ease-in-out; }
+.t4 { bottom: 25%; left: 15%; transform: rotate(-25deg); border-bottom-color: #2b0057; }
+.t5 { top: 8%; right: 12%; transform: rotate(180deg); animation: float 7s infinite ease-in-out; }
+.t6 { top: 25%; right: 3%; transform: rotate(20deg); border-bottom-width: 35px; }
+.t7 { bottom: 15%; right: 8%; transform: rotate(-15deg); animation: float 9s infinite ease-in-out; }
+.t8 { bottom: 5%; right: 20%; transform: rotate(60deg); border-bottom-color: #2b0057; }
+.t9 { top: 50%; left: 3%; transform: rotate(90deg); opacity: 0.4; }
+.t10 { top: 45%; right: 5%; transform: rotate(-45deg); opacity: 0.4; }
+
+.contenido {
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- ELEMENTOS CON ANIMACIÓN DE ENTRADA --- */
+
+.promoLabel {
+  color: #2b0057;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 0;
+  animation: apareceBaja 0.8s ease-out both;
+}
+
+.granTitulo {
+  color: #2b0057;
+  font-size: clamp(6rem, 15vw, 10rem);
+  font-weight: 900;
+  margin: -10px 0;
+  line-height: 1;
+  /* Optimización de GPU para evitar parpadeos */
+  will-change: transform;
+  /* Animación 2: Zoom inicial + Latido Sutil mejorado */
+  animation: apareceZoom 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) both 0.2s, 
+             latidoElegante 3s infinite ease-in-out 1s;
+}
+
+.cintaContenedor {
+  background-color: #2b0057;
+  padding: 15px 60px;
+  transform: rotate(-1.5deg);
+  clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%);
+  margin: 20px 0;
+  animation: apareceDerecha 0.8s ease-out both 0.4s;
+}
+
+.cinta p {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.botonContactanos {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif !important;
+  margin-top: 30px;
+  padding: 15px 50px;
+  background-color: transparent;
+  color: #2b0057;
+  border: 2px solid #2b0057;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  animation: apareceSube 0.8s ease-out both 0.6s;
+  transition: all 0.3s ease;
+}
+
+.botonContactanos:hover {
+  background-color: #2b0057;
+  color: white;
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(43, 0, 87, 0.2);
+}
+
+/* --- KEYFRAMES --- */
+
+@keyframes apareceBaja {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes apareceSube {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes apareceDerecha {
+  from { opacity: 0; transform: translateX(50px) rotate(0deg); }
+  to { opacity: 1; transform: translateX(0) rotate(-1.5deg); }
+}
+
+@keyframes apareceZoom {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Latido corregido: más lento y sutil para que no sea raro */
+@keyframes latidoElegante {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(10deg); }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .granTitulo { font-size: 5.5rem; }
+  .promoLabel { font-size: 1.5rem; }
+  .cinta p { font-size: 1.1rem; }
+  .cintaContenedor { padding: 10px 30px; }
+  .botonContactanos { padding: 12px 30px; font-size: 1.2rem; }
+}

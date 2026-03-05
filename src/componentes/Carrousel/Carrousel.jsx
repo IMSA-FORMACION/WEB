@@ -6,6 +6,7 @@ import SlideInscripcion from './Slides/SlideInscripcion';
 import SlideOportunidades from './Slides/SlideOportunidades';
 import SlideAprendizaje from './Slides/SlideAprendizaje';
 import SlideExperiencia from './Slides/SlideExperiencia';
+import SlidePromo from './Slides/SlidePromo';
 
 export default function Carrousel() {
   const [indice, setIndice] = useState(0);
@@ -14,10 +15,12 @@ export default function Carrousel() {
 
   // Array de componentes
   const slides = [
-    <SlideInscripcion key="0" />,
-    <SlideOportunidades key="1" />,
-    <SlideAprendizaje key="2" />,
-    <SlideExperiencia key="3" />
+    <SlidePromo key="0" />,
+    <SlideInscripcion key="1" />,
+    <SlideOportunidades key="2" />,
+    <SlideAprendizaje key="3" />, 
+    <SlideExperiencia key="4" />,
+    
   ];
 
   const iniciarAutoAvance = () => {
