@@ -138,10 +138,36 @@
 }
 
 /* Media Queries */
+
 @media (max-width: 768px) {
-  .granTitulo { font-size: 5.5rem; }
-  .promoLabel { font-size: 1.5rem; }
-  .cinta p { font-size: 1.1rem; }
-  .cintaContenedor { padding: 10px 30px; }
-  .botonContactanos { padding: 12px 30px; font-size: 1.2rem; }
+  .slide {
+    /* Cambiamos de centrado total a alineación superior */
+    align-items: flex-start !important; 
+    padding-top: 15vh; /* Esto lo empuja un 15% hacia abajo desde el techo */
+  }
+
+  .granTitulo { 
+    font-size: 5rem; 
+    margin: -5px 0; 
+    line-height: 0.9;
+    /* Reducimos el latido en mobile para que no distraiga tanto */
+    animation: apareceZoom 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) both 0.2s, 
+               latidoElegante 3s infinite ease-in-out 1s;
+  }
+  
+  .promoLabel { 
+    font-size: 1.3rem; 
+    margin-top: 0; /* Quitamos margen para que suba más */
+  }
+
+  .cintaContenedor { 
+    padding: 10px 20px; 
+    margin: 10px 0; 
+  }
+
+  .botonContactanos { 
+    padding: 12px 30px; 
+    font-size: 1.1rem; 
+    margin-top: 20px;
+  }
 }
