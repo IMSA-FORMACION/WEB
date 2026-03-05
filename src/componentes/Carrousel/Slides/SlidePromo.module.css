@@ -141,33 +141,39 @@
 
 @media (max-width: 768px) {
   .slide {
-    /* Cambiamos de centrado total a alineación superior */
     align-items: flex-start !important; 
-    padding-top: 15vh; /* Esto lo empuja un 15% hacia abajo desde el techo */
+    padding-top: 12vh; /* Lo subí un pelín más (de 15 a 12) para ganar espacio abajo */
   }
 
   .granTitulo { 
-    font-size: 5rem; 
-    margin: -5px 0; 
-    line-height: 0.9;
-    /* Reducimos el latido en mobile para que no distraiga tanto */
+    font-size: 5.5rem; 
+    margin: 0; 
+    line-height: 1;
     animation: apareceZoom 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) both 0.2s, 
                latidoElegante 3s infinite ease-in-out 1s;
   }
   
   .promoLabel { 
-    font-size: 1.3rem; 
-    margin-top: 0; /* Quitamos margen para que suba más */
+    font-size: 1.4rem; 
+    margin-bottom: 5px;
   }
 
   .cintaContenedor { 
-    padding: 10px 20px; 
-    margin: 10px 0; 
+    padding: 12px 25px; 
+    /* Aumentamos el margen para separar la cinta del 2x1 */
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+  }
+
+  .cinta p {
+    font-size: 1.1rem;
+    line-height: 1.3;
   }
 
   .botonContactanos { 
-    padding: 12px 30px; 
-    font-size: 1.1rem; 
-    margin-top: 20px;
+    padding: 14px 35px; 
+    font-size: 1.2rem; 
+    /* Empujamos el botón más abajo de la cinta */
+    margin-top: 40px; 
   }
 }

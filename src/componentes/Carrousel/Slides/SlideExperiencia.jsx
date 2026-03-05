@@ -26,9 +26,7 @@ export default function SlideExperiencia() {
             Nuestros cursos organizados por módulos, con calendario de actividades, 
             contenidos actualizados y espacios de consulta directa.
           </p>
-          <p className={style.destacado}>
-            Estudiás con libertad, pero siempre acompañado.
-          </p>
+          
         </div>
 
         <button 
