@@ -2,7 +2,7 @@ import React from 'react';
 import style from './SlidePromo.module.css';
 
 const SlidePromo = () => {
-  const mensaje = encodeURIComponent("Hola! Quiero más información sobre la promo 2x1");
+  const mensaje = encodeURIComponent("Hola! Quiero más información sobre la promo 2x1 y otros descuentos");
   const whatsappUrl = `https://wa.me/5491159489408?text=${mensaje}`;
 
   return (
