@@ -1,11 +1,16 @@
 .carrusel {
-  /* Usamos dvh para que se adapte dinámicamente si aparece la barra del navegador */
-  height: 92vh; 
-  height: 92dvh; 
+  /* Calculamos: 100% de la pantalla menos los 80px fijos del Nav */
+  height: calc(100vh - 80px); 
+  /* Para navegadores modernos que soportan la barra dinámica sin saltos */
+  height: calc(100svh - 80px); 
+  
   position: relative;
   overflow: hidden;
   background-color: #000;
+  contain: paint;
 }
+
+
 
 .slideWrapper {
   width: 100%;
@@ -56,5 +61,14 @@
     font-size: 1.2rem;
     /* Agregamos una sombra para que se vean bien sobre fondos blancos (como la Promo) */
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  }
+}
+
+@media (max-width: 768px) {
+  .carrusel {
+    /* En móvil, a veces es mejor dejarlo un poquito más corto 
+       para que el usuario vea que hay contenido abajo y scrollee */
+    height: calc(100svh - 80px);
+    min-height: 500px; /* Evita que en celulares muy chicos se aplaste */
   }
 }
