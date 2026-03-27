@@ -15,8 +15,8 @@ export default function Carrousel() {
 
   // Array de componentes
   const slides = [
-    <SlidePromo key="0" />,
-    <SlideInscripcion key="1" />,
+    <SlideInscripcion key="0" />,
+    <SlidePromo key="1" />,
     <SlideOportunidades key="2" />,
     <SlideAprendizaje key="3" />, 
     <SlideExperiencia key="4" />,
