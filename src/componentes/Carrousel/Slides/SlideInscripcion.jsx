@@ -21,9 +21,9 @@ export default function SlideInscripcion() {
 
       {/* Contenido textual */}
       <div className={style.texto}>
-        <h1 className={style.titulo}>¡COMENZAMOS EN MARZO!</h1>
+        <h1 className={style.titulo}>¡ARRANCAMOS CURSOS TODOS LOS MESES!</h1>
         <p className={style.parrafo}>
-          Inscribite hoy y transformá tu futuro profesional con IMSA
+         Siempre estás a tiempo de sumarte, incluso a los que ya comenzaron.
         </p>
 
         {/* Grupo de botones específico de este slide */}
