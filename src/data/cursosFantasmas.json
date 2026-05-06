@@ -1,5 +1,200 @@
 [
-    
+  {
+    "id": 9,
+    "titulo": "Auxiliar de Farmacia",
+    "descripcion": "El curso de auxiliar de farmacia te ayudará a desarrollar habilidades administrativas y conocimientos técnicos sobre medicamentos, dosis y dispensación, asegurando la correcta gestión del stock, la atención al público y el cumplimiento de la normativa farmacéutica.",
+    "descripcion_corta": "Gestión de medicamentos, atención al cliente y control de stock en farmacias y droguerías.",
+    "imagen": "/img/cursos/farmacia.jpg",
+    "area": "SALUD",
+    "modalidad": "Online + Prácticas Presenciales",
+    "duracion": "8 meses",
+    "destacado": true,
+    "cartelExtra": "¡ Disponibles desde abril !",
+    "vacantes":false,
+    "detalle": {
+      "temario": [
+        "Farmacología básica y clasificación de medicamentos",
+        "Vías de administración y dosis",
+        "Atención al cliente y manejo de recetas",
+        "Control de inventario, pedidos y facturación",
+        "Marco legal y regulatorio de farmacias"
+      ],
+      "salida_laboral": [
+        "Farmacias comunitarias y de barrio",
+        "Farmacias hospitalarias",
+        "Droguerías y distribuidoras",
+        "Laboratorios farmacéuticos"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
+    }
+  },
+  {
+    "id": 15,
+    "titulo": "Electromecánica",
+    "descripcion": "El curso de Electromecánica te permite dominar el corazón de la maquinaria industrial. Podrás instalar, controlar y realizar el mantenimiento de motores eléctricos, diseñar circuitos de comando con contactores y relés, y asegurar el funcionamiento óptimo de equipos en cualquier planta de producción.",
+    "descripcion_corta": "Mantenimiento e instalación de motores, circuitos eléctricos y maquinaria industrial.",
+    "imagen": "/img/cursos/electromecanica.jpg",
+    "area": "TÉCNICOS",
+    "modalidad": "Online + Prácticas Presenciales",
+    "duracion": "",
+    "destacado": false,
+    "vacantes":false,
+    "detalle": {
+      "temario": [
+        "Circuitos eléctricos y componentes de potencia",
+        "Principios de mecánica (engranajes, poleas)",
+        "Motores y generadores eléctricos",
+        "Introducción a la automatización y control",
+        "Interpretación de planos técnicos"
+      ],
+      "salida_laboral": [
+        "Industrias (automotriz, metalúrgica, alimentaria)",
+        "Talleres mecánicos",
+        "Empresas de mantenimiento industrial",
+        "Plantas de energía"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
+    }
+  },
+  {
+    "id": 16,
+    "titulo": "Reparación de PC y Redes",
+    "descripcion": "El curso de Reparación de PC y Redes te ayuda a convertirte en un técnico informático integral y resolutivo. Podrás diagnosticar y solucionar fallas de hardware y software en computadoras, configurar redes cableadas e inalámbricas en hogares y oficinas, y montar tu propio taller de soporte técnico con total confianza.",
+    "descripcion_corta": "Diagnóstico, reparación y mantenimiento de computadoras y redes .",
+    "imagen": "/img/cursos/reparacion-pc.jpg",
+    "area": "TECNOLOGÍA",
+    "modalidad": "100% online",
+    "duracion": "",
+    "destacado": true,
+    "vacantes":false,
+    "detalle": {
+      "temario": [
+        "Arquitectura de PC: Motherboard, CPU, RAM, Discos",
+        "Armado, desarmado y limpieza de equipos",
+        "Instalación de sistemas operativos (Windows/Linux)",
+        "Diagnóstico de fallas, virus y recuperación de datos",
+        "Configuración básica de redes y routers"
+      ],
+      "salida_laboral": [
+        "Servicio técnico propio",
+        "Departamentos de IT en empresas",
+        "Locales de venta de computación",
+        "Soporte técnico remoto"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
+    }
+  },
+  {
+    "id": 17,
+    "titulo": "Excel: Básico a Avanzado",
+    "descripcion": "El Curso de Excel (Básico y Avanzado) te permite dominar la herramienta más importante del entorno laboral. Podrás manejar grandes volúmenes de datos, crear tableros de control y reportes dinámicos (pivot tables), y automatizar tareas complejas con funciones y macros, convirtiéndote en un recurso indispensable para cualquier empresa",
+    "descripcion_corta": "Dominio de Excel para análisis de datos, reportes y automatización de tareas.",
+    "imagen": "/img/cursos/excel.jpg",
+    "area": "TECNOLOGÍA",
+    "modalidad": "100% online",
+    "duracion": "10.5h basico / 16h avanzado",
+    "docente":"Sharon Pesce",
+    "destacado": true,
+    "detalle": {
+      "temario": [
+        "Entorno, celdas y formatos básicos",
+        "Fórmulas matemáticas y lógicas (SI, Y, O)",
+        "Funciones de búsqueda (BUSCARV, INDICE)",
+        "Tablas dinámicas y gráficos avanzados",
+        "Introducción a Macros y automatización"
+      ],
+      "salida_laboral": [
+        "Áreas administrativas y contables",
+        "Recursos Humanos y liquidación de sueldos",
+        "Control de stock y logística",
+        "Análisis de datos y finanzas"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
+    }
+  },
+   {
+    "id": 21,
+    "titulo": "Diseño de Pestañas (Lashista)",
+    "descripcion": "El curso de Diseño de Pestañas y Lashista te permite entrar al lucrativo mundo de la mirada. Podrás aplicar técnicas como el lifting de pestañas y extensiones pelo a pelo y volumen ruso, creando diseños personalizados que realcen la belleza natural de cada rostro con precisión, higiene y seguridad profesional.",
+    "descripcion_corta": "Especialización en extensiones, lifting y diseño de pestañas personalizados.",
+    "imagen": "/img/cursos/pestanas.jpg",
+    "area": "BELLEZA",
+    "modalidad": "Online + Prácticas Presenciales",
+    "duracion": "",
+    "destacado": false,
+    "vacantes":false,
+    "detalle": {
+      "temario": [
+        "Anatomía del ojo y ciclo de la pestaña",
+        "Tipos de extensiones, curvas y grosores",
+        "Técnicas de aplicación (Clásica, Volumen, Híbrida)",
+        "Diseño y visagismo (Mapping)",
+        "Service, retiro y cuidados posteriores"
+      ],
+      "salida_laboral": [
+        "Estudios especializados en pestañas y cejas",
+        "Centros de estética",
+        "Profesional independiente",
+        "Complemento para maquilladoras"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
+    }
+  },
+  {
+    "id": 20,
+    "titulo": "Belleza de Manos y Pies",
+    "descripcion": "El curso de Belleza de Manos y Pies te convierte en un especialista en manicure y pedicure de alta calidad. Podrás realizar esmaltado semipermanente, esculpido y uñas acrílicas o gelificadas, y ofrecer tratamientos de spa para la piel, creando un servicio completo y muy demandado.",
+    "descripcion_corta": "Manicuría y pedicuría profesional con técnicas modernas y spa.",
+    "imagen": "/img/cursos/pies.jpg",
+    "area": "BELLEZA",
+    "modalidad": "Online + Prácticas Presenciales",
+    "duracion": "",
+    "vacantes":false,
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Anatomía de uñas, manos y pies",
+        "Manicuría y pedicuría básica y spa",
+        "Esmaltado tradicional y semipermanente",
+        "Uñas esculpidas (gel, acrílico) y decoración",
+        "Masajes relajantes de manos y pies"
+      ],
+      "salida_laboral": [
+        "Salones de belleza y peluquerías",
+        "Nail bars (bares de uñas)",
+        "Atención a domicilio",
+        "Emprendimiento propio"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
+    }
+  },
+    {
+    "id": 3,
+    "titulo": "Cuidador Domiciliario Internacional",
+    "descripcion": "El curso de cuidador domiciliario internacional te ayudará a desarrollar habilidades de asistencia integral y cuidado ético de personas dependientes con una perspectiva que abarca estándares de calidad y normativas aplicables en diferentes contextos y países, mejorando tu empleabilidad global.",
+    "descripcion_corta": "Formación en cuidado integral con estándares internacionales para trabajar en el exterior y ampliar oportunidades laborales.",
+    "imagen": "/img/cursos/cuidador2.jpg",
+    "area": "INTERNACIONAL",
+    "modalidad": "Online + Prácticas Presenciales",
+    "duracion": "48h",
+    "docente":"Ángeles Morris",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Estándares internacionales de cuidado",
+        "Adaptación cultural y comunicación intercultural",
+        "Protocolos de salud en el extranjero",
+        "Terminología médica básica en inglés",
+        "Aspectos legales del trabajo en el exterior"
+      ],
+      "salida_laboral": [
+        "Agencias de reclutamiento internacional",
+        "Cuidado de pacientes en Perú",
+        "Acompañamiento de pacientes en viajes"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional"
+    }
+  },
   {
     "id": 28,
     "titulo": "Competencias Básicas de Coaching Ontológico",

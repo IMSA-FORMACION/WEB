@@ -12,7 +12,6 @@ export default function Footer() {
   <ul className={styles.locations}>
     <li>Sede Ingeniero Maschwitz, Provincia de Buenos Aires</li>
     <li>Sede Tortuguitas, Buenos Aires</li>
-    <li>Sede CABA – Colegiales</li>
     <li>Sede Córdoba</li>
   </ul>
 </div>
