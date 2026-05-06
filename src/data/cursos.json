@@ -651,7 +651,85 @@
     ],
     "certificacion": "Certificado de asistencia al Curso Introductorio de Coaching Ontológico otorgado por la institución."
   }
-}
+},
+{
+    "id": 31,
+    "titulo": "Diplomatura en enfermería en atención domiciliaria con orientación en cuidados paliativos",
+    "descripcion": "La diplomatura tiene como objetivo especializar y profesionalizar a auxiliares y técnicos en enfermería en el ámbito del cuidado domiciliario, con un enfoque específico en cuidados paliativos. Busca que el profesional no solo asista, sino que brinde una atención integral, humanizada y segura en el entorno del hogar.",
+    "descripcion_corta": "Especialización y profesionalización de enfermería en cuidado domiciliario y paliativo.",
+    "imagen": "/img/cursos/Diplomatura_en_enfermeria.jpg",
+    "area": "SALUD",
+    "modalidad": "Híbrida (Clases sincrónicas y asincrónicas)",
+    "duracion": "16 semanas",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Competencias Clínicas: Gestión avanzada de dispositivos (sondas, ostomías y oxigenoterapia)",
+        "Gestión del Dolor: Abordaje del concepto de 'Dolor Total' (físico, emocional y social)",
+        "Seguridad del Paciente: Prevención de lesiones y administración segura de medicación",
+        "Soporte Psicosocial: Acompañamiento emocional al paciente y su núcleo familiar",
+        "Marco Normativo: Ética y legalidad en situaciones de final de vida"
+      ],
+      "salida_laboral": [
+        "Servicios de Internación Domiciliaria (Empresas de salud)",
+        "Unidades de Cuidados Paliativos (Equipos especializados)",
+        "Ejercicio Autónomo con familias de alta complejidad",
+        "Instituciones de Tercera Edad (Residencias o centros de día)"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
+    }
+  },
+  {
+    "id": 32,
+    "titulo": "Electrocardiografía clínica",
+    "descripcion": "El objetivo principal es que el profesional adquiera una metodología de lectura sistematizada. Esto significa pasar de 'ver dibujos' a interpretar de forma ordenada y científica la actividad eléctrica del corazón, permitiendo una detección precoz de anomalías que pueden salvar vidas.",
+    "descripcion_corta": "Interpretación científica y sistematizada de la actividad eléctrica del corazón.",
+    "imagen": "/img/cursos/Electrocardiografia.jpg",
+    "area": "SALUD",
+    "modalidad": "100% Virtual o Híbrido (Zona Norte y CABA)",
+    "duracion": "4 meses (48 horas totales)",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Fundamentos: Bases electrofisiológicas e impulso eléctrico",
+        "Interpretación Clínica: Identificación de arritmias complejas",
+        "Detección Crítica: Signos de infarto agudo de miocardio y patologías isquémicas",
+        "Sistematización: Protocolos de lectura técnica detallada"
+      ],
+      "salida_laboral": [
+        "Servicios de Emergencia: Ambulancias y guardias",
+        "Empresas de Internación Domiciliaria: Seguimiento de pacientes complejos",
+        "Residencias Geriátricas",
+        "Centros de Diagnósticos: Realización y pre-informe de ECG"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
+    }
+  },
+  {
+    "id": 33,
+    "titulo": "Farmacología Clínica y Seguridad en la Administración",
+    "descripcion": "El curso se centra en la seguridad operativa y la reducción de errores. El objetivo es que el profesional domine la administración de fármacos no solo desde la teoría, sino desde la precisión técnica, garantizando que cada dosis sea la correcta para evitar eventos adversos que pongan en riesgo al paciente.",
+    "descripcion_corta": "Dominio de administración de fármacos con enfoque en seguridad operativa y precisión técnica.",
+    "imagen": "/img/cursos/Farmacologia.jpg",
+    "area": "SALUD",
+    "modalidad": "100% Online o Híbrida (Práctica con kit institucional)",
+    "duracion": "4 meses (4 horas semanales)",
+    "destacado": false,
+    "detalle": {
+      "temario": [
+        "Cálculo de Dosis: Entrenamiento intensivo para evitar toxicidad o sub-dosificación",
+        "Farmacología Específica: Manejo de familias críticas (opioides y cardiovasculares)",
+        "Tecnología Médica: Uso y programación de bombas de infusión",
+        "Gestión de Riesgos: Prevención de interacciones y efectos secundarios"
+      ],
+      "salida_laboral": [
+        "Empresas de Internación Domiciliaria (Autonomía en medicación)",
+        "Residencias Geriátricas (Manejo de polimedicación)",
+        "Servicios de Emergencia (Velocidad y precisión en carga de drogas)"
+      ],
+      "certificacion": "Tendrás la certificación de la Cámara Argentina para la formación profesional y capacitación laboral y de la OIEP organización internacional para la educación permanente para la certificación internacional."
+    }
+  }
 
 ]
 
