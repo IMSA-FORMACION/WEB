@@ -20,7 +20,7 @@ function Internacional() {
             </p>
             <Link
               to="/cursos" // Ajusta la ruta a donde quieras dirigir los cursos internacionales
-              state={{ filtroArea: 'INTERNACIONAL' }}
+              state={{ filtroArea: 'TODOS' }}
               className={styles.actionButton}
             >
               Explorar Cursos Internacionales
