@@ -99,7 +99,7 @@
 /* Responsivo */
 @media (max-width: 768px) {
   .img {
-    object-position: 75% center;
+    object-position:  center;
   }
 
   .titulo {
